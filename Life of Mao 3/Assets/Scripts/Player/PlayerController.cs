@@ -25,6 +25,13 @@ public class PlayerController : MonoBehaviour
     private PauseMenu pause;
 
     [SerializeField]
+    private RuntimeAnimatorController gunAnim;
+    [SerializeField]
+    private RuntimeAnimatorController noGunAnim;
+
+    [SerializeField]
+    public GameObject gun;
+    [SerializeField]
     private GameObject bulletPrefab;
     [SerializeField]
     private Transform barrelTransform;
@@ -41,6 +48,7 @@ public class PlayerController : MonoBehaviour
     public GameObject reticlePanel;
     public Item[] itemsToAdd;
     private Inventory myInventory = new Inventory(24);
+    public Item currentPickedItem;
 
     private InputAction moveAction;
     private InputAction jumpAction;
@@ -88,7 +96,7 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private void Shoot()
     {
-        if (CanGameUseMouseInput())
+        if (CanGameUseMouseInput() && HasPickedAGun())
         {
             RaycastHit hit;
             GameObject bullet = GameObject.Instantiate(bulletPrefab, barrelTransform.position, Quaternion.identity, bulletParent);
@@ -128,6 +136,30 @@ public class PlayerController : MonoBehaviour
         {
             return false;
         }
+    }
+
+    /// <summary>
+    ///     Returns a boolean that will indicate if the player has selected a gun at the inventory's hotbar.
+    ///     Also, if the player doesn't have a gun, it'll set it unactive and change the animator.
+    /// </summary>
+    private bool HasPickedAGun()
+    {
+        if (currentPickedItem == null)
+        {
+            gun.SetActive(false);
+            animator.runtimeAnimatorController = noGunAnim;
+            return false;
+        }
+
+        if(currentPickedItem.itemName == "Axe")
+        {
+            gun.SetActive(true);
+            animator.runtimeAnimatorController = gunAnim;
+            return true;
+        }
+        gun.SetActive(false);
+        animator.runtimeAnimatorController = noGunAnim;
+        return false;
     }
 
     void Update()
@@ -227,6 +259,27 @@ public class PlayerController : MonoBehaviour
         while(selectedHotbarIndex >= 6)
         {
             selectedHotbarIndex -= 6;
+        }
+
+        currentPickedItem = GetCurrentPickedItem(selectedHotbarIndex);
+    }
+
+    /// <summary>
+    ///     Returns the current selected item in the hotbar.
+    /// </summary>
+    /// <param name="index"> Receives the current selected item's index in order to look for it. </param>
+    /// <returns></returns>
+    public Item GetCurrentPickedItem(int index)
+    {
+        if (myInventory.GetStackInSlot(selectedHotbarIndex).GetItem() != null)
+        {
+            HasPickedAGun();
+            return myInventory.GetStackInSlot(selectedHotbarIndex).GetItem();
+        }
+        else
+        {
+            HasPickedAGun();
+            return null;
         }
     }
 

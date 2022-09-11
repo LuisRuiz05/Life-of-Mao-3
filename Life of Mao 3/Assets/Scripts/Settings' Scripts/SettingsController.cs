@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 ///     Saves the settings interface GameObject so it can be used in differente scenes.
@@ -12,6 +13,8 @@ public class SettingsController : MonoBehaviour
     public GameObject menuScreen;
 
     public PauseMenu pauseMenu;
+
+    public int selectedCharacter;
     private void Start()
     {
         menuScreen = GameObject.Find("Menu");

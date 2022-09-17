@@ -20,6 +20,7 @@ public class CharacterPicker : MonoBehaviour
     {
         settings = GameObject.Find("OnSceneChangeLoadObjects").GetComponent<SettingsController>();
         stats.UpdateStatistics(charactersScriptable[settings.selectedCharacter]);
+        DisplayCharacter(settings.selectedCharacter);
     }
 
     /// <summary>

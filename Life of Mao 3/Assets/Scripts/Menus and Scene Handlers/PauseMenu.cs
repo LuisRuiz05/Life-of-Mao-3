@@ -88,6 +88,8 @@ public class PauseMenu : MonoBehaviour
     /// </summary>
     public void Menu()
     {
+        Time.timeScale = 1f;
+        isPaused = false;
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 

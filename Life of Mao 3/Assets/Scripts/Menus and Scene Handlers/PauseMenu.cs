@@ -23,7 +23,7 @@ public class PauseMenu : MonoBehaviour
 
     void Start()
     {
-        playerInput = GameObject.Find("Player").GetComponent<PlayerInput>();
+        playerInput = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInput>();
         cinemachineAim = GameObject.Find("ThirdPersonCamera").GetComponent<CinemachineInputProvider>();
         cinemachineNormal = GameObject.Find("AimCamera").GetComponent<CinemachineInputProvider>();
         settings = GameObject.Find("OnSceneChangeLoadObjects").GetComponent<SettingsController>();

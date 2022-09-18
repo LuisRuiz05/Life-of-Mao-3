@@ -72,6 +72,11 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        bulletParent = GameObject.Find("BulletParent").transform;
+        reticlePanel = GameObject.Find("UI/ReticlePanel");
+
+        playerInput.camera = Camera.main;
+
         foreach (Item item in itemsToAdd)
         {
             myInventory.AddItem(new ItemStack(item, 1));

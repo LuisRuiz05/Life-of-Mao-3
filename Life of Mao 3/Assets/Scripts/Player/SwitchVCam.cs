@@ -8,6 +8,8 @@ using UnityEngine.UI;
 /// </summary>
 public class SwitchVCam : MonoBehaviour
 {
+    CinemachineVirtualCamera tpCamera;
+
     [SerializeField]
     private PlayerInput playerInput;
     [SerializeField]
@@ -22,10 +24,21 @@ public class SwitchVCam : MonoBehaviour
 
     private void Awake()
     {
+        tpCamera = GameObject.Find("ThirdPersonCamera").GetComponent<CinemachineVirtualCamera>();
         virtualCamera = GetComponent<CinemachineVirtualCamera>();
         aimAction = playerInput.actions["Aim"];
         aimReticle.enabled = false;
         normalReticle.enabled = true;
+    }
+
+    private void Start()
+    {
+        Transform player = GameObject.FindGameObjectWithTag("Player").transform;
+        tpCamera.LookAt = player;
+        tpCamera.Follow = player;
+
+        virtualCamera.LookAt = player;
+        virtualCamera.Follow = player;
     }
 
     /// <summary>

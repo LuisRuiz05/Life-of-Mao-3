@@ -40,7 +40,7 @@ public class SettingsController : MonoBehaviour
     {
         int sceneIndex = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
         // If the loaded scene is the main menu, it'll return player back to the menu.
-        if (sceneIndex == 0)
+        if (sceneIndex == 1)
         {
             if (menuScreen == null)
             {

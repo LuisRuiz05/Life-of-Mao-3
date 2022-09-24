@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
+        Destroy(GameObject.Find("Music"), 0.5f);
     }
 }

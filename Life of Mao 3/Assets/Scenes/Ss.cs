@@ -16,7 +16,7 @@ public class Ss : MonoBehaviour
     {
         if (inputAction.ReadValue<float>() > 0.1f)
         {
-            Debug.Log(inputAction.ReadValue<float>());
+            ScreenCapture.CaptureScreenshot("Jona.png");
         }
     }
 }

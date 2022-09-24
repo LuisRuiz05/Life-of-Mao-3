@@ -14,7 +14,7 @@ public class SplashScreen : MonoBehaviour
 
     IEnumerator TurnScreenOff()
     {
-        yield return new WaitForSeconds(15.3f);
+        yield return new WaitForSeconds(15.8f);
         splashScreen.enabled =false;
     }
 }

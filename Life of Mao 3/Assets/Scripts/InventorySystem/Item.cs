@@ -6,7 +6,18 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Item")]
 public class Item : ScriptableObject
 {
+    public enum ItemType
+    {
+        Pistol,
+        Uzi,
+        Rifle,
+        Ammo,
+        Consumable
+    }
+
     public string itemName;
     public Sprite itemIcon;
-    [Range(1,64)]public int maxStackSize = 64;
+    [Range(1,64)]public int maxStackSize = 15;
+    public ItemType type;
+    public bool isSpameable;
 }

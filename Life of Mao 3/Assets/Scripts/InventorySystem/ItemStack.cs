@@ -86,6 +86,10 @@ public class ItemStack
     public void DecreaseAmount(int amount)
     {
         this.count -= amount;
+        if(count == 0)
+        {
+            this.item = null;
+        }
     }
 
     /// <summary>

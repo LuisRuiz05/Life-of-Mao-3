@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Interactions;
 
 /// <summary>
 ///     This class makes player's movement work.
@@ -30,7 +31,10 @@ public class PlayerController : MonoBehaviour
     private RuntimeAnimatorController noGunAnim;
 
     [SerializeField]
-    public GameObject gun;
+    public GameObject pistol;
+    [SerializeField]
+    public GameObject uzi;
+
     [SerializeField]
     private GameObject bulletPrefab;
     [SerializeField]
@@ -56,6 +60,8 @@ public class PlayerController : MonoBehaviour
     private InputAction sprintAction;
     private InputAction inventoryAction;
 
+    private bool isShootingAutomatic;
+
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
@@ -68,6 +74,16 @@ public class PlayerController : MonoBehaviour
         shootAction = playerInput.actions["Shoot"];
         sprintAction = playerInput.actions["Sprint"];
         inventoryAction = playerInput.actions["Inventory"];
+    }
+
+    private void OnEnable()
+    {
+        shootAction.Enable();
+    }
+
+    private void OnDisable()
+    {
+        shootAction.Disable();
     }
 
     private void Start()
@@ -84,16 +100,41 @@ public class PlayerController : MonoBehaviour
         pause = GameObject.Find("UI").GetComponent<PauseMenu>();
         InventoryManager.INSTANCE.OpenContainer(new ContainerPlayerHotbar(null, myInventory));
         isInventoryOpen = false;
-    }
 
-    private void OnEnable()
-    {
-        shootAction.performed += _ => Shoot();
-    }
+        shootAction.performed += context =>
+        {
+            if (context.interaction is HoldInteraction)
+            {
+                isShootingAutomatic = true;
+            }
+            else if (context.interaction is PressInteraction)
+            {
+                isShootingAutomatic = false;
+            }
 
-    private void OnDisable()
-    {
-        shootAction.performed -= _ => Shoot();
+            // Decide action
+            if(currentPickedItem != null)
+            {
+                // If the current item is a gun.
+                if (currentPickedItem.type == Item.ItemType.Pistol || currentPickedItem.type == Item.ItemType.Uzi)
+                {
+                    Shoot();
+                }
+                // If the current item is a consumable.
+                if (currentPickedItem.type == Item.ItemType.Consumable)
+                {
+                    Consume();
+                }
+            }
+        };
+
+        shootAction.canceled += context =>
+        {
+            if (context.interaction is HoldInteraction)
+            {
+                isShootingAutomatic = false;
+            }
+        };
     }
 
     /// <summary>
@@ -119,6 +160,18 @@ public class PlayerController : MonoBehaviour
                 bulletController.hit = false;
             }
         }
+
+        // If the gun is automatic and the player is still pressing the button, it will repeat the action.
+        if (isShootingAutomatic && currentPickedItem.isSpameable)
+        {
+            Invoke("Shoot", 0.2f);
+        }
+    }
+
+    public void Consume()
+    {
+        myInventory.GetStackInSlot(selectedHotbarIndex).DecreaseAmount(1);
+        InventoryManager.INSTANCE.currentOpenContainer.updateSlots();
     }
 
     /// <summary>
@@ -149,20 +202,36 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private bool HasPickedAGun()
     {
+        // Empty slot.
         if (currentPickedItem == null)
         {
-            gun.SetActive(false);
+            pistol.SetActive(false);
+            uzi.SetActive(false);
             animator.runtimeAnimatorController = noGunAnim;
             return false;
         }
 
-        if(currentPickedItem.itemName == "Axe")
+        // Slot contains a hand gun.
+        // Pistol
+        if(currentPickedItem.type == Item.ItemType.Pistol)
         {
-            gun.SetActive(true);
+            pistol.SetActive(true);
+            uzi.SetActive(false);
             animator.runtimeAnimatorController = gunAnim;
             return true;
         }
-        gun.SetActive(false);
+        // Uzi
+        if (currentPickedItem.type == Item.ItemType.Uzi)
+        {
+            pistol.SetActive(false);
+            uzi.SetActive(true);
+            animator.runtimeAnimatorController = gunAnim;
+            return true;
+        }
+
+        // Slot contains another type of object.
+        pistol.SetActive(false);
+        uzi.SetActive(false);
         animator.runtimeAnimatorController = noGunAnim;
         return false;
     }

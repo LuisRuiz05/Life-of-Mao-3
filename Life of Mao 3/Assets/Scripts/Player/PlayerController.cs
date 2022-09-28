@@ -28,12 +28,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private RuntimeAnimatorController gunAnim;
     [SerializeField]
+    private RuntimeAnimatorController LongGunAnim;
+    [SerializeField]
     private RuntimeAnimatorController noGunAnim;
 
     [SerializeField]
     public GameObject pistol;
     [SerializeField]
     public GameObject uzi;
+    [SerializeField]
+    public GameObject rifle;
 
     [SerializeField]
     private GameObject bulletPrefab;
@@ -116,7 +120,7 @@ public class PlayerController : MonoBehaviour
             if(currentPickedItem != null)
             {
                 // If the current item is a gun.
-                if (currentPickedItem.type == Item.ItemType.Pistol || currentPickedItem.type == Item.ItemType.Uzi)
+                if (currentPickedItem.type == Item.ItemType.Pistol || currentPickedItem.type == Item.ItemType.Uzi || currentPickedItem.type == Item.ItemType.Rifle)
                 {
                     Shoot();
                 }
@@ -145,7 +149,7 @@ public class PlayerController : MonoBehaviour
         if (CanGameUseMouseInput() && HasPickedAGun())
         {
             RaycastHit hit;
-            GameObject bullet = GameObject.Instantiate(bulletPrefab, barrelTransform.position, Quaternion.identity, bulletParent);
+            GameObject bullet = GameObject.Instantiate(bulletPrefab, barrelTransform.position, Quaternion.Euler(90,0,0), bulletParent);
             BulletController bulletController = bullet.GetComponent<BulletController>();
             // Calculate if the bullet will collide with any object
             if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, Mathf.Infinity))
@@ -207,16 +211,19 @@ public class PlayerController : MonoBehaviour
         {
             pistol.SetActive(false);
             uzi.SetActive(false);
+            rifle.SetActive(false);
             animator.runtimeAnimatorController = noGunAnim;
             return false;
         }
 
         // Slot contains a hand gun.
         // Pistol
-        if(currentPickedItem.type == Item.ItemType.Pistol)
+        if (currentPickedItem.type == Item.ItemType.Pistol)
         {
             pistol.SetActive(true);
             uzi.SetActive(false);
+            rifle.SetActive(false);
+            barrelTransform = pistol.transform.Find("Barrel").gameObject.transform;
             animator.runtimeAnimatorController = gunAnim;
             return true;
         }
@@ -225,13 +232,26 @@ public class PlayerController : MonoBehaviour
         {
             pistol.SetActive(false);
             uzi.SetActive(true);
+            rifle.SetActive(false);
+            barrelTransform = uzi.transform.Find("Barrel").gameObject.transform;
             animator.runtimeAnimatorController = gunAnim;
+            return true;
+        }
+        // Rifle
+        if (currentPickedItem.type == Item.ItemType.Rifle)
+        {
+            pistol.SetActive(false);
+            uzi.SetActive(false);
+            rifle.SetActive(true);
+            barrelTransform = rifle.transform.Find("Barrel").gameObject.transform;
+            animator.runtimeAnimatorController = LongGunAnim;
             return true;
         }
 
         // Slot contains another type of object.
         pistol.SetActive(false);
         uzi.SetActive(false);
+        rifle.SetActive(false);
         animator.runtimeAnimatorController = noGunAnim;
         return false;
     }

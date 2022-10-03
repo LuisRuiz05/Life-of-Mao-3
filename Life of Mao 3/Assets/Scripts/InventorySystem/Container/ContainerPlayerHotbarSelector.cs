@@ -20,7 +20,7 @@ public class ContainerPlayerHotbarSelector : MonoBehaviour
     {
         if (player != null)
         {
-            Vector2 pos = new Vector2((player.GetSelectedHotbarIndex() * 90) + -220, 5); // Initial position 0.
+            Vector2 pos = new Vector2((player.GetSelectedHotbarIndex() * 75) + -177, 12.5f); // Initial position 0.
             myTransform.anchoredPosition = pos;
         }
     }

@@ -3227,6 +3227,7 @@ GameObject:
   - component: {fileID: 8700163260286370106}
   - component: {fileID: 8700163260286370111}
   - component: {fileID: 8700163260286370110}
+  - component: {fileID: -1264042407868878121}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3321,8 +3322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd4d0efb84407734fa3194ec20460299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 2
-  playerSprintSpeed: 3.4
+  playerSpeed: 3.5
+  playerSprintSpeed: 4.5
   jumpHeight: 1
   gravityValue: -9.81
   rotationSpeed: 10
@@ -3376,6 +3377,32 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &-1264042407868878121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8205445930797119655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66adce098114f234389da48faa22dd2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: b32f1d3fc268b834b8b6185ef678d273, type: 2}
+  controller: {fileID: 0}
+  name: 
+  icon: {fileID: 0}
+  strength: 0
+  speed: 0
+  maxStamina: 0
+  maxHealth: 0
+  characterImageDisplay: {fileID: 0}
+  healthBar: {fileID: 0}
+  staminaBar: {fileID: 0}
+  healtText: {fileID: 0}
+  currentHealth: 0
+  currentStamina: 0
 --- !u!1 &8293631405931941427
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,13 +3987,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d9660edbaa9273488c845c704bfb01e, type: 3}
---- !u!4 &3747238976233885354 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 8d9660edbaa9273488c845c704bfb01e, type: 3}
-  m_PrefabInstance: {fileID: 8176963729455506864}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &169874710463364281 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 8d9660edbaa9273488c845c704bfb01e, type: 3}
+  m_PrefabInstance: {fileID: 8176963729455506864}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3747238976233885354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 8d9660edbaa9273488c845c704bfb01e, type: 3}
   m_PrefabInstance: {fileID: 8176963729455506864}
   m_PrefabAsset: {fileID: 0}

@@ -9,9 +9,9 @@ using UnityEngine.InputSystem.Interactions;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    private float playerSpeed = 2.0f;
+    float playerSpeed = 3.5f;
     [SerializeField]
-    private float playerSprintSpeed = 3.4f;
+    float playerSprintSpeed = 4.5f;
     [SerializeField]
     private float jumpHeight = 1.0f;
     [SerializeField]
@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Transform bulletParent;
 
+    private PlayerState state;
     private CharacterController controller;
     private Animator animator;
     private PlayerInput playerInput;
@@ -65,9 +66,11 @@ public class PlayerController : MonoBehaviour
     private InputAction inventoryAction;
 
     private bool isShootingAutomatic;
+    public bool isSprinting = false;
 
     private void Awake()
     {
+        state = GetComponent<PlayerState>();
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
         playerInput = GetComponent<PlayerInput>();
@@ -105,6 +108,7 @@ public class PlayerController : MonoBehaviour
         InventoryManager.INSTANCE.OpenContainer(new ContainerPlayerHotbar(null, myInventory));
         isInventoryOpen = false;
 
+        // Configure shooting input.
         shootAction.performed += context =>
         {
             if (context.interaction is HoldInteraction)
@@ -272,6 +276,7 @@ public class PlayerController : MonoBehaviour
             isMoving = false;
             animator.SetBool("Walk", false);
             animator.SetBool("Sprint", false);
+            isSprinting = false;
         } else {
             isMoving = true;
         }
@@ -282,17 +287,19 @@ public class PlayerController : MonoBehaviour
         // Change movement's speed and animation if the player's sprinting or not.
         if (isMoving)
         {
-            if (sprintAction.ReadValue<float>() > 0.1)
+            if (sprintAction.ReadValue<float>() > 0.1 && !state.isTired)
             {
                 controller.Move(move * Time.deltaTime * playerSprintSpeed);
                 animator.SetBool("Walk", false);
                 animator.SetBool("Sprint", true);
+                isSprinting = true;
             }
             else
             {
                 controller.Move(move * Time.deltaTime * playerSpeed);
                 animator.SetBool("Walk", true);
                 animator.SetBool("Sprint", false);
+                isSprinting = false;
             }
         }
 
@@ -383,5 +390,15 @@ public class PlayerController : MonoBehaviour
     public int GetSelectedHotbarIndex()
     {
         return selectedHotbarIndex;
+    }
+
+    /// <summary>
+    ///     Sets the walk and sprint speed according with the given parameters.
+    /// </summary>
+    /// <param name="playerAttribute"> Gets the speed value from the character's interface. </param>
+    public void SetSpeed(int playerAttribute)
+    {
+        playerSpeed = (playerSpeed * (playerAttribute * 100 / 99)) / 100;
+        playerSprintSpeed = (playerSprintSpeed * (playerAttribute * 100 / 99)) / 100;
     }
 }

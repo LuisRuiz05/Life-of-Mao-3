@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -242449091589996810}
   - component: {fileID: 3412076539135071910}
   - component: {fileID: -827217535651441418}
+  - component: {fileID: 6728703157199783739}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -139,8 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd4d0efb84407734fa3194ec20460299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 2
-  playerSprintSpeed: 3.4
+  playerSpeed: 3.5
+  playerSprintSpeed: 4.5
   jumpHeight: 1
   gravityValue: -9.81
   rotationSpeed: 10
@@ -162,6 +163,32 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d754c5b3a53d84946a781a5e39de73f4, type: 2}
   - {fileID: 11400000, guid: d754c5b3a53d84946a781a5e39de73f4, type: 2}
   currentPickedItem: {fileID: 0}
+--- !u!114 &6728703157199783739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53543149678595920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66adce098114f234389da48faa22dd2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 5d5005ae1287fbb4b9f2163e7e9ca295, type: 2}
+  controller: {fileID: 0}
+  name: 
+  icon: {fileID: 0}
+  strength: 0
+  speed: 0
+  maxStamina: 0
+  maxHealth: 0
+  characterImageDisplay: {fileID: 0}
+  healthBar: {fileID: 0}
+  staminaBar: {fileID: 0}
+  healtText: {fileID: 0}
+  currentHealth: 0
+  currentStamina: 0
 --- !u!1 &138278149072915882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4109,13 +4136,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f1e4f18704811c43ba5f85a867d69f3, type: 3}
---- !u!1 &679345046462745635 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 0f1e4f18704811c43ba5f85a867d69f3, type: 3}
-  m_PrefabInstance: {fileID: 8812534766908347690}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4555071479695523376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0f1e4f18704811c43ba5f85a867d69f3, type: 3}
+  m_PrefabInstance: {fileID: 8812534766908347690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &679345046462745635 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 0f1e4f18704811c43ba5f85a867d69f3, type: 3}
   m_PrefabInstance: {fileID: 8812534766908347690}
   m_PrefabAsset: {fileID: 0}

@@ -14,19 +14,19 @@ public class ContainerPlayerInventory : Container
     {
         for(int i=0; i<6; i++)
         {
-            AddSlotToContainer(playerInventory, 6 + i, 20 + (90 * i), -15, 100);
+            AddSlotToContainer(playerInventory, 6 + i, 20 + (90 * i), -15, 80);
         }
         for (int i = 0; i < 6; i++)
         {
-            AddSlotToContainer(playerInventory, 12 + i, 20 + (90 * i), -100, 100);
+            AddSlotToContainer(playerInventory, 12 + i, 20 + (90 * i), -100, 80);
         }
         for (int i = 0; i < 6; i++)
         {
-            AddSlotToContainer(playerInventory, 18 + i, 20 + (90 * i), -185, 100);
+            AddSlotToContainer(playerInventory, 18 + i, 20 + (90 * i), -185, 80);
         }
         for (int i = 0; i < 6; i++) //Hotbar
         {
-            AddSlotToContainer(playerInventory, i, 20 + (90 * i), -295, 100);
+            AddSlotToContainer(playerInventory, i, 20 + (90 * i), -295, 80);
         }
     }
 

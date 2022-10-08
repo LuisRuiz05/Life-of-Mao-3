@@ -5,6 +5,9 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Threading.Tasks;
 
+/// <summary>
+///     This script is in charge of loading the main game's scene.
+/// </summary>
 public class SceneLoader : MonoBehaviour
 {
     public GameObject loadingScreen;
@@ -14,10 +17,11 @@ public class SceneLoader : MonoBehaviour
     public void StartGame()
     {
         StartCoroutine(LoadSceneAsync());
-        //SceneManager.LoadScene(2);
-        //Destroy(GameObject.Find("Music"), 0.5f);
     }
 
+    /// <summary>
+    ///     This function loads the scene and shows the progress value at the loading bar and printing its text.
+    /// </summary>
     IEnumerator LoadSceneAsync()
     {
         loadingScreen.SetActive(true);

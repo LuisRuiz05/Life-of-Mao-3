@@ -27,6 +27,9 @@ public class PlayerState : MonoBehaviour
     public Text hungerText;
     //public Text bulletText;
 
+    public Image bleedingImage;
+    public Image bleedingPanel;
+
     [Header("Actual Statistics")]
     public float currentHealth;
     public float currentStamina;
@@ -63,6 +66,8 @@ public class PlayerState : MonoBehaviour
         healtText = GameObject.Find("UI/PlayerData/Background/Text/Health").GetComponent<Text>();
         thirstText = GameObject.Find("UI/PlayerData/Water/Text").GetComponent<Text>();
         hungerText = GameObject.Find("UI/PlayerData/Food/Text").GetComponent<Text>();
+        bleedingImage = GameObject.Find("UI/Bleeding").GetComponent<Image>();
+        bleedingPanel = GameObject.Find("UI/Bleeding/BleedingBg").GetComponent<Image>();
 
         // Set UI Values
         characterImageDisplay.sprite = icon;
@@ -136,5 +141,28 @@ public class PlayerState : MonoBehaviour
     public void UpdateBars()
     {
         staminaBar.fillAmount = currentStamina / maxStamina;
+        healthBar.fillAmount = currentHealth / maxHealth;
+        healtText.text = currentHealth + "/" + maxHealth;
+
+        // More than 3/4 health
+        if (currentHealth > 3 * maxHealth / 4)
+        {
+            bleedingImage.color = new Color(255, 0, 0, 0);
+            bleedingPanel.color = new Color(255, 0, 0, 0);
+        }
+        // Between 3/4 and 1/2 health
+        else if (currentHealth > maxHealth / 2)
+        {
+            bleedingImage.color = new Color(255, 0, 0, 0.5f);
+        }
+        // Between 1/2 and 1/4 health
+        else if (currentHealth > maxHealth / 4)
+        {
+            bleedingImage.color = new Color(255, 0, 0, 1);
+            bleedingPanel.color = new Color(255, 0, 0, 0.125f);
+        }
+        // Less than 1/4 health
+        else 
+            bleedingPanel.color = new Color(255, 0, 0, 0.25f);
     }
 }

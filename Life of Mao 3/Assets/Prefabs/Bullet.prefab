@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDecal: {fileID: 8990993407540088379, guid: 2e69e1810f0233d45939ec210a6171d7, type: 3}
+  blood: {fileID: 51804568549929937, guid: ea332a02528994b4c9bad85fffa1fd81, type: 3}
 --- !u!136 &2285530539431551499
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -57,10 +58,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.05560571
-  m_Height: 0.33613175
+  m_Radius: 0.07876995
+  m_Height: 0.38886338
   m_Direction: 1
-  m_Center: {x: 0, y: 0.16580588, z: -0.0029490888}
+  m_Center: {x: -0.002170898, y: 0.16059223, z: -0.0029628426}
 --- !u!1 &5368625246888621924
 GameObject:
   m_ObjectHideFlags: 0

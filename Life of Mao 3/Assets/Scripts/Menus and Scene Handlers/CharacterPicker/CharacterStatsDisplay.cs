@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+///     Displays player's stats in the select character's menu, according to the character's scriptable object.
+/// </summary>
 public class CharacterStatsDisplay : MonoBehaviour
 {
     public Text name;

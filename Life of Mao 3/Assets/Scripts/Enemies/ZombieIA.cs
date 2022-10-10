@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+/// <summary>
+///     This script handles the zombie's AI.
+/// </summary>
 public class ZombieIA : MonoBehaviour
 {
     private NavMeshAgent nav;
@@ -59,6 +62,7 @@ public class ZombieIA : MonoBehaviour
                 animator.SetBool("Running", true);
                 animator.SetBool("Attacking", false);
             }
+            // Id the player is not detected, wander randomly all over the map.
             else
             {
                 // Wander
@@ -100,6 +104,10 @@ public class ZombieIA : MonoBehaviour
         }
     }
 
+    /// <summary>
+    ///     Receives damage.
+    /// </summary>
+    /// <param name="damage"> Quantity of damage received, which will be substracted fromthe total health. </param>
     public void ReceiveDamage(int damage)
     {
         health -= damage;
@@ -114,6 +122,9 @@ public class ZombieIA : MonoBehaviour
         }
     }
 
+    /// <summary>
+    ///     Checks if there's a followable object in the zombie's vision area.
+    /// </summary>
     private void Scan()
     {
         count = Physics.OverlapSphereNonAlloc(transform.position, distance, colliders, layers, QueryTriggerInteraction.Collide);
@@ -129,6 +140,11 @@ public class ZombieIA : MonoBehaviour
         }
     }
 
+    /// <summary>
+    ///     Checks if the followable in the zombie's vision area is obstructed by another object, so the zombie doesn't "see" a player behind another object.
+    /// </summary>
+    /// <param name="obj"> Followable object </param>
+    /// <returns></returns>
     public bool IsInSight(GameObject obj)
     {
         Vector3 origin = transform.position;
@@ -155,6 +171,10 @@ public class ZombieIA : MonoBehaviour
         return true;
     }
 
+    /// <summary>
+    ///     Draws a mesh preview of the zombie's vision field in the debug screen.
+    /// </summary>
+    /// <returns> Zombie's vision field </returns>
     Mesh CreateVisionMesh()
     {
         Mesh mesh = new Mesh();
@@ -243,6 +263,10 @@ public class ZombieIA : MonoBehaviour
         mesh = CreateVisionMesh();
     }
 
+    /// <summary>
+    ///     If there's one or more players in the zombie's vision, will get the closest one.
+    /// </summary>
+    /// <returns> Nearest visible player </returns>
     GameObject FindPlayer()
     {
         if (objects.Count > 0)

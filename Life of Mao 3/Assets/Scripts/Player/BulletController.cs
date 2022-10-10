@@ -12,7 +12,9 @@ public class BulletController : MonoBehaviour
     public GameObject blood;
     public GameObject flesh;
 
-    private float speed = 50f;
+    private GameObject bloodParent;
+
+    private float speed = 75f;
     private float timeToDestroy = 3f;
 
     public Vector3 target { get; set; }
@@ -21,6 +23,11 @@ public class BulletController : MonoBehaviour
     private void OnEnable()
     {
         Destroy(gameObject, timeToDestroy);
+    }
+
+    private void Start()
+    {
+        bloodParent = GameObject.Find("BloodParent");
     }
 
     void Update()
@@ -37,23 +44,31 @@ public class BulletController : MonoBehaviour
     /// </summary>
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.collider.name);
-        //ContactPoint contact = collision.GetContact(0);
-        //GameObject decal = GameObject.Instantiate(bulletDecal, contact.point + contact.normal * 0.0001f, Quaternion.LookRotation(contact.normal));
+        // Bullet colliding against zombie's body.
         if (collision.collider.CompareTag("Enemy"))
         {
             ContactPoint contact = collision.GetContact(0);
-            GameObject bloodCopy = GameObject.Instantiate(blood, contact.point + contact.normal * 0.0001f, Quaternion.LookRotation(contact.normal), collision.gameObject.transform);
-            collision.collider.gameObject.GetComponent<ZombieIA>().ReceiveDamage(10);
 
             Destroy(gameObject);
-            Destroy(bloodCopy, 2f);
+            if (collision.collider.gameObject.GetComponent<ZombieIA>().isAlive)
+            {
+                GameObject bloodCopy = GameObject.Instantiate(blood, contact.point + contact.normal * 0.0001f, Quaternion.LookRotation(contact.normal), bloodParent.transform);
+                Destroy(bloodCopy, 6f);
+            }
+            collision.collider.gameObject.GetComponent<ZombieIA>().ReceiveDamage(10);
         }
+        // Bullet colliding against zombie's head.
         else if (collision.collider.CompareTag("Z_Head")){
-            collision.collider.gameObject.GetComponent<ZombieHead>().ai.ReceiveDamage(100);
+            ContactPoint contact = collision.GetContact(0);
 
             Destroy(collision.collider.gameObject);
             Destroy(gameObject);
+            if (collision.collider.gameObject.GetComponent<ZombieHead>().ai.isAlive)
+            {
+                GameObject bloodCopy = GameObject.Instantiate(blood, contact.point + contact.normal * 0.0001f, Quaternion.LookRotation(contact.normal), bloodParent.transform);
+                Destroy(bloodCopy, 6f);
+            }
+            collision.collider.gameObject.GetComponent<ZombieHead>().ai.ReceiveDamage(100);
         }
         else
         {

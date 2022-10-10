@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
     private bool groundedPlayer;
     private Transform cameraTransform;
 
-    public GameObject reticlePanel;
+    public GameObject UI;
     public Item[] itemsToAdd;
     private Inventory myInventory = new Inventory(24);
     public Item currentPickedItem;
@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         bulletParent = GameObject.Find("BulletParent").transform;
-        reticlePanel = GameObject.Find("UI/ReticlePanel");
+        UI = GameObject.Find("UI");
 
         playerInput.camera = Camera.main;
 
@@ -178,8 +178,20 @@ public class PlayerController : MonoBehaviour
 
     public void Consume()
     {
-        myInventory.GetStackInSlot(selectedHotbarIndex).DecreaseAmount(1);
-        InventoryManager.INSTANCE.currentOpenContainer.updateSlots();
+        if (!isInventoryOpen)
+        {
+            if (currentPickedItem.itemName == "Medkit")
+                state.currentHealth += 20;
+            if (currentPickedItem.itemName == "Pills")
+                state.currentHealth += 10;
+            if (currentPickedItem.itemName == "Water")
+                state.currentThirst += 10;
+            if (currentPickedItem.itemName == "Food Can")
+                state.currentHunger += 10;
+
+            myInventory.GetStackInSlot(selectedHotbarIndex).DecreaseAmount(1);
+            InventoryManager.INSTANCE.currentOpenContainer.updateSlots();
+        }
     }
 
     /// <summary>
@@ -321,7 +333,10 @@ public class PlayerController : MonoBehaviour
                 Time.timeScale = 0f;
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
-                reticlePanel.SetActive(false);
+                UI.SetActive(false);
+
+                pause.cinemachineNormal.XYAxis.action.Disable();
+                pause.cinemachineAim.XYAxis.action.Disable();
             }
             else
             {
@@ -331,10 +346,14 @@ public class PlayerController : MonoBehaviour
                 Time.timeScale = 1f;
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
-                reticlePanel.SetActive(true);
+                UI.SetActive(true);
+
+                pause.cinemachineNormal.XYAxis.action.Enable();
+                pause.cinemachineAim.XYAxis.action.Enable();
             }
         }
-        UpdateSelectedHotbarIndex(Mouse.current.scroll.y.ReadValue());
+        if(!isInventoryOpen && !pause.IsPaused())
+            UpdateSelectedHotbarIndex(Mouse.current.scroll.y.ReadValue());
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);

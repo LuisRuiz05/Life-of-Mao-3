@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+///     This script is in charge of calculating current player's statistics
+/// </summary>
 public class PlayerState : MonoBehaviour
 {
     public Character character;
@@ -75,15 +78,21 @@ public class PlayerState : MonoBehaviour
         thirstText.text = currentThirst + "/100";
         hungerText.text = currentHunger + "/100";
 
+        // Initializing hunger and thirst
+        Invoke("GetHungry", 45f);
+        Invoke("GetThirsty", 45f);
+
     }
 
-    // Update is called once per frame
     void Update()
     {
         GetStaminaDown();
         UpdateBars();
     }
 
+    /// <summary>
+    ///     Reduces the player's stamina while it is sprinting.
+    /// </summary>
     public void GetStaminaDown()
     {
         // Check if player is able to sprint.
@@ -115,6 +124,21 @@ public class PlayerState : MonoBehaviour
         }
     }
 
+    public void GetHungry()
+    {
+        currentHunger -= 2f;
+        Invoke("GetHungry", 30f);
+    }
+
+    public void GetThirsty()
+    {
+        currentThirst -= 4f;
+        Invoke("GetThirsty", 30f);
+    }
+
+    /// <summary>
+    ///     Recovers player's stamina if the player's tired and it hasn't sprinted in the past 2 seconds.
+    /// </summary>
     public void RecoverStamina()
     {
         // If player sprints before the recuperation time, it'll not recover stamina.
@@ -138,12 +162,27 @@ public class PlayerState : MonoBehaviour
         currentStamina += 4f * Time.deltaTime;
     }
 
+    /// <summary>
+    ///     Updates the player's statistics i the UI.
+    /// </summary>
     public void UpdateBars()
     {
+        // Fix exceding values.
+        if (currentHealth > maxHealth)
+            currentHealth = maxHealth;
+        if (currentHunger > 100)
+            currentHunger = 100;
+        if (currentThirst > 100)
+            currentThirst = 100;
+
+        // Update bars.
         staminaBar.fillAmount = currentStamina / maxStamina;
         healthBar.fillAmount = currentHealth / maxHealth;
         healtText.text = currentHealth + "/" + maxHealth;
+        hungerText.text = currentHunger + "/" + 100;
+        thirstText.text = currentThirst + "/" + 100;
 
+        // Update damage screen.
         // More than 3/4 health
         if (currentHealth > 3 * maxHealth / 4)
         {

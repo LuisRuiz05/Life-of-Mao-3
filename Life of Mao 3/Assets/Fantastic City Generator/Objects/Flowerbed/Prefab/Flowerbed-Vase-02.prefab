@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 4143640728381398284}
   - component: {fileID: 4143640728382398412}
   - component: {fileID: 8466586741910064040}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flowerbed-Vase-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4143640728384822572
 Transform:
@@ -57,6 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &8466586741910064040
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -101,71 +103,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4143640728384822572}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: c0598eff3556ae549a6b6bff8a1799a4,
-        type: 3}
+    - target: {fileID: 919132149155446097, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
       propertyPath: m_Name
       value: Vegetation-01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
 --- !u!4 &6141962993497635074 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c0598eff3556ae549a6b6bff8a1799a4, type: 3}
   m_PrefabInstance: {fileID: 5959981601440407273}
   m_PrefabAsset: {fileID: 0}

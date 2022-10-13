@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 254303326575194408}
   - component: {fileID: 261281307786839212}
   - component: {fileID: 223791501141296490}
-  m_Layer: 0
-  m_Name: Tree-B-03 1
+  m_Layer: 6
+  m_Name: TreeB-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &287643145626413502
 Transform:
@@ -57,6 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &223791501141296490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -153,7 +155,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 33bdbb4efb3a3af48a07f4fe23013757, type: 3}
 --- !u!4 &2393391715656938635 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4892414429499642, guid: 33bdbb4efb3a3af48a07f4fe23013757,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 4892414429499642, guid: 33bdbb4efb3a3af48a07f4fe23013757, type: 3}
   m_PrefabInstance: {fileID: 2388711781853963377}
   m_PrefabAsset: {fileID: 0}

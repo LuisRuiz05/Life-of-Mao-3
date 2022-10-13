@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 1474902289228075678}
   - component: {fileID: 1445334470289044974}
   - component: {fileID: 1485064470653930900}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-01-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1474902289228075678
 Transform:
@@ -65,12 +65,12 @@ GameObject:
   - component: {fileID: 1819841234967462742}
   - component: {fileID: 1817312590946444326}
   - component: {fileID: 1849495534975327324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-01-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1819841234967462742
 Transform:
@@ -119,12 +119,12 @@ GameObject:
   - component: {fileID: 1828058544244698660}
   - component: {fileID: 1817167237636592178}
   - component: {fileID: 1809625023851722950}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1828058544244698660
 Transform:
@@ -164,6 +164,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -189,6 +190,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2393191888718930070
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,12 +205,12 @@ GameObject:
   - component: {fileID: 9162269581439429317}
   - component: {fileID: 5332874850157929204}
   - component: {fileID: 768377181818696896}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2395729876606077174
 Transform:
@@ -248,6 +250,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -273,6 +276,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &9162269581439429317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -323,12 +327,12 @@ GameObject:
   - component: {fileID: 2387011620814426248}
   - component: {fileID: 2398107460262249822}
   - component: {fileID: 2438368404664033544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2387011620814426248
 Transform:
@@ -377,12 +381,12 @@ GameObject:
   - component: {fileID: 3042955274532072685}
   - component: {fileID: 3042955274531302605}
   - component: {fileID: 1586914504490888376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-P11-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3042955274532072685
 Transform:
@@ -431,12 +435,12 @@ GameObject:
   - component: {fileID: 3042955274532072687}
   - component: {fileID: 3042955274531302607}
   - component: {fileID: 3042955274530303503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-P11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3042955274532072687
 Transform:
@@ -476,6 +480,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -502,6 +507,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3119344463427738870
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,12 +519,12 @@ GameObject:
   - component: {fileID: 3124625579288131896}
   - component: {fileID: 3115208926059801838}
   - component: {fileID: 3146445082493175992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3124625579288131896
 Transform:
@@ -570,12 +576,12 @@ GameObject:
   - component: {fileID: 8456163227651179381}
   - component: {fileID: 4647316170465725252}
   - component: {fileID: 60071805286571376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3117598862914330950
 Transform:
@@ -615,6 +621,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -640,6 +647,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &8456163227651179381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -690,12 +698,12 @@ GameObject:
   - component: {fileID: 3992718608487414467}
   - component: {fileID: 3963644986371065557}
   - component: {fileID: 3975404944042732577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3992718608487414467
 Transform:
@@ -735,6 +743,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -760,6 +769,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5260588088142909071
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,12 +781,12 @@ GameObject:
   - component: {fileID: 5263291586211552527}
   - component: {fileID: 5292798380099779199}
   - component: {fileID: 5323556412340109829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-01-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5263291586211552527
 Transform:
@@ -825,12 +835,12 @@ GameObject:
   - component: {fileID: 6580479437848483603}
   - component: {fileID: 6580479437845616435}
   - component: {fileID: 6580479437846713843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-P11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6580479437848483603
 Transform:
@@ -877,6 +887,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -902,6 +913,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7437467299440859752
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,12 +925,12 @@ GameObject:
   - component: {fileID: 7438990194886855144}
   - component: {fileID: 7441532017456803480}
   - component: {fileID: 7482589764078556898}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-01-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7438990194886855144
 Transform:
@@ -967,12 +979,12 @@ GameObject:
   - component: {fileID: 7644275930194736466}
   - component: {fileID: 7673186003041864004}
   - component: {fileID: 7662427975376642992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7644275930194736466
 Transform:
@@ -1012,6 +1024,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1037,6 +1050,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8271610567657145826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,12 +1062,12 @@ GameObject:
   - component: {fileID: 8271610567657380290}
   - component: {fileID: 8271610567658150370}
   - component: {fileID: 2592413001144227191}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-80m-02-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8271610567657380290
 Transform:
@@ -1102,12 +1116,12 @@ GameObject:
   - component: {fileID: 8612366911437006958}
   - component: {fileID: 8641291017873249400}
   - component: {fileID: 8630800979035668108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8612366911437006958
 Transform:
@@ -1147,6 +1161,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1172,3 +1187,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

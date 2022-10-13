@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 5976942049496030792}
   - component: {fileID: 7304142283438379501}
   - component: {fileID: 4807999408019973415}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BBS-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5976942049496030792
 Transform:
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9109111650038636540
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,12 +94,12 @@ GameObject:
   - component: {fileID: 6796998541054522722}
   - component: {fileID: 5765278890022087036}
   - component: {fileID: 3964307568375242387}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BL-04-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6796998541054522722
 Transform:

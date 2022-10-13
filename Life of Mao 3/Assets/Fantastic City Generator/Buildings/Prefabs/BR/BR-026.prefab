@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 1661530893720310808}
   - component: {fileID: 1661530893723702328}
   - component: {fileID: 1661530893722605304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BR-026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1661530893720310808
 Transform:
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -82,6 +83,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1661530893720668218
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,12 +95,12 @@ GameObject:
   - component: {fileID: 1661530893720310810}
   - component: {fileID: 1661530893723702330}
   - component: {fileID: 3443374676710231147}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BR-026-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1661530893720310810
 Transform:
@@ -147,12 +149,12 @@ GameObject:
   - component: {fileID: 8798261840536048176}
   - component: {fileID: 8798261840538948112}
   - component: {fileID: 7370194715317303669}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-06-B-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8798261840536048176
 Transform:
@@ -201,12 +203,12 @@ GameObject:
   - component: {fileID: 8798261840536048178}
   - component: {fileID: 8798261840538948114}
   - component: {fileID: 8798261840537948370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BR-026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8798261840536048178
 Transform:
@@ -249,6 +251,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -275,6 +278,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &923779763331629072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -285,6 +289,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_Name
       value: Tree-B-03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_RootOrder
@@ -334,8 +346,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
 --- !u!4 &923779763331766928 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
   m_PrefabInstance: {fileID: 923779763331629072}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2085437041151459908
@@ -348,6 +359,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_Name
       value: Tree-B-03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_RootOrder
@@ -397,7 +416,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
 --- !u!4 &2085437041151072452 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
   m_PrefabInstance: {fileID: 2085437041151459908}
   m_PrefabAsset: {fileID: 0}

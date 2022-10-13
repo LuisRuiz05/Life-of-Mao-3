@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4558805285280732}
   - component: {fileID: 33772210078446506}
   - component: {fileID: 23475356153862490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4558805285280732
 Transform:
@@ -59,6 +59,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -83,6 +84,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1098987380666828
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,12 +96,12 @@ GameObject:
   - component: {fileID: 4202170964026990}
   - component: {fileID: 33718090990296784}
   - component: {fileID: 64078051237128564}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-016-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4202170964026990
 Transform:
@@ -149,12 +151,12 @@ GameObject:
   - component: {fileID: 33070671556246904}
   - component: {fileID: 23940190422482196}
   - component: {fileID: 3241216430927070816}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-B-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4266133303176706
 Transform:
@@ -193,6 +195,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -217,6 +220,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &3241216430927070816
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -243,12 +247,12 @@ GameObject:
   - component: {fileID: 33259545045899842}
   - component: {fileID: 23856952798284848}
   - component: {fileID: 3530362543298759629}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-B-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4876132963944484
 Transform:
@@ -287,6 +291,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -311,6 +316,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &3530362543298759629
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -336,12 +342,12 @@ GameObject:
   - component: {fileID: 4727626203614444}
   - component: {fileID: 33199249175242778}
   - component: {fileID: 64860101503014354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-40m-02-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4727626203614444
 Transform:
@@ -391,12 +397,12 @@ GameObject:
   - component: {fileID: 33150601483113574}
   - component: {fileID: 23899538074888274}
   - component: {fileID: 65926871224620556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flowerbed-07g
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4069310601207898
 Transform:
@@ -436,6 +442,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -461,6 +468,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &65926871224620556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -486,12 +494,12 @@ GameObject:
   - component: {fileID: 33936296294150442}
   - component: {fileID: 23165962304223830}
   - component: {fileID: 65866400427812690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flowerbed-07g (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4807828047592924
 Transform:
@@ -531,6 +539,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -556,6 +565,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &65866400427812690
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -580,12 +590,12 @@ GameObject:
   - component: {fileID: 4675442712907928}
   - component: {fileID: 33798329746474318}
   - component: {fileID: 23879098855726170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4675442712907928
 Transform:
@@ -625,6 +635,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -650,3 +661,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

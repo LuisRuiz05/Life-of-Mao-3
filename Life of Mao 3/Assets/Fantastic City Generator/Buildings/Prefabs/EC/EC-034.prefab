@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4218702259663084}
   - component: {fileID: 33890576993610724}
   - component: {fileID: 23131905762845880}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EC-034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4218702259663084
 Transform:
@@ -56,6 +56,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -67,6 +69,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -79,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1251620559624888
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,12 +94,12 @@ GameObject:
   - component: {fileID: 4838641827305608}
   - component: {fileID: 33113048670179448}
   - component: {fileID: 23385043412396672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EC-034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4838641827305608
 Transform:
@@ -134,6 +138,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -147,6 +153,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -159,6 +166,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1317276249522088
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,12 +178,12 @@ GameObject:
   - component: {fileID: 4124294906593294}
   - component: {fileID: 33854371827250338}
   - component: {fileID: 64513946160863146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EC-034-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4124294906593294
 Transform:
@@ -209,9 +217,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: e7c090815a9dc734c9b3dc36a645fd96, type: 3}
 --- !u!1 &1766874391020784
 GameObject:
@@ -224,12 +232,12 @@ GameObject:
   - component: {fileID: 4046674990749754}
   - component: {fileID: 33732115249304050}
   - component: {fileID: 64006847571312922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-Corner-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4046674990749754
 Transform:
@@ -263,7 +271,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 9e0ee2d7cef1d8442a902509c7228aa7, type: 3}

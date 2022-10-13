@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4528519980128610}
   - component: {fileID: 33654443659324974}
   - component: {fileID: 64775484510864432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BB-042-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4528519980128610
 Transform:
@@ -65,12 +65,12 @@ GameObject:
   - component: {fileID: 4156757050609190}
   - component: {fileID: 33708916349716194}
   - component: {fileID: 23140046261283248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BB-042
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4156757050609190
 Transform:
@@ -111,6 +111,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -136,6 +137,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &844350259224432965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143,9 +145,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4156757050609190}
     m_Modifications:
+    - target: {fileID: 100002, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
       propertyPath: m_Name
       value: Truck-01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
       propertyPath: m_RootOrder
@@ -195,7 +245,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
 --- !u!4 &844350259224300495 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400010, guid: e4aafaf7056bfc14d88ac105dee3c9fa,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400010, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
   m_PrefabInstance: {fileID: 844350259224432965}
   m_PrefabAsset: {fileID: 0}

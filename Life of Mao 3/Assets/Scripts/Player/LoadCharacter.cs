@@ -13,6 +13,6 @@ public class LoadCharacter : MonoBehaviour
     private void Awake()
     {
         settings = GameObject.Find("OnSceneChangeLoadObjects").GetComponent<SettingsController>();
-        Instantiate(players[settings.selectedCharacter]);
+        Instantiate(players[settings.selectedCharacter], new Vector3(0,2,0), Quaternion.identity);
     }
 }

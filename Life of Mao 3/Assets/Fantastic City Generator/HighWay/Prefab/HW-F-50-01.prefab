@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7876498480768395652}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WayPoints - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7876498480768395652
 Transform:
@@ -41,12 +41,12 @@ GameObject:
   - component: {fileID: 4061253859176874091}
   - component: {fileID: 4044988049675459203}
   - component: {fileID: 7433004593185200599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4061253859176874091
 Transform:
@@ -85,6 +85,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -109,6 +110,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3910573596911800392
 GameObject:
   m_ObjectHideFlags: 0
@@ -120,12 +122,12 @@ GameObject:
   - component: {fileID: 1235376121228740578}
   - component: {fileID: 237120240037867197}
   - component: {fileID: 1275114940865102236}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GuardRail-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1235376121228740578
 Transform:
@@ -174,12 +176,12 @@ GameObject:
   - component: {fileID: 5602203094512079330}
   - component: {fileID: 8795773739069578823}
   - component: {fileID: 6770083233957898893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HW-F-50-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5602203094512079330
 Transform:
@@ -227,6 +229,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -251,6 +254,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6234436533215242617
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,12 +265,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1007388928001140148}
   - component: {fileID: 8900939243682974717}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WayPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1007388928001140148
 Transform:
@@ -328,6 +332,7 @@ MonoBehaviour:
     tsOneway: 0000
     tsOnewayDoubleLine: 0000
     tsSide: 0000000001000000
+  showGizmos: 0
 --- !u!1 &7032748698996082924
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,12 +342,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8567593498129881318}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WayPoints - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8567593498129881318
 Transform:
@@ -369,12 +374,12 @@ GameObject:
   - component: {fileID: 4248272406928154166}
   - component: {fileID: 3985683230348673188}
   - component: {fileID: 2420140084110544152}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GuardRail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4248272406928154166
 Transform:
@@ -413,6 +418,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -437,6 +443,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8627884877927631049
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,12 +455,12 @@ GameObject:
   - component: {fileID: 4483657233051964824}
   - component: {fileID: 7874084757055362415}
   - component: {fileID: 4964446866285393662}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HighWay-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4483657233051964824
 Transform:
@@ -501,6 +508,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_Name
       value: Tree-B-03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_RootOrder
@@ -550,8 +565,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
 --- !u!4 &1895268306671792644 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
   m_PrefabInstance: {fileID: 1895268306671921284}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2291054849801968856
@@ -564,6 +578,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_Name
       value: Tree-B-04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_RootOrder
@@ -613,8 +635,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
 --- !u!4 &2291054849802356312 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
   m_PrefabInstance: {fileID: 2291054849801968856}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2567008148547824880
@@ -627,6 +648,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_Name
       value: Tree-B-04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_RootOrder
@@ -676,8 +705,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
 --- !u!4 &2567008148548220528 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
   m_PrefabInstance: {fileID: 2567008148547824880}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4109279534167989010
@@ -690,6 +718,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_Name
       value: Tree-B-04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_RootOrder
@@ -739,7 +775,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
 --- !u!4 &4109279534167851410 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
   m_PrefabInstance: {fileID: 4109279534167989010}
   m_PrefabAsset: {fileID: 0}

@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3031549352923545785}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 17
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3031549352923545785
 Transform:
@@ -41,12 +41,12 @@ GameObject:
   - component: {fileID: 1228078921631869401}
   - component: {fileID: 1258145493091103537}
   - component: {fileID: 5652067905543188581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1228078921631869401
 Transform:
@@ -85,6 +85,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -109,6 +110,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1354174361125767187
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,12 +120,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2634224170683385516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 29
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2634224170683385516
 Transform:
@@ -148,12 +150,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8140485335877145009}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 16
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8140485335877145009
 Transform:
@@ -179,12 +181,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6836305524063427040}
   - component: {fileID: 2607216352535307776}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6836305524063427040
 Transform:
@@ -302,6 +304,7 @@ MonoBehaviour:
     tsOneway: 0000
     tsOnewayDoubleLine: 0000
     tsSide: 0000000001000000
+  showGizmos: 0
 --- !u!1 &1967617027486621297
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,12 +314,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4796919250585339741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 13
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4796919250585339741
 Transform:
@@ -343,12 +346,12 @@ GameObject:
   - component: {fileID: 4067748350566985296}
   - component: {fileID: 3034599323727562511}
   - component: {fileID: 399747745576106683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GuardRail-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4067748350566985296
 Transform:
@@ -395,12 +398,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4521511026843321675}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 24
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4521511026843321675
 Transform:
@@ -425,12 +428,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1518114618217975650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1518114618217975650
 Transform:
@@ -455,12 +458,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8302699872912677981}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 18
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8302699872912677981
 Transform:
@@ -485,12 +488,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3334041908529222237}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3334041908529222237
 Transform:
@@ -515,12 +518,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5643976543798559263}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 25
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5643976543798559263
 Transform:
@@ -545,12 +548,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6405470998589301850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 19
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6405470998589301850
 Transform:
@@ -575,12 +578,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6294891998717035570}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 15
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6294891998717035570
 Transform:
@@ -605,12 +608,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6969870573136151970}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 20
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6969870573136151970
 Transform:
@@ -635,12 +638,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7261226325050241449}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 27
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7261226325050241449
 Transform:
@@ -665,12 +668,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4677913050393960408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4677913050393960408
 Transform:
@@ -695,12 +698,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2632879832051810338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 14
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2632879832051810338
 Transform:
@@ -725,12 +728,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2882950448292915320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 28
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2882950448292915320
 Transform:
@@ -755,12 +758,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6843493252445727518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 22
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6843493252445727518
 Transform:
@@ -785,12 +788,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8788153534707444433}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8788153534707444433
 Transform:
@@ -817,12 +820,12 @@ GameObject:
   - component: {fileID: 1415149140352235396}
   - component: {fileID: 2168630951192897814}
   - component: {fileID: 630903132275664042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GuardRail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1415149140352235396
 Transform:
@@ -861,6 +864,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -885,6 +889,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6659559539850509991
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,12 +899,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 737948249070323150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &737948249070323150
 Transform:
@@ -924,12 +929,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8487238534165084230}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 23
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8487238534165084230
 Transform:
@@ -956,12 +961,12 @@ GameObject:
   - component: {fileID: 1688390146900327466}
   - component: {fileID: 4904743001272974557}
   - component: {fileID: 98716845813947219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HighWay-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1688390146900327466
 Transform:
@@ -1008,12 +1013,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 449871529157044325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &449871529157044325
 Transform:
@@ -1040,12 +1045,12 @@ GameObject:
   - component: {fileID: 7271199670935992400}
   - component: {fileID: 6000947576467929077}
   - component: {fileID: 8404650730036413247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HW-R-200-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7271199670935992400
 Transform:
@@ -1113,6 +1118,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1137,6 +1143,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8081781192025698229
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,12 +1153,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3262179779443660482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3262179779443660482
 Transform:
@@ -1176,12 +1183,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5329281964899755215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5329281964899755215
 Transform:
@@ -1206,12 +1213,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4651952572156155234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4651952572156155234
 Transform:
@@ -1236,12 +1243,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6781503615012884292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 12
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6781503615012884292
 Transform:
@@ -1266,12 +1273,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 317487369413473938}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 30
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &317487369413473938
 Transform:
@@ -1296,12 +1303,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9069499494586220258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9069499494586220258
 Transform:
@@ -1326,12 +1333,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3324668383866785716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 21
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3324668383866785716
 Transform:
@@ -1356,12 +1363,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5386620644368854354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 26
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5386620644368854354
 Transform:
@@ -1386,12 +1393,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9081460870895393526}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Waypoints - 11
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9081460870895393526
 Transform:
@@ -1417,6 +1424,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_Name
       value: Tree-A-02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_RootOrder
@@ -1466,8 +1481,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
 --- !u!4 &1462333941635804931 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
   m_PrefabInstance: {fileID: 1462333941635937667}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1762873719035453968
@@ -1480,6 +1494,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_Name
       value: Tree-A-01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_RootOrder
@@ -1529,8 +1551,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
 --- !u!4 &1762873719035590800 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
   m_PrefabInstance: {fileID: 1762873719035453968}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2023568100909584925
@@ -1543,6 +1564,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_Name
       value: Tree-A-01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_RootOrder
@@ -1592,8 +1621,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
 --- !u!4 &2023568100909189277 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
   m_PrefabInstance: {fileID: 2023568100909584925}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2241257346546586251
@@ -1606,6 +1634,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
       propertyPath: m_Name
       value: Tree-B-02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
       propertyPath: m_RootOrder
@@ -1655,8 +1691,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
 --- !u!4 &2241257346546452491 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: e8e3cf05b823af746b1e12e5bcfb4e65,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
   m_PrefabInstance: {fileID: 2241257346546586251}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2400234406653141112
@@ -1669,6 +1704,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
       propertyPath: m_Name
       value: Tree-B-01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
       propertyPath: m_RootOrder
@@ -1718,8 +1761,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
 --- !u!4 &2400234406653278968 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 2e951f8cd690f6241b440d0f85b36a0d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
   m_PrefabInstance: {fileID: 2400234406653141112}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2793679456906431130
@@ -1732,6 +1774,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_Name
       value: Tree-A-02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_RootOrder
@@ -1781,8 +1831,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
 --- !u!4 &2793679456906039322 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
   m_PrefabInstance: {fileID: 2793679456906431130}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2811885908127953627
@@ -1795,6 +1844,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_Name
       value: Tree-A-02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_RootOrder
@@ -1844,8 +1901,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
 --- !u!4 &2811885908127819867 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
   m_PrefabInstance: {fileID: 2811885908127953627}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2945022613294492153
@@ -1858,6 +1914,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_Name
       value: Tree-B-03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_RootOrder
@@ -1907,8 +1971,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
 --- !u!4 &2945022613294887801 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
   m_PrefabInstance: {fileID: 2945022613294492153}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3248318672891512606
@@ -1921,6 +1984,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
       propertyPath: m_Name
       value: Tree-B-05
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
       propertyPath: m_RootOrder
@@ -1970,8 +2041,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
 --- !u!4 &3248318672891125150 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 2139f6424e97ef2429830042732f6197,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
   m_PrefabInstance: {fileID: 3248318672891512606}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3606769768861683661
@@ -1984,6 +2054,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_Name
       value: Tree-A-01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_RootOrder
@@ -2033,8 +2111,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
 --- !u!4 &3606769768861291853 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
   m_PrefabInstance: {fileID: 3606769768861683661}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3735573170839515850
@@ -2047,6 +2124,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_Name
       value: Tree-A-02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_RootOrder
@@ -2096,8 +2181,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
 --- !u!4 &3735573170839119946 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
   m_PrefabInstance: {fileID: 3735573170839515850}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4219623911967588006
@@ -2110,6 +2194,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_Name
       value: Tree-A-01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_RootOrder
@@ -2159,8 +2251,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
 --- !u!4 &4219623911967712294 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
   m_PrefabInstance: {fileID: 4219623911967588006}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4566373037978252099
@@ -2173,6 +2264,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_Name
       value: Tree-B-04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_RootOrder
@@ -2222,8 +2321,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
 --- !u!4 &4566373037978118595 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
   m_PrefabInstance: {fileID: 4566373037978252099}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4854559664047581889
@@ -2236,6 +2334,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_Name
       value: Tree-B-03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
       propertyPath: m_RootOrder
@@ -2285,8 +2391,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
 --- !u!4 &4854559664047190081 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
   m_PrefabInstance: {fileID: 4854559664047581889}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4931936786394423918
@@ -2299,6 +2404,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_Name
       value: Tree-A-02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_RootOrder
@@ -2348,8 +2461,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
 --- !u!4 &4931936786394822894 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
   m_PrefabInstance: {fileID: 4931936786394423918}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5407363839443844138
@@ -2362,6 +2474,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_Name
       value: Tree-B-04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_RootOrder
@@ -2411,8 +2531,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
 --- !u!4 &5407363839443445418 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
   m_PrefabInstance: {fileID: 5407363839443844138}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5739751505740075616
@@ -2425,6 +2544,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_Name
       value: Tree-A-02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
       propertyPath: m_RootOrder
@@ -2474,8 +2601,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
 --- !u!4 &5739751505739679968 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 33c22593ae0a379428f91a8e6b3d9856, type: 3}
   m_PrefabInstance: {fileID: 5739751505740075616}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6378115005445508421
@@ -2488,6 +2614,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_Name
       value: Tree-A-01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_RootOrder
@@ -2537,8 +2671,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
 --- !u!4 &6378115005445642181 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
   m_PrefabInstance: {fileID: 6378115005445508421}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6676293714812679886
@@ -2551,6 +2684,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_Name
       value: Tree-B-04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
       propertyPath: m_RootOrder
@@ -2600,8 +2741,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
 --- !u!4 &6676293714812546126 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 149a9ab6ab1a9c946b721ceda8cf4fbc, type: 3}
   m_PrefabInstance: {fileID: 6676293714812679886}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6765613904211077589
@@ -2614,6 +2754,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
       propertyPath: m_Name
       value: Tree-B-05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
       propertyPath: m_RootOrder
@@ -2663,8 +2811,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
 --- !u!4 &6765613904211473237 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 2139f6424e97ef2429830042732f6197,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
   m_PrefabInstance: {fileID: 6765613904211077589}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7748284694910836599
@@ -2677,6 +2824,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_Name
       value: Tree-A-01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
       propertyPath: m_RootOrder
@@ -2726,8 +2881,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
 --- !u!4 &7748284694911223287 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: cba706ee5084b094bbbcd9dce4d615d3, type: 3}
   m_PrefabInstance: {fileID: 7748284694910836599}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7765496120423993332
@@ -2740,6 +2894,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
       propertyPath: m_Name
       value: Tree-B-05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
       propertyPath: m_RootOrder
@@ -2789,8 +2951,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
 --- !u!4 &7765496120424125812 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 2139f6424e97ef2429830042732f6197,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 2139f6424e97ef2429830042732f6197, type: 3}
   m_PrefabInstance: {fileID: 7765496120423993332}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8178057059053884840
@@ -2803,6 +2964,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
       propertyPath: m_Name
       value: Tree-B-02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
       propertyPath: m_RootOrder
@@ -2852,8 +3021,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
 --- !u!4 &8178057059054276392 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: e8e3cf05b823af746b1e12e5bcfb4e65,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: e8e3cf05b823af746b1e12e5bcfb4e65, type: 3}
   m_PrefabInstance: {fileID: 8178057059053884840}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8672769046109188368
@@ -2866,6 +3034,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
       propertyPath: m_Name
       value: Tree-B-01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
       propertyPath: m_RootOrder
@@ -2915,7 +3091,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
 --- !u!4 &8672769046108793744 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 2e951f8cd690f6241b440d0f85b36a0d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 2e951f8cd690f6241b440d0f85b36a0d, type: 3}
   m_PrefabInstance: {fileID: 8672769046109188368}
   m_PrefabAsset: {fileID: 0}

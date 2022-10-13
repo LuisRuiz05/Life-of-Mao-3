@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7037955176408292865}
   - component: {fileID: 7505015851086445792}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7037955176408292865
 Transform:
@@ -137,6 +137,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &156131617816263715
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,12 +147,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1494712507016636273}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1494712507016636273
 Transform:
@@ -178,12 +179,12 @@ GameObject:
   - component: {fileID: 7687697034096125073}
   - component: {fileID: 3823369849511451383}
   - component: {fileID: 3075838210030216619}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7687697034096125073
 Transform:
@@ -223,6 +224,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -247,6 +249,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &340338940671946504
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,12 +259,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 936835260887403717}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &936835260887403717
 Transform:
@@ -286,12 +289,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5802729915737410845}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5802729915737410845
 Transform:
@@ -318,12 +321,12 @@ GameObject:
   - component: {fileID: 5456088112833021383}
   - component: {fileID: 5425141865134759359}
   - component: {fileID: 6930646982493750249}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR-Sidewalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5456088112833021383
 Transform:
@@ -362,6 +365,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -386,6 +390,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &456421358012738679
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,12 +400,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8509983296574287237}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8509983296574287237
 Transform:
@@ -426,12 +431,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8920775930513871524}
   - component: {fileID: 900891869230218413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8920775930513871524
 Transform:
@@ -554,6 +559,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &625557579669552768
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,12 +571,12 @@ GameObject:
   - component: {fileID: 6119030709237529087}
   - component: {fileID: 2427927707936982537}
   - component: {fileID: 4404038438911487326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6119030709237529087
 Transform:
@@ -619,12 +625,12 @@ GameObject:
   - component: {fileID: 4682439695249173270}
   - component: {fileID: 4647275033823916792}
   - component: {fileID: 1205365482548065400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-BL-Sidewalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4682439695249173270
 Transform:
@@ -663,6 +669,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -689,6 +696,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &701864902217726224
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,12 +706,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3874822388103926688}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3874822388103926688
 Transform:
@@ -728,12 +736,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 106874179750430580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &106874179750430580
 Transform:
@@ -758,12 +766,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 998293162554826684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &998293162554826684
 Transform:
@@ -788,12 +796,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3268166922558254911}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3268166922558254911
 Transform:
@@ -819,12 +827,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6670602762328509505}
   - component: {fileID: 1900759811106639102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6670602762328509505
 Transform:
@@ -949,6 +957,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &1115679347208819775
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,12 +969,12 @@ GameObject:
   - component: {fileID: 90722395372336705}
   - component: {fileID: 3223620087738395716}
   - component: {fileID: 3790229508342871591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR-Collider-Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &90722395372336705
 Transform:
@@ -1012,12 +1021,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 472815040239005698}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &472815040239005698
 Transform:
@@ -1042,12 +1051,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8287386545665303358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8287386545665303358
 Transform:
@@ -1072,12 +1081,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 525412353428487905}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &525412353428487905
 Transform:
@@ -1104,12 +1113,12 @@ GameObject:
   - component: {fileID: 2452327812325344527}
   - component: {fileID: 5775850307613346055}
   - component: {fileID: 502682346482343765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2452327812325344527
 Transform:
@@ -1159,6 +1168,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1186,6 +1196,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1463260429521583015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,12 +1206,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7804234358270916016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7804234358270916016
 Transform:
@@ -1225,12 +1236,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2247790349938727862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2247790349938727862
 Transform:
@@ -1255,12 +1266,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8582601914541781662}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WayPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8582601914541781662
 Transform:
@@ -1287,12 +1298,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4912195334192422554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4912195334192422554
 Transform:
@@ -1317,12 +1328,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6944513842232472850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6944513842232472850
 Transform:
@@ -1349,12 +1360,12 @@ GameObject:
   - component: {fileID: 6486515055569997938}
   - component: {fileID: 1969772247667928311}
   - component: {fileID: 1417776900869574608}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RoadMarkRev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 0
 --- !u!4 &6486515055569997938
 Transform:
@@ -1393,6 +1404,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1419,6 +1431,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2110569373519840076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,12 +1443,12 @@ GameObject:
   - component: {fileID: 1401675378311831858}
   - component: {fileID: 4507283811118283575}
   - component: {fileID: 2785501062203564372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR-Collider-Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1401675378311831858
 Transform:
@@ -1482,12 +1495,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4569837906165971020}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4569837906165971020
 Transform:
@@ -1512,12 +1525,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1148893314119109688}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1148893314119109688
 Transform:
@@ -1542,12 +1555,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1585591256836930884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1585591256836930884
 Transform:
@@ -1572,12 +1585,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3241096431886557736}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3241096431886557736
 Transform:
@@ -1602,12 +1615,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2377006205707999306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 12
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2377006205707999306
 Transform:
@@ -1632,12 +1645,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5589848670337687801}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5589848670337687801
 Transform:
@@ -1662,12 +1675,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 950262177705878290}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &950262177705878290
 Transform:
@@ -1692,12 +1705,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7432588067404361939}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7432588067404361939
 Transform:
@@ -1722,12 +1735,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2341050586226310885}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2341050586226310885
 Transform:
@@ -1752,12 +1765,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8302339188926030710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8302339188926030710
 Transform:
@@ -1782,12 +1795,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9187878685026703967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9187878685026703967
 Transform:
@@ -1812,12 +1825,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8263186642916309815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8263186642916309815
 Transform:
@@ -1844,12 +1857,12 @@ GameObject:
   - component: {fileID: 69858158123623018}
   - component: {fileID: 7212201419698164449}
   - component: {fileID: 4551246897460616558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &69858158123623018
 Transform:
@@ -1896,6 +1909,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1922,6 +1936,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2857555397998707267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,12 +1946,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2727364283235170921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2727364283235170921
 Transform:
@@ -1963,12 +1978,12 @@ GameObject:
   - component: {fileID: 5010894460586173101}
   - component: {fileID: 493757702199464128}
   - component: {fileID: 3784049796102919006}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5010894460586173101
 Transform:
@@ -2007,6 +2022,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2031,6 +2047,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2927255996826206472
 GameObject:
   m_ObjectHideFlags: 0
@@ -2040,12 +2057,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5320113059123652446}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ExitCity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5320113059123652446
 Transform:
@@ -2071,12 +2088,12 @@ GameObject:
   m_Component:
   - component: {fileID: 9112389554748221687}
   - component: {fileID: 7994689107037051594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9112389554748221687
 Transform:
@@ -2195,6 +2212,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &3023044892713484576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,12 +2222,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6933903939891208621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6933903939891208621
 Transform:
@@ -2234,12 +2252,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3389963502357035244}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3389963502357035244
 Transform:
@@ -2264,12 +2282,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6394753665635632020}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6394753665635632020
 Transform:
@@ -2294,12 +2312,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8860846401551360644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8860846401551360644
 Transform:
@@ -2324,12 +2342,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1115250479876270923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1115250479876270923
 Transform:
@@ -2356,12 +2374,12 @@ GameObject:
   - component: {fileID: 3370558971442140773}
   - component: {fileID: 2801983770282717716}
   - component: {fileID: 3668757834723076335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-BL-Collider-Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3370558971442140773
 Transform:
@@ -2408,12 +2426,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1610870749823854398}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (5) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1610870749823854398
 Transform:
@@ -2438,12 +2456,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3241138729169032884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Border-Small 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3241138729169032884
 Transform:
@@ -2477,12 +2495,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3134187287952547113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3134187287952547113
 Transform:
@@ -2507,12 +2525,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2377677845819563161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2377677845819563161
 Transform:
@@ -2537,12 +2555,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3415003109784419942}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (5) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3415003109784419942
 Transform:
@@ -2567,12 +2585,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 301927017553455671}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &301927017553455671
 Transform:
@@ -2597,12 +2615,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8436672643032908559}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8436672643032908559
 Transform:
@@ -2627,12 +2645,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8893277739963327225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8893277739963327225
 Transform:
@@ -2657,12 +2675,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3248519141039661481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3248519141039661481
 Transform:
@@ -2687,12 +2705,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5694802279675477861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5694802279675477861
 Transform:
@@ -2719,12 +2737,12 @@ GameObject:
   - component: {fileID: 2005655353129972312}
   - component: {fileID: 3280120401784270406}
   - component: {fileID: 8383886618174805315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR-Sidewalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2005655353129972312
 Transform:
@@ -2763,6 +2781,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2787,6 +2806,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3758392645376171930
 GameObject:
   m_ObjectHideFlags: 0
@@ -2796,12 +2816,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9168890435125664727}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9168890435125664727
 Transform:
@@ -2826,12 +2846,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5950525738626424466}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5950525738626424466
 Transform:
@@ -2858,12 +2878,12 @@ GameObject:
   - component: {fileID: 1353789371961586969}
   - component: {fileID: 8513893637091378578}
   - component: {fileID: 3249568329007499805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1353789371961586969
 Transform:
@@ -2910,6 +2930,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2936,6 +2957,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3941369729749713655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2945,12 +2967,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1088128983862922079}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1088128983862922079
 Transform:
@@ -2976,12 +2998,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3611247926231911229}
   - component: {fileID: 3558961302305024532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3611247926231911229
 Transform:
@@ -3102,6 +3124,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &4007218805102226924
 GameObject:
   m_ObjectHideFlags: 0
@@ -3111,12 +3134,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6875714625758889805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6875714625758889805
 Transform:
@@ -3141,12 +3164,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1143022768055188437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (4) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1143022768055188437
 Transform:
@@ -3171,12 +3194,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4443009711667924088}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4443009711667924088
 Transform:
@@ -3201,12 +3224,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543883662767978152}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &543883662767978152
 Transform:
@@ -3231,12 +3254,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6020543041089037295}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6020543041089037295
 Transform:
@@ -3261,12 +3284,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4501946499642956225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (5) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4501946499642956225
 Transform:
@@ -3291,12 +3314,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 990976183420740593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &990976183420740593
 Transform:
@@ -3321,12 +3344,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7143475666628845808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7143475666628845808
 Transform:
@@ -3351,12 +3374,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8820497528687122300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WayPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8820497528687122300
 Transform:
@@ -3383,12 +3406,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6725677613911392922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 11
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6725677613911392922
 Transform:
@@ -3413,12 +3436,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 729343192030272126}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 11
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &729343192030272126
 Transform:
@@ -3443,12 +3466,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7911929247339101912}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7911929247339101912
 Transform:
@@ -3473,12 +3496,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6791254406400405111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6791254406400405111
 Transform:
@@ -3503,12 +3526,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 311542512180184351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &311542512180184351
 Transform:
@@ -3533,12 +3556,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8925620008352411471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8925620008352411471
 Transform:
@@ -3565,12 +3588,12 @@ GameObject:
   - component: {fileID: 2657496986099752100}
   - component: {fileID: 6022268598028625590}
   - component: {fileID: 786278236199298245}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR-Collider-Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2657496986099752100
 Transform:
@@ -3617,12 +3640,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8614225626543628413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8614225626543628413
 Transform:
@@ -3647,12 +3670,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5434372576393749060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5434372576393749060
 Transform:
@@ -3677,12 +3700,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5904171900632328258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5904171900632328258
 Transform:
@@ -3707,12 +3730,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7452653012078877498}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WayPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7452653012078877498
 Transform:
@@ -3739,12 +3762,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 356127817790601941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &356127817790601941
 Transform:
@@ -3771,12 +3794,12 @@ GameObject:
   - component: {fileID: 457000950526450126}
   - component: {fileID: 5834423487710459800}
   - component: {fileID: 7003481534376142472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &457000950526450126
 Transform:
@@ -3823,12 +3846,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4778517212996120026}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (4) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4778517212996120026
 Transform:
@@ -3853,12 +3876,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3844952680281555674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 13
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3844952680281555674
 Transform:
@@ -3885,12 +3908,12 @@ GameObject:
   - component: {fileID: 7736302346010807573}
   - component: {fileID: 3771894214045232718}
   - component: {fileID: 6670348627229407789}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider-Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7736302346010807573
 Transform:
@@ -3937,12 +3960,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6332729403133139564}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6332729403133139564
 Transform:
@@ -3967,12 +3990,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5341553453125669611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 12
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5341553453125669611
 Transform:
@@ -3997,12 +4020,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2387220242792511396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (5) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2387220242792511396
 Transform:
@@ -4027,12 +4050,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3503949175362114615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3503949175362114615
 Transform:
@@ -4057,12 +4080,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 437991420648291241}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &437991420648291241
 Transform:
@@ -4088,12 +4111,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8335838371799419972}
   - component: {fileID: 7913064636758594964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8335838371799419972
 Transform:
@@ -4202,6 +4225,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &5465580561180550122
 GameObject:
   m_ObjectHideFlags: 0
@@ -4213,12 +4237,12 @@ GameObject:
   - component: {fileID: 5464326873275576002}
   - component: {fileID: 5453237285503728174}
   - component: {fileID: 5442719545842255886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees-Four-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5464326873275576002
 Transform:
@@ -4265,6 +4289,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4290,6 +4315,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5467026757788719154
 GameObject:
   m_ObjectHideFlags: 0
@@ -4301,12 +4327,12 @@ GameObject:
   - component: {fileID: 5464207540668679864}
   - component: {fileID: 5453053801298775090}
   - component: {fileID: 5443646882330786694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees-Four-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5464207540668679864
 Transform:
@@ -4353,6 +4379,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4378,6 +4405,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5507122483425939151
 GameObject:
   m_ObjectHideFlags: 0
@@ -4387,12 +4415,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 884422920541865220}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &884422920541865220
 Transform:
@@ -4417,12 +4445,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3294365144788063850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3294365144788063850
 Transform:
@@ -4447,12 +4475,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3340040416803050395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3340040416803050395
 Transform:
@@ -4477,12 +4505,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 94989438368172073}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &94989438368172073
 Transform:
@@ -4509,12 +4537,12 @@ GameObject:
   - component: {fileID: 6880327803402417257}
   - component: {fileID: 8343448881726417717}
   - component: {fileID: 5962251069576248532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6880327803402417257
 Transform:
@@ -4553,6 +4581,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4577,6 +4606,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5659927091193410717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4588,12 +4618,12 @@ GameObject:
   - component: {fileID: 1682324645331747467}
   - component: {fileID: 2195810784844687017}
   - component: {fileID: 3996062462065050239}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-BL-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1682324645331747467
 Transform:
@@ -4640,12 +4670,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5340877822619307797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (3) - 11
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5340877822619307797
 Transform:
@@ -4670,12 +4700,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4359903155506049613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4359903155506049613
 Transform:
@@ -4700,12 +4730,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 535293638279415647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &535293638279415647
 Transform:
@@ -4732,12 +4762,12 @@ GameObject:
   - component: {fileID: 7714530972087801664}
   - component: {fileID: 1337260891174766941}
   - component: {fileID: 6525472490190007309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR-Sidewalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7714530972087801664
 Transform:
@@ -4776,6 +4806,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4800,6 +4831,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5866033553744798934
 GameObject:
   m_ObjectHideFlags: 0
@@ -4809,12 +4841,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8787195008348404544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8787195008348404544
 Transform:
@@ -4839,12 +4871,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4205755761128683208}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4205755761128683208
 Transform:
@@ -4869,12 +4901,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 818228028795551014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &818228028795551014
 Transform:
@@ -4899,12 +4931,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 872975697103428788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (4) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &872975697103428788
 Transform:
@@ -4931,12 +4963,12 @@ GameObject:
   - component: {fileID: 5590317950631598148}
   - component: {fileID: 4331749433919518258}
   - component: {fileID: 8655831572979631400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5590317950631598148
 Transform:
@@ -4983,6 +5015,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5009,6 +5042,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6220982624748734042
 GameObject:
   m_ObjectHideFlags: 0
@@ -5018,12 +5052,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2726740689303899939}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2726740689303899939
 Transform:
@@ -5048,12 +5082,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3771532301341794276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3771532301341794276
 Transform:
@@ -5078,12 +5112,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2841080641481168297}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 13
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2841080641481168297
 Transform:
@@ -5108,12 +5142,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 743671532296792682}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 12
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &743671532296792682
 Transform:
@@ -5140,12 +5174,12 @@ GameObject:
   - component: {fileID: 8323002321869019242}
   - component: {fileID: 8481705895745192335}
   - component: {fileID: 5508285220663993683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RoadMark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8323002321869019242
 Transform:
@@ -5184,6 +5218,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5210,6 +5245,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6387547113475120325
 GameObject:
   m_ObjectHideFlags: 0
@@ -5221,12 +5257,12 @@ GameObject:
   - component: {fileID: 1475881424192910538}
   - component: {fileID: 2349200427801458354}
   - component: {fileID: 1160027411431560459}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1475881424192910538
 Transform:
@@ -5273,12 +5309,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5921987039163454259}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 11
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5921987039163454259
 Transform:
@@ -5305,12 +5341,12 @@ GameObject:
   - component: {fileID: 6477512764462021041}
   - component: {fileID: 6457112614227570013}
   - component: {fileID: 6465448647670095741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees-Four-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477512764462021041
 Transform:
@@ -5357,6 +5393,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5382,6 +5419,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6478478579150327405
 GameObject:
   m_ObjectHideFlags: 0
@@ -5395,12 +5433,12 @@ GameObject:
   - component: {fileID: 6465436680093297775}
   - component: {fileID: 6413915192309439813}
   - component: {fileID: 6416510537555402017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BusStop-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483692638381559863
 Transform:
@@ -5439,6 +5477,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5465,6 +5504,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6413915192309439813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5500,12 +5540,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6477836505858350129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 200
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477836505858350129
 Transform:
@@ -5534,12 +5574,12 @@ GameObject:
   - component: {fileID: 6467046535897134507}
   - component: {fileID: 6416676174736861293}
   - component: {fileID: 6413670928658039183}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BusStop-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483856456623428093
 Transform:
@@ -5578,6 +5618,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5603,6 +5644,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6416676174736861293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5651,12 +5693,12 @@ GameObject:
   - component: {fileID: 6345139217468432007}
   - component: {fileID: 6345337989594018685}
   - component: {fileID: 6343427722701537995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights-eleven (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483801069006458255
 Transform:
@@ -5695,6 +5737,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5720,6 +5763,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6345559280260319063
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5886,12 +5930,12 @@ GameObject:
   - component: {fileID: 6457046872259462283}
   - component: {fileID: 6467007742217006199}
   - component: {fileID: 6414223977076253077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trash-02d
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477722805191326977
 Transform:
@@ -5930,6 +5974,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5955,6 +6000,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6414223977076253077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5980,12 +6026,12 @@ GameObject:
   - component: {fileID: 6457679735433425399}
   - component: {fileID: 6464997662324827005}
   - component: {fileID: 6413645892234014233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trash-02d (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483827853341191601
 Transform:
@@ -6024,6 +6070,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6049,6 +6096,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6413645892234014233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6084,12 +6132,12 @@ GameObject:
   - component: {fileID: 6345502680178937217}
   - component: {fileID: 6344963379773516089}
   - component: {fileID: 6345040474020008407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights-eleven (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483708003103541265
 Transform:
@@ -6128,6 +6176,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6153,6 +6202,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6343593187872681607
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6329,12 +6379,12 @@ GameObject:
   - component: {fileID: 6345397694467887867}
   - component: {fileID: 6344764219242554181}
   - component: {fileID: 6345118354117052597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights-eleven
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477633707641044197
 Transform:
@@ -6373,6 +6423,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6398,6 +6449,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6344904498142716849
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6561,12 +6613,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6477794835225478039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477794835225478039
 Transform:
@@ -6594,12 +6646,12 @@ GameObject:
   - component: {fileID: 6457715079819265869}
   - component: {fileID: 6465253208203152225}
   - component: {fileID: 6414126876768515693}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ElectricalBox-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477498310817163367
 Transform:
@@ -6638,6 +6690,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6662,6 +6715,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6414126876768515693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6688,12 +6742,12 @@ GameObject:
   - component: {fileID: 6465568734339451529}
   - component: {fileID: 6416656349052610039}
   - component: {fileID: 6416571650625945235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: hydrant-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477446488658103873
 Transform:
@@ -6732,6 +6786,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6756,6 +6811,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6416656349052610039
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6791,12 +6847,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6477607241634631145}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 328
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477607241634631145
 Transform:
@@ -6823,12 +6879,12 @@ GameObject:
   - component: {fileID: 6477387915255907175}
   - component: {fileID: 6457475849462938041}
   - component: {fileID: 6415446623943049493}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ExtrutureMetalic-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477387915255907175
 Transform:
@@ -6875,12 +6931,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6477468020866745711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477468020866745711
 Transform:
@@ -6913,12 +6969,12 @@ GameObject:
   - component: {fileID: 6483778833194934579}
   - component: {fileID: 6457438497038737389}
   - component: {fileID: 6465324789167631315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees-eight-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483778833194934579
 Transform:
@@ -6973,6 +7029,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6998,6 +7055,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6480371376788302675
 GameObject:
   m_ObjectHideFlags: 0
@@ -7020,12 +7078,12 @@ GameObject:
   - component: {fileID: 6345448984733376851}
   - component: {fileID: 6344868627345148257}
   - component: {fileID: 6345386399683673973}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights-eleven (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477645625447256417
 Transform:
@@ -7064,6 +7122,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7089,6 +7148,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6345046970392522013
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7255,12 +7315,12 @@ GameObject:
   - component: {fileID: 6457332898354836523}
   - component: {fileID: 6466992996022847299}
   - component: {fileID: 6344907130622564403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pedestrian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483922574980474679
 Transform:
@@ -7299,6 +7359,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7324,6 +7385,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6344907130622564403
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7351,12 +7413,12 @@ GameObject:
   - component: {fileID: 6466998120206621445}
   - component: {fileID: 6416573390093807837}
   - component: {fileID: 6413654420777890547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BusStop-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477797856396822199
 Transform:
@@ -7395,6 +7457,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7420,6 +7483,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6416573390093807837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7457,12 +7521,12 @@ GameObject:
   - component: {fileID: 6477389996683151077}
   - component: {fileID: 6457074109221603641}
   - component: {fileID: 6466951819367479565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ExtrutureMetalic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477389996683151077
 Transform:
@@ -7502,6 +7566,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7528,6 +7593,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6480422629684502743
 GameObject:
   m_ObjectHideFlags: 0
@@ -7540,12 +7606,12 @@ GameObject:
   - component: {fileID: 6457077547928447053}
   - component: {fileID: 6465093960443897027}
   - component: {fileID: 6345393553640262841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pedestrian (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477485006000526165
 Transform:
@@ -7584,6 +7650,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7609,6 +7676,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6345393553640262841
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7635,12 +7703,12 @@ GameObject:
   - component: {fileID: 6457320614293560269}
   - component: {fileID: 6467144305393271637}
   - component: {fileID: 6414189997147703415}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trash-02a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483831239880341015
 Transform:
@@ -7679,6 +7747,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7704,6 +7773,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6414189997147703415
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7729,12 +7799,12 @@ GameObject:
   - component: {fileID: 6454647913769030325}
   - component: {fileID: 6466890529612004231}
   - component: {fileID: 6345098309863045127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pedestrian (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6484015171638591421
 Transform:
@@ -7773,6 +7843,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7798,6 +7869,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6345098309863045127
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7824,12 +7896,12 @@ GameObject:
   - component: {fileID: 6457346234459104033}
   - component: {fileID: 6466904321544414209}
   - component: {fileID: 6345022706824925887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pedestrian (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483643478177009223
 Transform:
@@ -7868,6 +7940,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7893,6 +7966,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6345022706824925887
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7919,12 +7993,12 @@ GameObject:
   - component: {fileID: 6457433210329188263}
   - component: {fileID: 6466789645031712541}
   - component: {fileID: 6343583833075508425}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pedestrian (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483899036638350677
 Transform:
@@ -7963,6 +8037,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7988,6 +8063,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6343583833075508425
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8013,12 +8089,12 @@ GameObject:
   - component: {fileID: 6477667287615033803}
   - component: {fileID: 6457225456954825537}
   - component: {fileID: 6465541935269031157}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees-Four-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477667287615033803
 Transform:
@@ -8065,6 +8141,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8090,6 +8167,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6480487029544305507
 GameObject:
   m_ObjectHideFlags: 0
@@ -8099,12 +8177,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6477790359390444813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marcador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477790359390444813
 Transform:
@@ -8142,12 +8220,12 @@ GameObject:
   - component: {fileID: 6457091225953525097}
   - component: {fileID: 6465362677822343835}
   - component: {fileID: 6345105048637994579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pedestrian (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477558507692367619
 Transform:
@@ -8186,6 +8264,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8211,6 +8290,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6345105048637994579
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8234,12 +8314,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6477824002316869911}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477824002316869911
 Transform:
@@ -8268,12 +8348,12 @@ GameObject:
   - component: {fileID: 6457679904829628121}
   - component: {fileID: 6467110676588146199}
   - component: {fileID: 6345434524089959249}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pedestrian (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6484054625781161675
 Transform:
@@ -8312,6 +8392,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8337,6 +8418,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6345434524089959249
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8363,12 +8445,12 @@ GameObject:
   - component: {fileID: 6457711387112480817}
   - component: {fileID: 6466768517075617561}
   - component: {fileID: 6345194474761457725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pedestrian (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477811211863385799
 Transform:
@@ -8407,6 +8489,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8432,6 +8515,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6345194474761457725
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8459,12 +8543,12 @@ GameObject:
   - component: {fileID: 6466939921725841623}
   - component: {fileID: 6413717454458448263}
   - component: {fileID: 6416653252389685749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BusStop-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483521953534405649
 Transform:
@@ -8503,6 +8587,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8529,6 +8614,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6413717454458448263
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8568,12 +8654,12 @@ GameObject:
   - component: {fileID: 6465103399098309495}
   - component: {fileID: 6413581766394029569}
   - component: {fileID: 6413983612558004987}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trash-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6477513181727283937
 Transform:
@@ -8612,6 +8698,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8637,6 +8724,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6413581766394029569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8672,12 +8760,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6243447757354438228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (4) - 04
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6243447757354438228
 Transform:
@@ -8702,12 +8790,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7750726635898161655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 11
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7750726635898161655
 Transform:
@@ -8732,12 +8820,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3877502323092236065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3877502323092236065
 Transform:
@@ -8762,12 +8850,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2195388445834842743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2195388445834842743
 Transform:
@@ -8792,12 +8880,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6141905886485297534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 12
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6141905886485297534
 Transform:
@@ -8822,12 +8910,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1396388258975211354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1396388258975211354
 Transform:
@@ -8852,12 +8940,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 571035593959923415}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 11
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &571035593959923415
 Transform:
@@ -8883,12 +8971,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2931633620515628406}
   - component: {fileID: 4191475674107231420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2931633620515628406
 Transform:
@@ -9011,6 +9099,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &6991179003101295239
 GameObject:
   m_ObjectHideFlags: 0
@@ -9020,12 +9109,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1986251828788315407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1986251828788315407
 Transform:
@@ -9050,12 +9139,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7113060427993897129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7113060427993897129
 Transform:
@@ -9082,12 +9171,12 @@ GameObject:
   - component: {fileID: 7343726416401741111}
   - component: {fileID: 1869357857677269314}
   - component: {fileID: 5164977847125239504}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-TR-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7343726416401741111
 Transform:
@@ -9134,12 +9223,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272287371209544407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272287371209544407
 Transform:
@@ -9175,12 +9264,12 @@ GameObject:
   - component: {fileID: 7272443097990686235}
   - component: {fileID: 7247940527999725559}
   - component: {fileID: 7208951691871858869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272443097990686235
 Transform:
@@ -9226,12 +9315,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272729954538149087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272729954538149087
 Transform:
@@ -9256,12 +9345,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274073176246417049}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274073176246417049
 Transform:
@@ -9289,12 +9378,12 @@ GameObject:
   - component: {fileID: 7272437909575722565}
   - component: {fileID: 7247761510137315099}
   - component: {fileID: 7279263173404505375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272437909575722565
 Transform:
@@ -9341,12 +9430,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272516838932765283}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RoadMark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272516838932765283
 Transform:
@@ -9373,12 +9462,12 @@ GameObject:
   - component: {fileID: 7274199843054089337}
   - component: {fileID: 7247652442868593555}
   - component: {fileID: 7208979058855742657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274199843054089337
 Transform:
@@ -9424,12 +9513,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272340387218622357}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272340387218622357
 Transform:
@@ -9456,12 +9545,12 @@ GameObject:
   - component: {fileID: 7274108553611962395}
   - component: {fileID: 7247966160200524433}
   - component: {fileID: 7208719098255365755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274108553611962395
 Transform:
@@ -9507,12 +9596,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272269525337900515}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 328
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272269525337900515
 Transform:
@@ -9539,12 +9628,12 @@ GameObject:
   - component: {fileID: 7272586791909657495}
   - component: {fileID: 7249536047169503179}
   - component: {fileID: 7208472593682766441}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272586791909657495
 Transform:
@@ -9592,12 +9681,12 @@ GameObject:
   - component: {fileID: 7274241236181834453}
   - component: {fileID: 7249654564169520119}
   - component: {fileID: 7280056046775075893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274241236181834453
 Transform:
@@ -9644,12 +9733,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7273929597347390143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7273929597347390143
 Transform:
@@ -9680,12 +9769,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272566821507011919}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RoadMark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272566821507011919
 Transform:
@@ -9710,12 +9799,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272525057132143835}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RoadMark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272525057132143835
 Transform:
@@ -9740,12 +9829,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272706508552330603}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road-Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272706508552330603
 Transform:
@@ -9773,12 +9862,12 @@ GameObject:
   - component: {fileID: 7272589992243291285}
   - component: {fileID: 7247995760393335969}
   - component: {fileID: 7207040122620378767}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272589992243291285
 Transform:
@@ -9826,12 +9915,12 @@ GameObject:
   - component: {fileID: 7274389946678720465}
   - component: {fileID: 7248233636405929461}
   - component: {fileID: 7208491761521404393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274389946678720465
 Transform:
@@ -9879,12 +9968,12 @@ GameObject:
   - component: {fileID: 7274364098644815309}
   - component: {fileID: 7247959767176156695}
   - component: {fileID: 7208793400946046763}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274364098644815309
 Transform:
@@ -9932,12 +10021,12 @@ GameObject:
   - component: {fileID: 7272521879253124085}
   - component: {fileID: 7247894904505016929}
   - component: {fileID: 7279949595750338481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272521879253124085
 Transform:
@@ -9986,12 +10075,12 @@ GameObject:
   - component: {fileID: 7274146814946452785}
   - component: {fileID: 7247896891597741407}
   - component: {fileID: 7279434890810569373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274146814946452785
 Transform:
@@ -10038,12 +10127,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272745082240295147}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272745082240295147
 Transform:
@@ -10068,12 +10157,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7273880070458629043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7273880070458629043
 Transform:
@@ -10110,12 +10199,12 @@ GameObject:
   - component: {fileID: 7272554556977371687}
   - component: {fileID: 7248248874715162283}
   - component: {fileID: 7280042260797714773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272554556977371687
 Transform:
@@ -10162,12 +10251,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274407006288470421}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274407006288470421
 Transform:
@@ -10194,12 +10283,12 @@ GameObject:
   - component: {fileID: 7272243923447565877}
   - component: {fileID: 7247516263150972521}
   - component: {fileID: 7208732036878209065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272243923447565877
 Transform:
@@ -10247,12 +10336,12 @@ GameObject:
   - component: {fileID: 7273917047597325143}
   - component: {fileID: 7249667052170550199}
   - component: {fileID: 7207031196279660151}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7273917047597325143
 Transform:
@@ -10300,12 +10389,12 @@ GameObject:
   - component: {fileID: 7272626660106592963}
   - component: {fileID: 7247852482571181345}
   - component: {fileID: 7207051442101900719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272626660106592963
 Transform:
@@ -10351,12 +10440,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272368598266776643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road-Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272368598266776643
 Transform:
@@ -10382,12 +10471,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7273942569291175573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7273942569291175573
 Transform:
@@ -10412,12 +10501,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272439515571787705}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road-Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272439515571787705
 Transform:
@@ -10445,12 +10534,12 @@ GameObject:
   - component: {fileID: 7272413140564149769}
   - component: {fileID: 7247787756115745487}
   - component: {fileID: 7277833295818723465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272413140564149769
 Transform:
@@ -10499,12 +10588,12 @@ GameObject:
   - component: {fileID: 7272589456867162501}
   - component: {fileID: 7247493186949294091}
   - component: {fileID: 7208566236020215225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272589456867162501
 Transform:
@@ -10552,12 +10641,12 @@ GameObject:
   - component: {fileID: 7274428808675880223}
   - component: {fileID: 7249514074310226641}
   - component: {fileID: 7279539011971782257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274428808675880223
 Transform:
@@ -10606,12 +10695,12 @@ GameObject:
   - component: {fileID: 7272313629363985229}
   - component: {fileID: 7249615350809334783}
   - component: {fileID: 7206949542875478527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272313629363985229
 Transform:
@@ -10659,12 +10748,12 @@ GameObject:
   - component: {fileID: 7272716531581119435}
   - component: {fileID: 7247969231306369521}
   - component: {fileID: 7279423037521247683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272716531581119435
 Transform:
@@ -10713,12 +10802,12 @@ GameObject:
   - component: {fileID: 7272615466755594791}
   - component: {fileID: 7248005630756167253}
   - component: {fileID: 7277938094798289921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272615466755594791
 Transform:
@@ -10767,12 +10856,12 @@ GameObject:
   - component: {fileID: 7272268171576102141}
   - component: {fileID: 7249516179183263247}
   - component: {fileID: 7279400948624049503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272268171576102141
 Transform:
@@ -10819,12 +10908,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272724244282113139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road-Mark-Rev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272724244282113139
 Transform:
@@ -10850,12 +10939,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7273887749015634313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marcador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7273887749015634313
 Transform:
@@ -10888,12 +10977,12 @@ GameObject:
   - component: {fileID: 7272556554708201943}
   - component: {fileID: 7248024701614437559}
   - component: {fileID: 7279503111403599057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272556554708201943
 Transform:
@@ -10940,12 +11029,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272432124681699787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marcador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272432124681699787
 Transform:
@@ -10976,12 +11065,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272737741465667749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272737741465667749
 Transform:
@@ -11006,12 +11095,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274045035212499273}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274045035212499273
 Transform:
@@ -11038,12 +11127,12 @@ GameObject:
   - component: {fileID: 7272306578986450859}
   - component: {fileID: 7248034801747096877}
   - component: {fileID: 7209006398934034823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272306578986450859
 Transform:
@@ -11091,12 +11180,12 @@ GameObject:
   - component: {fileID: 7274107565113563775}
   - component: {fileID: 7247825037754592257}
   - component: {fileID: 7279780372029752525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274107565113563775
 Transform:
@@ -11145,12 +11234,12 @@ GameObject:
   - component: {fileID: 7272253087468482975}
   - component: {fileID: 7247833479505528889}
   - component: {fileID: 7277834436401353601}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272253087468482975
 Transform:
@@ -11199,12 +11288,12 @@ GameObject:
   - component: {fileID: 7272549387663879597}
   - component: {fileID: 7249422626383892931}
   - component: {fileID: 7208957285645801529}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272549387663879597
 Transform:
@@ -11252,12 +11341,12 @@ GameObject:
   - component: {fileID: 7272484877485949587}
   - component: {fileID: 7247654747387345257}
   - component: {fileID: 7278037804818741443}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272484877485949587
 Transform:
@@ -11304,12 +11393,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7273916828973644647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road-Mark-Rev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7273916828973644647
 Transform:
@@ -11337,12 +11426,12 @@ GameObject:
   - component: {fileID: 7274047837491486205}
   - component: {fileID: 7249400169530943823}
   - component: {fileID: 7277886075485768467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274047837491486205
 Transform:
@@ -11389,12 +11478,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272746605986738877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272746605986738877
 Transform:
@@ -11421,12 +11510,12 @@ GameObject:
   - component: {fileID: 7273879950886712465}
   - component: {fileID: 7249637249077653459}
   - component: {fileID: 7207043125272883099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7273879950886712465
 Transform:
@@ -11472,12 +11561,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274053862286028005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274053862286028005
 Transform:
@@ -11504,12 +11593,12 @@ GameObject:
   - component: {fileID: 7272227741608867873}
   - component: {fileID: 7249644044234220643}
   - component: {fileID: 7279638607115001685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272227741608867873
 Transform:
@@ -11556,12 +11645,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272246732902815475}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272246732902815475
 Transform:
@@ -11588,12 +11677,12 @@ GameObject:
   - component: {fileID: 7274376857430092123}
   - component: {fileID: 7249568474620090433}
   - component: {fileID: 7208950453496440987}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274376857430092123
 Transform:
@@ -11641,12 +11730,12 @@ GameObject:
   - component: {fileID: 7272506641774792967}
   - component: {fileID: 7249637865107024605}
   - component: {fileID: 7279638901428666137}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272506641774792967
 Transform:
@@ -11695,12 +11784,12 @@ GameObject:
   - component: {fileID: 7272508192067822823}
   - component: {fileID: 7247890702530304137}
   - component: {fileID: 7280043168363754283}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272508192067822823
 Transform:
@@ -11749,12 +11838,12 @@ GameObject:
   - component: {fileID: 7272485956517065451}
   - component: {fileID: 7247581133313161301}
   - component: {fileID: 7279452235054384735}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272485956517065451
 Transform:
@@ -11803,12 +11892,12 @@ GameObject:
   - component: {fileID: 7272559738433914095}
   - component: {fileID: 7248116706024019707}
   - component: {fileID: 7209040761530070767}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272559738433914095
 Transform:
@@ -11856,12 +11945,12 @@ GameObject:
   - component: {fileID: 7274405462780969331}
   - component: {fileID: 7247988288317789029}
   - component: {fileID: 7208516573787027895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274405462780969331
 Transform:
@@ -11907,12 +11996,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274306577127204095}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274306577127204095
 Transform:
@@ -11937,12 +12026,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272476578823893085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272476578823893085
 Transform:
@@ -11968,12 +12057,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272468297972282405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RoadMarkRev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 0
 --- !u!4 &7272468297972282405
 Transform:
@@ -11998,12 +12087,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272492632950800703}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RoadMarkRev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 0
 --- !u!4 &7272492632950800703
 Transform:
@@ -12030,12 +12119,12 @@ GameObject:
   - component: {fileID: 7274395779094340547}
   - component: {fileID: 7247593172984719995}
   - component: {fileID: 7207125193075125181}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274395779094340547
 Transform:
@@ -12083,12 +12172,12 @@ GameObject:
   - component: {fileID: 7272398861799636543}
   - component: {fileID: 7247542875146005867}
   - component: {fileID: 7208652707694845813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272398861799636543
 Transform:
@@ -12136,12 +12225,12 @@ GameObject:
   - component: {fileID: 7274089260379785545}
   - component: {fileID: 7249454525913227317}
   - component: {fileID: 7209059504409229915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274089260379785545
 Transform:
@@ -12187,12 +12276,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272527743136530439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RoadMarkRev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 0
 --- !u!4 &7272527743136530439
 Transform:
@@ -12219,12 +12308,12 @@ GameObject:
   - component: {fileID: 7274200284761542155}
   - component: {fileID: 7247515387917737951}
   - component: {fileID: 7280043499642508161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274200284761542155
 Transform:
@@ -12271,12 +12360,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274211487161887955}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274211487161887955
 Transform:
@@ -12301,12 +12390,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274289002690736017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 200
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274289002690736017
 Transform:
@@ -12331,12 +12420,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272301571008393985}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marcador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272301571008393985
 Transform:
@@ -12367,12 +12456,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274219945429236879}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 328
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274219945429236879
 Transform:
@@ -12399,12 +12488,12 @@ GameObject:
   - component: {fileID: 7272623251722659393}
   - component: {fileID: 7249435072797606815}
   - component: {fileID: 7208985382609232917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272623251722659393
 Transform:
@@ -12450,12 +12539,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272737385408588703}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272737385408588703
 Transform:
@@ -12482,12 +12571,12 @@ GameObject:
   - component: {fileID: 7274398695992727237}
   - component: {fileID: 7247732340757200711}
   - component: {fileID: 7208932949251311423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274398695992727237
 Transform:
@@ -12533,12 +12622,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272562918940003235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road-Mark-Rev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272562918940003235
 Transform:
@@ -12568,12 +12657,12 @@ GameObject:
   - component: {fileID: 7255676957827595351}
   - component: {fileID: 7208742051194501457}
   - component: {fileID: 7206943902196702423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: hydrant-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272391963752677381
 Transform:
@@ -12612,6 +12701,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12636,6 +12726,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &7208742051194501457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12673,12 +12764,12 @@ GameObject:
   - component: {fileID: 7272297204834484743}
   - component: {fileID: 7249651528804194185}
   - component: {fileID: 7208510388306069893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272297204834484743
 Transform:
@@ -12726,12 +12817,12 @@ GameObject:
   - component: {fileID: 7274031227821317481}
   - component: {fileID: 7247727017729507923}
   - component: {fileID: 7279470282944562285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274031227821317481
 Transform:
@@ -12778,12 +12869,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274126574807119031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274126574807119031
 Transform:
@@ -12810,12 +12901,12 @@ GameObject:
   - component: {fileID: 7274107583288861751}
   - component: {fileID: 7247930899848790201}
   - component: {fileID: 7279380363911786839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274107583288861751
 Transform:
@@ -12862,12 +12953,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272731749677951525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272731749677951525
 Transform:
@@ -12895,12 +12986,12 @@ GameObject:
   - component: {fileID: 7272480119317679293}
   - component: {fileID: 7247507649548520475}
   - component: {fileID: 7278050024756157989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7272480119317679293
 Transform:
@@ -12947,12 +13038,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7274147991405167929}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 200
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274147991405167929
 Transform:
@@ -12979,12 +13070,12 @@ GameObject:
   - component: {fileID: 7274109323280381629}
   - component: {fileID: 7247617447860218645}
   - component: {fileID: 7280037604015690483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 12
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7274109323280381629
 Transform:
@@ -13032,12 +13123,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6624561078295136415}
   - component: {fileID: 1026553418123221796}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6624561078295136415
 Transform:
@@ -13158,6 +13249,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &7346163307809077087
 GameObject:
   m_ObjectHideFlags: 0
@@ -13167,12 +13259,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7423751554995178606}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7423751554995178606
 Transform:
@@ -13197,12 +13289,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2990126843558878951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2990126843558878951
 Transform:
@@ -13227,12 +13319,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2285838636282737453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (4) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2285838636282737453
 Transform:
@@ -13257,12 +13349,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8699839593056858040}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8699839593056858040
 Transform:
@@ -13287,12 +13379,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2429871983222594200}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 06
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2429871983222594200
 Transform:
@@ -13317,12 +13409,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5694248975283445611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5694248975283445611
 Transform:
@@ -13348,12 +13440,12 @@ GameObject:
   m_Component:
   - component: {fileID: 91249118576716684}
   - component: {fileID: 3508217064813547717}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &91249118576716684
 Transform:
@@ -13463,6 +13555,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &7859800886765525804
 GameObject:
   m_ObjectHideFlags: 0
@@ -13472,12 +13565,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7881757360784640249}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 03
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7881757360784640249
 Transform:
@@ -13502,12 +13595,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2956350524146506341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 78
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2956350524146506341
 Transform:
@@ -13532,12 +13625,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331969655559884621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &331969655559884621
 Transform:
@@ -13564,12 +13657,12 @@ GameObject:
   - component: {fileID: 2122072218866247047}
   - component: {fileID: 6879953345917198967}
   - component: {fileID: 6033342794356750819}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2122072218866247047
 Transform:
@@ -13608,6 +13701,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13632,6 +13726,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8049521111447394023
 GameObject:
   m_ObjectHideFlags: 0
@@ -13641,12 +13736,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9022707303401511010}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9022707303401511010
 Transform:
@@ -13671,12 +13766,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5703855348933574115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5703855348933574115
 Transform:
@@ -13701,12 +13796,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8751360012358688470}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8751360012358688470
 Transform:
@@ -13731,12 +13826,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3096118129509788074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3096118129509788074
 Transform:
@@ -13761,12 +13856,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1575474843375290788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 11
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1575474843375290788
 Transform:
@@ -13791,12 +13886,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 364048299667085636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &364048299667085636
 Transform:
@@ -13821,12 +13916,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2589319378103150740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (5) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2589319378103150740
 Transform:
@@ -13852,12 +13947,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4224040978656932357}
   - component: {fileID: 2889783972059753423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4224040978656932357
 Transform:
@@ -13982,6 +14077,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &8301303572757390836
 GameObject:
   m_ObjectHideFlags: 0
@@ -13991,12 +14087,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 693864812689674876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &693864812689674876
 Transform:
@@ -14021,12 +14117,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7149590893867853234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road-Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7149590893867853234
 Transform:
@@ -14053,12 +14149,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6364589547021413300}
   - component: {fileID: 3512681959848445981}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6364589547021413300
 Transform:
@@ -14181,6 +14277,7 @@ MonoBehaviour:
     tsOneway: 00000000000100000000000100000000000000000001
     tsOnewayDoubleLine: 00000000000000000000000000000000000000000000
     tsSide: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+  showGizmos: 0
 --- !u!1 &8405550246090927909
 GameObject:
   m_ObjectHideFlags: 0
@@ -14190,12 +14287,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3016636829862215161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3016636829862215161
 Transform:
@@ -14220,12 +14317,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6482379080982978918}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road-Mark-Rev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6482379080982978918
 Transform:
@@ -14251,12 +14348,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8542721202035541400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HighWayHere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8542721202035541400
 Transform:
@@ -14281,12 +14378,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4797942939515504394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 07
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4797942939515504394
 Transform:
@@ -14311,12 +14408,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6122176265551171519}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WayPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6122176265551171519
 Transform:
@@ -14346,12 +14443,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6233027378704059529}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 05
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6233027378704059529
 Transform:
@@ -14376,12 +14473,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4764055152814009320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 12
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4764055152814009320
 Transform:
@@ -14406,12 +14503,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1633376722487089214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 10
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1633376722487089214
 Transform:
@@ -14436,12 +14533,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1418775533983139019}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 08
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1418775533983139019
 Transform:
@@ -14466,12 +14563,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8809247323455996380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 02
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8809247323455996380
 Transform:
@@ -14498,12 +14595,12 @@ GameObject:
   - component: {fileID: 1099602533625131764}
   - component: {fileID: 5569561585816483076}
   - component: {fileID: 4722924241206177424}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BD-G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1099602533625131764
 Transform:
@@ -14542,6 +14639,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14566,6 +14664,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9146795321892289087
 GameObject:
   m_ObjectHideFlags: 0
@@ -14575,12 +14674,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2998220622186138124}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (2) - 09
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2998220622186138124
 Transform:
@@ -14605,12 +14704,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2108841501877970484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (1) - 11
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2108841501877970484
 Transform:
@@ -14635,12 +14734,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4266772512159681814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 78
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4266772512159681814
 Transform:
@@ -14715,8 +14814,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 7a0c09c7ae37fb64ebc3a170ec85cde0, type: 3}
 --- !u!4 &1812077792660174291 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4932913728209962, guid: 7a0c09c7ae37fb64ebc3a170ec85cde0,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 4932913728209962, guid: 7a0c09c7ae37fb64ebc3a170ec85cde0, type: 3}
   m_PrefabInstance: {fileID: 1816161571476894201}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4440045896472846448
@@ -14778,7 +14876,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 299ae38faebeabb43a574fedce219e5b, type: 3}
 --- !u!4 &4436555460784573416 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4496557622930328, guid: 299ae38faebeabb43a574fedce219e5b,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 4496557622930328, guid: 299ae38faebeabb43a574fedce219e5b, type: 3}
   m_PrefabInstance: {fileID: 4440045896472846448}
   m_PrefabAsset: {fileID: 0}

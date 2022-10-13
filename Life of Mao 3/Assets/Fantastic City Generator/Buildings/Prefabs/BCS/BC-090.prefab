@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 103259298884248957}
   - component: {fileID: 4259154245139430724}
   - component: {fileID: 2807649362071233558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-090
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &103259298884248957
 Transform:
@@ -65,6 +65,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -89,6 +90,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3329861714356178521
 GameObject:
   m_ObjectHideFlags: 0
@@ -100,12 +102,12 @@ GameObject:
   - component: {fileID: 7408948630319295846}
   - component: {fileID: 5393544098820870944}
   - component: {fileID: 8492853645372901656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-Slope-36-02-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7408948630319295846
 Transform:
@@ -154,12 +156,12 @@ GameObject:
   - component: {fileID: 3593856431033499781}
   - component: {fileID: 1882621272647477730}
   - component: {fileID: 7216324844691089503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-090-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3593856431033499781
 Transform:
@@ -208,12 +210,12 @@ GameObject:
   - component: {fileID: 4253735778491156040}
   - component: {fileID: 7375895149388908706}
   - component: {fileID: 6798820290411280653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-090
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4253735778491156040
 Transform:
@@ -253,6 +255,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -279,6 +282,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &767084457709515497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -289,6 +293,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
       propertyPath: m_Name
       value: Fern-01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
       propertyPath: m_RootOrder
@@ -338,8 +350,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
 --- !u!4 &767084457709119593 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
   m_PrefabInstance: {fileID: 767084457709515497}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1245216961131594395
@@ -352,6 +363,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
       propertyPath: m_Name
       value: Palm-01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
       propertyPath: m_RootOrder
@@ -401,8 +420,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
 --- !u!4 &1245216961131730971 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 6536410121d96e94d9fc81dabcdc326e,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
   m_PrefabInstance: {fileID: 1245216961131594395}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3410939545439764616
@@ -415,6 +433,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 13e8234257743cd43b1b8c98a3ab9370, type: 3}
       propertyPath: m_Name
       value: Palm-03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13e8234257743cd43b1b8c98a3ab9370, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13e8234257743cd43b1b8c98a3ab9370, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13e8234257743cd43b1b8c98a3ab9370, type: 3}
       propertyPath: m_RootOrder
@@ -464,8 +490,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 13e8234257743cd43b1b8c98a3ab9370, type: 3}
 --- !u!4 &3410939545439640072 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 13e8234257743cd43b1b8c98a3ab9370,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 13e8234257743cd43b1b8c98a3ab9370, type: 3}
   m_PrefabInstance: {fileID: 3410939545439764616}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3833763294693494399
@@ -478,6 +503,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
       propertyPath: m_Name
       value: Fern-01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
       propertyPath: m_RootOrder
@@ -527,8 +560,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
 --- !u!4 &3833763294693627135 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
   m_PrefabInstance: {fileID: 3833763294693494399}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4264688031167029638
@@ -541,6 +573,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
       propertyPath: m_Name
       value: Palm-01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
       propertyPath: m_RootOrder
@@ -590,8 +630,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
 --- !u!4 &4264688031167167238 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 6536410121d96e94d9fc81dabcdc326e,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
   m_PrefabInstance: {fileID: 4264688031167029638}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5703831157589104179
@@ -604,6 +643,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
       propertyPath: m_Name
       value: Fern-01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
       propertyPath: m_RootOrder
@@ -653,8 +700,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
 --- !u!4 &5703831157588708531 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
   m_PrefabInstance: {fileID: 5703831157589104179}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6019636338398162114
@@ -667,6 +713,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
       propertyPath: m_Name
       value: Fern-01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
       propertyPath: m_RootOrder
@@ -716,8 +770,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
 --- !u!4 &6019636338398557762 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: c99cec0cf4adc2c4a8f78cc71d21a088, type: 3}
   m_PrefabInstance: {fileID: 6019636338398162114}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8799288255148015950
@@ -730,6 +783,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6397d1bd10d33914d9844ad6f41b9330, type: 3}
       propertyPath: m_Name
       value: Palm-02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6397d1bd10d33914d9844ad6f41b9330, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6397d1bd10d33914d9844ad6f41b9330, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6397d1bd10d33914d9844ad6f41b9330, type: 3}
       propertyPath: m_RootOrder
@@ -779,7 +840,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 6397d1bd10d33914d9844ad6f41b9330, type: 3}
 --- !u!4 &8799288255147891662 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 6397d1bd10d33914d9844ad6f41b9330,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 6397d1bd10d33914d9844ad6f41b9330, type: 3}
   m_PrefabInstance: {fileID: 8799288255148015950}
   m_PrefabAsset: {fileID: 0}

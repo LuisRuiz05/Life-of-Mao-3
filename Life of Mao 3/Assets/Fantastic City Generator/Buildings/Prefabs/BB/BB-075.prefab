@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 390461158630655952}
   - component: {fileID: 390461158633555952}
   - component: {fileID: 7577655257429042509}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BB-075-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &390461158630655952
 Transform:
@@ -50,9 +50,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: c07e0efdf1cda0840875eabfff8bdcc7, type: 3}
 --- !u!1 &390461158630562802
 GameObject:
@@ -65,12 +65,12 @@ GameObject:
   - component: {fileID: 390461158630655954}
   - component: {fileID: 390461158633555954}
   - component: {fileID: 390461158632555826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BB-075
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &390461158630655954
 Transform:
@@ -109,6 +109,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -121,6 +123,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -133,6 +136,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2884739177830921646
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,12 +148,12 @@ GameObject:
   - component: {fileID: 2890417605859404196}
   - component: {fileID: 2916987667344845348}
   - component: {fileID: 2947943671395154594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-80m-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2890417605859404196
 Transform:
@@ -183,9 +187,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: edd776dd46d73ce4baf3aef6cd686b98, type: 3}
 --- !u!1 &2885112753038278902
 GameObject:
@@ -198,12 +202,12 @@ GameObject:
   - component: {fileID: 2883366059749687202}
   - component: {fileID: 2914992363795843488}
   - component: {fileID: 2909205210425784784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BB-075
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2883366059749687202
 Transform:
@@ -243,6 +247,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -254,6 +260,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -266,3 +273,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

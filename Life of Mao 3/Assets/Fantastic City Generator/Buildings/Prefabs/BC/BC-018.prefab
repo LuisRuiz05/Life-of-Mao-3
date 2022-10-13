@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 33708077016366102}
   - component: {fileID: 23080682818859832}
   - component: {fileID: 2473003849293074627}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-B-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4455841610279462
 Transform:
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,6 +81,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &2473003849293074627
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -105,12 +107,12 @@ GameObject:
   - component: {fileID: 4571993646447500}
   - component: {fileID: 33060143516947818}
   - component: {fileID: 23744064119226960}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4571993646447500
 Transform:
@@ -152,6 +154,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -178,6 +181,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1584587969741614
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,12 +193,12 @@ GameObject:
   - component: {fileID: 4787831166135042}
   - component: {fileID: 33882041973599072}
   - component: {fileID: 23791017834262900}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plants-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4787831166135042
 Transform:
@@ -233,6 +237,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -257,6 +262,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1878550579527472
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,12 +274,12 @@ GameObject:
   - component: {fileID: 4730409713107646}
   - component: {fileID: 33032607123905678}
   - component: {fileID: 64604711128840674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-018-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4730409713107646
 Transform:

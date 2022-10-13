@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7033277243607915171}
   - component: {fileID: 1598240130954032889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Way (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7033277243607915171
 Transform:
@@ -71,6 +71,7 @@ MonoBehaviour:
     tsOneway: 
     tsOnewayDoubleLine: 
     tsSide: 
+  showGizmos: 0
 --- !u!1 &1703899155692960383
 GameObject:
   m_ObjectHideFlags: 0
@@ -80,12 +81,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6844837364175195261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WayPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6844837364175195261
 Transform:
@@ -111,12 +112,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4906832139649551235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4906832139649551235
 Transform:
@@ -144,12 +145,12 @@ GameObject:
   - component: {fileID: 5486998630160727471}
   - component: {fileID: 5476535658748326869}
   - component: {fileID: 5529071711200791061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-B-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5495024260350752453
 Transform:
@@ -188,6 +189,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -212,6 +214,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &5529071711200791061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -234,12 +237,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5502310847557484923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marcador
   m_TagString: Marcador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5502310847557484923
 Transform:
@@ -269,12 +272,12 @@ GameObject:
   - component: {fileID: 5486639449720420721}
   - component: {fileID: 5476433617467884911}
   - component: {fileID: 5528319669089599493}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flowerbed-07 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5495507657582739693
 Transform:
@@ -313,6 +316,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -337,6 +341,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &5528319669089599493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -362,12 +367,12 @@ GameObject:
   - component: {fileID: 5488402961207151819}
   - component: {fileID: 5478223552614015847}
   - component: {fileID: 5599691032416734417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StreetLight-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5495085672009361489
 Transform:
@@ -406,6 +411,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -431,6 +437,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &5599691032416734417
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -454,12 +461,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5494995578720158297}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5494995578720158297
 Transform:
@@ -484,12 +491,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5502625210621279123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5502625210621279123
 Transform:
@@ -517,12 +524,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 467857270896061207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Node 01
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &467857270896061207
 Transform:
@@ -549,12 +556,12 @@ GameObject:
   - component: {fileID: 8511827396349666344}
   - component: {fileID: 8511827396350469128}
   - component: {fileID: 8361397461872445173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8511827396349666344
 Transform:
@@ -603,12 +610,12 @@ GameObject:
   - component: {fileID: 8511827396349666346}
   - component: {fileID: 8511827396350469130}
   - component: {fileID: 9143219244956729347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider-Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8511827396349666346
 Transform:
@@ -657,12 +664,12 @@ GameObject:
   - component: {fileID: 8511827396349666350}
   - component: {fileID: 8511827396350469134}
   - component: {fileID: 8511827396351567566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Street-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8511827396349666350
 Transform:
@@ -706,6 +713,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -730,3 +738,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

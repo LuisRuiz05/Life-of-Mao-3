@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 3262095706244384683}
   - component: {fileID: 9086362549185379876}
   - component: {fileID: 4904473454422963618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3262095706244384683
 Transform:
@@ -55,6 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &93527367518582668
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,12 +92,12 @@ GameObject:
   - component: {fileID: 876337438766129519}
   - component: {fileID: 108919495538741204}
   - component: {fileID: 594715239237400558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &876337438766129519
 Transform:
@@ -134,6 +136,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -158,6 +161,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &166134461106922838
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,12 +173,12 @@ GameObject:
   - component: {fileID: 6780221635920904648}
   - component: {fileID: 391326324632431239}
   - component: {fileID: 8716895115439354091}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6780221635920904648
 Transform:
@@ -213,6 +217,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -237,6 +242,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &210089606817014323
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,12 +254,12 @@ GameObject:
   - component: {fileID: 4980562109556871884}
   - component: {fileID: 570234482380535047}
   - component: {fileID: 5647517604390333802}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4980562109556871884
 Transform:
@@ -292,6 +298,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -316,6 +323,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &284150152659475750
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,12 +336,12 @@ GameObject:
   - component: {fileID: 4177071344535223418}
   - component: {fileID: 7723127702020808440}
   - component: {fileID: 6104365153539232282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3495085063029179735
 Transform:
@@ -372,6 +380,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -397,6 +406,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6104365153539232282
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -421,12 +431,12 @@ GameObject:
   - component: {fileID: 5626448631491343376}
   - component: {fileID: 589135811573973644}
   - component: {fileID: 6733074165020188422}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5626448631491343376
 Transform:
@@ -465,6 +475,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -489,6 +500,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &299775363521920223
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,12 +512,12 @@ GameObject:
   - component: {fileID: 7933329628331001710}
   - component: {fileID: 6329991559531616763}
   - component: {fileID: 4376765376174967031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7933329628331001710
 Transform:
@@ -544,6 +556,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -568,6 +581,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &301493993234910163
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,12 +593,12 @@ GameObject:
   - component: {fileID: 7194439012657608335}
   - component: {fileID: 8655462071082919341}
   - component: {fileID: 8329321298111305583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7194439012657608335
 Transform:
@@ -623,6 +637,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -647,6 +662,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &349982033166140048
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,12 +672,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 769364215247238313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &769364215247238313
 Transform:
@@ -691,12 +707,12 @@ GameObject:
   - component: {fileID: 7338464364148229785}
   - component: {fileID: 6546472583371493387}
   - component: {fileID: 7968191444514588200}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7338464364148229785
 Transform:
@@ -735,6 +751,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -759,6 +776,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &423071462713694207
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,12 +788,12 @@ GameObject:
   - component: {fileID: 2514794363251970337}
   - component: {fileID: 602439759461669517}
   - component: {fileID: 5810384432945026533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2514794363251970337
 Transform:
@@ -814,6 +832,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -838,6 +857,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &447016123833518086
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,12 +868,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5547438248847887920}
   - component: {fileID: 7544232373973725896}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5547438248847887920
 Transform:
@@ -893,12 +913,12 @@ GameObject:
   - component: {fileID: 5177077320015877052}
   - component: {fileID: 5675638509627841729}
   - component: {fileID: 4214532561485103622}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5177077320015877052
 Transform:
@@ -937,6 +957,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -961,6 +982,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &494983844939580167
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,12 +995,12 @@ GameObject:
   - component: {fileID: 2198706581206592257}
   - component: {fileID: 7121603255452211738}
   - component: {fileID: 5563629832664099617}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6011123703660495253
 Transform:
@@ -1017,6 +1039,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1042,6 +1065,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &5563629832664099617
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1066,12 +1090,12 @@ GameObject:
   - component: {fileID: 5212455409816315091}
   - component: {fileID: 8871565523282092009}
   - component: {fileID: 1686572905002840525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5212455409816315091
 Transform:
@@ -1110,6 +1134,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1134,6 +1159,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &594309816053870654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,12 +1169,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8359387416259306488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8359387416259306488
 Transform:
@@ -1178,12 +1204,12 @@ GameObject:
   - component: {fileID: 4020524404137321307}
   - component: {fileID: 7356194366042775199}
   - component: {fileID: 5361453689764585031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4020524404137321307
 Transform:
@@ -1222,6 +1248,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1246,6 +1273,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &624203488691030387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,12 +1283,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2137366453860847479}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2137366453860847479
 Transform:
@@ -1290,12 +1318,12 @@ GameObject:
   - component: {fileID: 167292387218594011}
   - component: {fileID: 2661297077650594486}
   - component: {fileID: 8428984243514162568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &167292387218594011
 Transform:
@@ -1334,6 +1362,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1358,6 +1387,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &717194694705807605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,12 +1399,12 @@ GameObject:
   - component: {fileID: 2503105488829442261}
   - component: {fileID: 6926699103624208501}
   - component: {fileID: 1934582010773354582}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2503105488829442261
 Transform:
@@ -1413,6 +1443,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1437,6 +1468,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &746986131764079286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,12 +1478,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7839695785550211595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrians
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7839695785550211595
 Transform:
@@ -1481,12 +1513,12 @@ GameObject:
   - component: {fileID: 2754598232363554136}
   - component: {fileID: 6745843252273583270}
   - component: {fileID: 8194109268918348418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2754598232363554136
 Transform:
@@ -1525,6 +1557,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1549,6 +1582,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &789468622820210741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,12 +1594,12 @@ GameObject:
   - component: {fileID: 4945958135379664714}
   - component: {fileID: 7401450765512083964}
   - component: {fileID: 228378836020003129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4945958135379664714
 Transform:
@@ -1604,6 +1638,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1628,6 +1663,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &794056008517354839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,12 +1675,12 @@ GameObject:
   - component: {fileID: 181120223467907002}
   - component: {fileID: 2587096759078626191}
   - component: {fileID: 3497679759460506427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &181120223467907002
 Transform:
@@ -1683,6 +1719,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1707,6 +1744,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &835742695878049276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,12 +1756,12 @@ GameObject:
   - component: {fileID: 5388535823020133614}
   - component: {fileID: 8155962089986811801}
   - component: {fileID: 5169640524665790749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5388535823020133614
 Transform:
@@ -1762,6 +1800,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1786,6 +1825,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &854802084747355468
 GameObject:
   m_ObjectHideFlags: 0
@@ -1797,12 +1837,12 @@ GameObject:
   - component: {fileID: 4063165167876478978}
   - component: {fileID: 5834024145317094717}
   - component: {fileID: 637706498268062745}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4063165167876478978
 Transform:
@@ -1841,6 +1881,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1865,6 +1906,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &858932980333867963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,12 +1916,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2968445234252339277}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2968445234252339277
 Transform:
@@ -1909,12 +1951,12 @@ GameObject:
   - component: {fileID: 8089094655900533999}
   - component: {fileID: 1597845317294514554}
   - component: {fileID: 4721225408059979222}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8089094655900533999
 Transform:
@@ -1953,6 +1995,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1977,6 +2020,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &988887190849312806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,12 +2030,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1217013458727395248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1217013458727395248
 Transform:
@@ -2021,12 +2065,12 @@ GameObject:
   - component: {fileID: 4076453348127798118}
   - component: {fileID: 5256052788032795921}
   - component: {fileID: 3009713296607315715}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4076453348127798118
 Transform:
@@ -2065,6 +2109,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2089,6 +2134,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1011156190195192536
 GameObject:
   m_ObjectHideFlags: 0
@@ -2100,12 +2146,12 @@ GameObject:
   - component: {fileID: 6399489549294943876}
   - component: {fileID: 1341706543202539628}
   - component: {fileID: 2845461032635072517}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6399489549294943876
 Transform:
@@ -2144,6 +2190,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2168,6 +2215,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1028680738187650423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,12 +2228,12 @@ GameObject:
   - component: {fileID: 4307262124453129268}
   - component: {fileID: 4307262124454096628}
   - component: {fileID: 2077631108611136427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1030691049581372789
 Transform:
@@ -2224,6 +2272,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2249,6 +2298,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2077631108611136427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2271,12 +2321,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3262111717177157256}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrians
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3262111717177157256
 Transform:
@@ -2306,12 +2356,12 @@ GameObject:
   - component: {fileID: 3192499665407891048}
   - component: {fileID: 5409994354324930439}
   - component: {fileID: 2252540307761548606}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3192499665407891048
 Transform:
@@ -2350,6 +2400,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2374,6 +2425,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1124330243473395261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,12 +2437,12 @@ GameObject:
   - component: {fileID: 2766699825523731916}
   - component: {fileID: 5008750215568911025}
   - component: {fileID: 3334778926582413400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2766699825523731916
 Transform:
@@ -2429,6 +2481,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2453,6 +2506,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1143264104122872091
 GameObject:
   m_ObjectHideFlags: 0
@@ -2464,12 +2518,12 @@ GameObject:
   - component: {fileID: 1928965659459209951}
   - component: {fileID: 2190348385404618160}
   - component: {fileID: 4265642073466449112}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1928965659459209951
 Transform:
@@ -2508,6 +2562,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2532,6 +2587,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1236317281594618036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,12 +2599,12 @@ GameObject:
   - component: {fileID: 2891109183982872188}
   - component: {fileID: 8218855350247903435}
   - component: {fileID: 1606012466506602220}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2891109183982872188
 Transform:
@@ -2587,6 +2643,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2611,6 +2668,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1236857490642161580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,12 +2680,12 @@ GameObject:
   - component: {fileID: 8671014277377463164}
   - component: {fileID: 6606974778850140491}
   - component: {fileID: 5076480382027943283}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8671014277377463164
 Transform:
@@ -2666,6 +2724,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2690,6 +2749,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1373622115211095586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,12 +2761,12 @@ GameObject:
   - component: {fileID: 1373622115210670594}
   - component: {fileID: 1373622115214094882}
   - component: {fileID: 1373622115213095138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1373622115210670594
 Transform:
@@ -2745,6 +2805,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2769,6 +2830,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1373622115211095588
 GameObject:
   m_ObjectHideFlags: 0
@@ -2780,12 +2842,12 @@ GameObject:
   - component: {fileID: 1373622115210670596}
   - component: {fileID: 1373622115214094884}
   - component: {fileID: 1373622115213095140}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1373622115210670596
 Transform:
@@ -2824,6 +2886,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2848,6 +2911,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1373622115211095590
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,12 +2923,12 @@ GameObject:
   - component: {fileID: 1373622115210670598}
   - component: {fileID: 1373622115214094886}
   - component: {fileID: 1373622115213095142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1373622115210670598
 Transform:
@@ -2903,6 +2967,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2927,6 +2992,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1373622115211095592
 GameObject:
   m_ObjectHideFlags: 0
@@ -2938,12 +3004,12 @@ GameObject:
   - component: {fileID: 1373622115210670600}
   - component: {fileID: 1373622115214094888}
   - component: {fileID: 1373622115213095144}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1373622115210670600
 Transform:
@@ -2982,6 +3048,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3006,6 +3073,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1373622115211095594
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,12 +3085,12 @@ GameObject:
   - component: {fileID: 1373622115210670602}
   - component: {fileID: 1373622115214094890}
   - component: {fileID: 1373622115213095146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1373622115210670602
 Transform:
@@ -3061,6 +3129,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3085,6 +3154,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1373622115211095596
 GameObject:
   m_ObjectHideFlags: 0
@@ -3096,12 +3166,12 @@ GameObject:
   - component: {fileID: 1373622115210670604}
   - component: {fileID: 1373622115214094892}
   - component: {fileID: 1373622115213095148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1373622115210670604
 Transform:
@@ -3140,6 +3210,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3164,6 +3235,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1373622115211095598
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,12 +3247,12 @@ GameObject:
   - component: {fileID: 1373622115210670606}
   - component: {fileID: 1373622115214094894}
   - component: {fileID: 1373622115213095150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1373622115210670606
 Transform:
@@ -3219,6 +3291,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3243,6 +3316,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1373622115211095612
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,12 +3327,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1373622115210670620}
   - component: {fileID: 6277768622933053345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light-Rev (N)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1373622115210670620
 Transform:
@@ -3311,12 +3385,12 @@ GameObject:
   - component: {fileID: 1373622115214094910}
   - component: {fileID: 1373622115213095166}
   - component: {fileID: 6972644258221841788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1373622115210670622
 Transform:
@@ -3355,6 +3429,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3380,6 +3455,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6972644258221841788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3405,12 +3481,12 @@ GameObject:
   - component: {fileID: 905198299267633371}
   - component: {fileID: 8752489404818198667}
   - component: {fileID: 2394050750814110993}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3114269279493889254
 Transform:
@@ -3449,6 +3525,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3474,6 +3551,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2394050750814110993
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3497,12 +3575,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4805727986561214163}
   - component: {fileID: 672071715147316210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4805727986561214163
 Transform:
@@ -3542,12 +3620,12 @@ GameObject:
   - component: {fileID: 5409666305661039035}
   - component: {fileID: 3988881337657466774}
   - component: {fileID: 9032974087209537957}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5409666305661039035
 Transform:
@@ -3586,6 +3664,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3610,6 +3689,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1493774944928012758
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,12 +3699,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2485886865421734362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2485886865421734362
 Transform:
@@ -3654,12 +3734,12 @@ GameObject:
   - component: {fileID: 3672948135581691933}
   - component: {fileID: 1403173300529791267}
   - component: {fileID: 2334270245743366003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3672948135581691933
 Transform:
@@ -3698,6 +3778,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3722,6 +3803,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1581816606618640989
 GameObject:
   m_ObjectHideFlags: 0
@@ -3731,12 +3813,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7178515227137539759}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7178515227137539759
 Transform:
@@ -3767,12 +3849,12 @@ GameObject:
   - component: {fileID: 2887797456042881187}
   - component: {fileID: 593401219473345524}
   - component: {fileID: 2005762510226146681}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3807721731298294006
 Transform:
@@ -3811,6 +3893,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3836,6 +3919,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2005762510226146681
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3858,12 +3942,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8026911509525418908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrians
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8026911509525418908
 Transform:
@@ -3891,12 +3975,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2918739877660853920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrians
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2918739877660853920
 Transform:
@@ -3924,12 +4008,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7420037865657799791}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7420037865657799791
 Transform:
@@ -3959,12 +4043,12 @@ GameObject:
   - component: {fileID: 4741379693198072833}
   - component: {fileID: 2613634367830662471}
   - component: {fileID: 7717768081194079509}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4741379693198072833
 Transform:
@@ -4003,6 +4087,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4027,6 +4112,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2016730180267035222
 GameObject:
   m_ObjectHideFlags: 0
@@ -4038,12 +4124,12 @@ GameObject:
   - component: {fileID: 4646619414431229753}
   - component: {fileID: 7056851471277692124}
   - component: {fileID: 1562009530850130188}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4646619414431229753
 Transform:
@@ -4082,6 +4168,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4106,6 +4193,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2025334200013481698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4117,12 +4205,12 @@ GameObject:
   - component: {fileID: 7407903150801283078}
   - component: {fileID: 1299589228917205471}
   - component: {fileID: 6896532898549584135}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7407903150801283078
 Transform:
@@ -4161,6 +4249,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4185,6 +4274,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2071517212794834294
 GameObject:
   m_ObjectHideFlags: 0
@@ -4196,12 +4286,12 @@ GameObject:
   - component: {fileID: 5091533051758614314}
   - component: {fileID: 3283302996436874693}
   - component: {fileID: 1538474524091514746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5091533051758614314
 Transform:
@@ -4240,6 +4330,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4264,6 +4355,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2081903401513407943
 GameObject:
   m_ObjectHideFlags: 0
@@ -4275,12 +4367,12 @@ GameObject:
   - component: {fileID: 9153921933139768100}
   - component: {fileID: 1618997673145737185}
   - component: {fileID: 7688104797462687614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9153921933139768100
 Transform:
@@ -4319,6 +4411,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4343,6 +4436,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2099698288425151469
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,12 +4448,12 @@ GameObject:
   - component: {fileID: 4720288838277857515}
   - component: {fileID: 5131320078231891062}
   - component: {fileID: 7055219051811193604}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4720288838277857515
 Transform:
@@ -4398,6 +4492,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4422,6 +4517,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2146737020540060422
 GameObject:
   m_ObjectHideFlags: 0
@@ -4433,12 +4529,12 @@ GameObject:
   - component: {fileID: 8646296318007284325}
   - component: {fileID: 7961549770420730780}
   - component: {fileID: 5288242259543315729}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8646296318007284325
 Transform:
@@ -4477,6 +4573,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4501,6 +4598,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2214864304777096594
 GameObject:
   m_ObjectHideFlags: 0
@@ -4511,12 +4609,12 @@ GameObject:
   m_Component:
   - component: {fileID: 9148964813985523395}
   - component: {fileID: 2667265813942338621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Lights-Japan (E)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9148964813985523395
 Transform:
@@ -4566,12 +4664,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6981861594967787693}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6981861594967787693
 Transform:
@@ -4601,12 +4699,12 @@ GameObject:
   - component: {fileID: 8156886265458519427}
   - component: {fileID: 6384472091208713399}
   - component: {fileID: 290252518115292573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8156886265458519427
 Transform:
@@ -4645,6 +4743,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4669,6 +4768,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2243241460701546971
 GameObject:
   m_ObjectHideFlags: 0
@@ -4680,12 +4780,12 @@ GameObject:
   - component: {fileID: 9022694565972068843}
   - component: {fileID: 8012565643751515262}
   - component: {fileID: 6306920696546267565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9022694565972068843
 Transform:
@@ -4724,6 +4824,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4748,6 +4849,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2253628325316426848
 GameObject:
   m_ObjectHideFlags: 0
@@ -4759,12 +4861,12 @@ GameObject:
   - component: {fileID: 3708745705606529018}
   - component: {fileID: 818926605457945105}
   - component: {fileID: 4296935577835244235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3708745705606529018
 Transform:
@@ -4803,6 +4905,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4827,6 +4930,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2275203451991719928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4838,12 +4942,12 @@ GameObject:
   - component: {fileID: 5263788957280890913}
   - component: {fileID: 1316938054054340655}
   - component: {fileID: 322666905934519439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5263788957280890913
 Transform:
@@ -4882,6 +4986,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4906,6 +5011,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2341517407735208129
 GameObject:
   m_ObjectHideFlags: 0
@@ -4918,12 +5024,12 @@ GameObject:
   - component: {fileID: 4922069117785323778}
   - component: {fileID: 6546387260237121174}
   - component: {fileID: 2352209958320153700}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6493917275732958107
 Transform:
@@ -4962,6 +5068,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4987,6 +5094,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2352209958320153700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5011,12 +5119,12 @@ GameObject:
   - component: {fileID: 5779398039375342505}
   - component: {fileID: 8511431708282056611}
   - component: {fileID: 5721555666166747684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5779398039375342505
 Transform:
@@ -5055,6 +5163,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5079,6 +5188,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2364584690346562881
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,12 +5198,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2081087919638465327}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2081087919638465327
 Transform:
@@ -5123,12 +5233,12 @@ GameObject:
   - component: {fileID: 5265600963326105292}
   - component: {fileID: 2169519881217614159}
   - component: {fileID: 189857301186771536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5265600963326105292
 Transform:
@@ -5167,6 +5277,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5191,6 +5302,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2455255849896830047
 GameObject:
   m_ObjectHideFlags: 0
@@ -5200,12 +5312,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8905257875610327946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8905257875610327946
 Transform:
@@ -5235,12 +5347,12 @@ GameObject:
   - component: {fileID: 5458898635478428541}
   - component: {fileID: 409848915274458993}
   - component: {fileID: 3787949108651697785}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5458898635478428541
 Transform:
@@ -5279,6 +5391,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5303,6 +5416,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2688890574210159016
 GameObject:
   m_ObjectHideFlags: 0
@@ -5314,12 +5428,12 @@ GameObject:
   - component: {fileID: 2688890574210518408}
   - component: {fileID: 2688890574207094190}
   - component: {fileID: 2688890574208225134}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2688890574210518408
 Transform:
@@ -5358,6 +5472,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5382,6 +5497,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2697597972033281592
 GameObject:
   m_ObjectHideFlags: 0
@@ -5393,12 +5509,12 @@ GameObject:
   - component: {fileID: 2859819413990408648}
   - component: {fileID: 3519985007233201280}
   - component: {fileID: 5379967839180843433}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2859819413990408648
 Transform:
@@ -5437,6 +5553,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5461,6 +5578,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2799703423637877027
 GameObject:
   m_ObjectHideFlags: 0
@@ -5473,12 +5591,12 @@ GameObject:
   - component: {fileID: 1067284875475265576}
   - component: {fileID: 6502147940523698820}
   - component: {fileID: 8731767476406970483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2281566142296468401
 Transform:
@@ -5517,6 +5635,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5542,6 +5661,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &8731767476406970483
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5565,12 +5685,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2571864831895276838}
   - component: {fileID: 7705983540452429444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light-Rev (S)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2571864831895276838
 Transform:
@@ -5622,12 +5742,12 @@ GameObject:
   - component: {fileID: 2228612187898425782}
   - component: {fileID: 7233423930996899130}
   - component: {fileID: 5842966016748078972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2228612187898425782
 Transform:
@@ -5666,6 +5786,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5690,6 +5811,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3273393122370183335
 GameObject:
   m_ObjectHideFlags: 0
@@ -5699,12 +5821,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 258201595002611139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &258201595002611139
 Transform:
@@ -5734,12 +5856,12 @@ GameObject:
   - component: {fileID: 6128045559260299763}
   - component: {fileID: 3409549550201224617}
   - component: {fileID: 3816543338083999947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6128045559260299763
 Transform:
@@ -5778,6 +5900,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5802,6 +5925,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3380770483321258381
 GameObject:
   m_ObjectHideFlags: 0
@@ -5813,12 +5937,12 @@ GameObject:
   - component: {fileID: 7021556586319750766}
   - component: {fileID: 517432808802089839}
   - component: {fileID: 711746488190650471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7021556586319750766
 Transform:
@@ -5857,6 +5981,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5881,6 +6006,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3497279898773440773
 GameObject:
   m_ObjectHideFlags: 0
@@ -5892,12 +6018,12 @@ GameObject:
   - component: {fileID: 3233324715124106880}
   - component: {fileID: 855531228182558288}
   - component: {fileID: 4611298059455338159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3233324715124106880
 Transform:
@@ -5936,6 +6062,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5960,6 +6087,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3537279791730100285
 GameObject:
   m_ObjectHideFlags: 0
@@ -5971,12 +6099,12 @@ GameObject:
   - component: {fileID: 4443278336152661541}
   - component: {fileID: 4888064334183077736}
   - component: {fileID: 7145350474571132850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4443278336152661541
 Transform:
@@ -6015,6 +6143,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6039,6 +6168,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3542809890976547337
 GameObject:
   m_ObjectHideFlags: 0
@@ -6048,12 +6178,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 152678875114351051}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &152678875114351051
 Transform:
@@ -6083,12 +6213,12 @@ GameObject:
   - component: {fileID: 2184026374147372401}
   - component: {fileID: 5322198173207636687}
   - component: {fileID: 6365481839731620054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2184026374147372401
 Transform:
@@ -6127,6 +6257,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6151,6 +6282,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3547111225142036354
 GameObject:
   m_ObjectHideFlags: 0
@@ -6162,12 +6294,12 @@ GameObject:
   - component: {fileID: 3754348062119314333}
   - component: {fileID: 513843007632142749}
   - component: {fileID: 7306524453789465871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3754348062119314333
 Transform:
@@ -6206,6 +6338,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6230,6 +6363,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3560327829018417236
 GameObject:
   m_ObjectHideFlags: 0
@@ -6240,12 +6374,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3565449662670296396}
   - component: {fileID: 3567151345216421806}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3565449662670296396
 Transform:
@@ -6284,12 +6418,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3565256034143661114}
   - component: {fileID: 6442083669653601911}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TL-REV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 0
 --- !u!4 &3565256034143661114
 Transform:
@@ -6336,12 +6470,12 @@ GameObject:
   - component: {fileID: 7762694599326552970}
   - component: {fileID: 3588273632585709113}
   - component: {fileID: 8105956169401135588}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7762694599326552970
 Transform:
@@ -6380,6 +6514,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6404,6 +6539,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3601884102052986974
 GameObject:
   m_ObjectHideFlags: 0
@@ -6415,12 +6551,12 @@ GameObject:
   - component: {fileID: 7041524965134357803}
   - component: {fileID: 587672030497537569}
   - component: {fileID: 1031868982543048161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7041524965134357803
 Transform:
@@ -6459,6 +6595,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6483,6 +6620,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3648341369132713089
 GameObject:
   m_ObjectHideFlags: 0
@@ -6494,12 +6632,12 @@ GameObject:
   - component: {fileID: 3590408073706529201}
   - component: {fileID: 1612231620196293077}
   - component: {fileID: 1920220613126277883}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3590408073706529201
 Transform:
@@ -6538,6 +6676,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6562,6 +6701,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3725200518049915212
 GameObject:
   m_ObjectHideFlags: 0
@@ -6573,12 +6713,12 @@ GameObject:
   - component: {fileID: 515223056640221921}
   - component: {fileID: 3387896007685536731}
   - component: {fileID: 4735980915962096382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &515223056640221921
 Transform:
@@ -6617,6 +6757,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6641,6 +6782,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3828907923537115266
 GameObject:
   m_ObjectHideFlags: 0
@@ -6652,12 +6794,12 @@ GameObject:
   - component: {fileID: 5124559704963869359}
   - component: {fileID: 5625601067876250555}
   - component: {fileID: 5360904224441602690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5124559704963869359
 Transform:
@@ -6696,6 +6838,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6720,6 +6863,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3889096617202122537
 GameObject:
   m_ObjectHideFlags: 0
@@ -6731,12 +6875,12 @@ GameObject:
   - component: {fileID: 1140087799583087674}
   - component: {fileID: 5637032202258316665}
   - component: {fileID: 6981835748563502654}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1140087799583087674
 Transform:
@@ -6775,6 +6919,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6799,6 +6944,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3904801589234349439
 GameObject:
   m_ObjectHideFlags: 0
@@ -6808,12 +6954,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6776320633551725815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6776320633551725815
 Transform:
@@ -6843,12 +6989,12 @@ GameObject:
   - component: {fileID: 4267011253742653148}
   - component: {fileID: 2117789139141069341}
   - component: {fileID: 1018641124285263827}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4267011253742653148
 Transform:
@@ -6887,6 +7033,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6911,6 +7058,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3996801716276344700
 GameObject:
   m_ObjectHideFlags: 0
@@ -6922,12 +7070,12 @@ GameObject:
   - component: {fileID: 7532845260821794242}
   - component: {fileID: 7024703061535186709}
   - component: {fileID: 121325632804196681}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7532845260821794242
 Transform:
@@ -6966,6 +7114,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6990,6 +7139,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4018053299047473272
 GameObject:
   m_ObjectHideFlags: 0
@@ -7001,12 +7151,12 @@ GameObject:
   - component: {fileID: 7697457329649018993}
   - component: {fileID: 1925964522902302234}
   - component: {fileID: 5480387256325277294}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7697457329649018993
 Transform:
@@ -7045,6 +7195,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7069,6 +7220,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4049608859038616775
 GameObject:
   m_ObjectHideFlags: 0
@@ -7080,12 +7232,12 @@ GameObject:
   - component: {fileID: 9095891299825997942}
   - component: {fileID: 4366013856808126664}
   - component: {fileID: 3520217602045945110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9095891299825997942
 Transform:
@@ -7124,6 +7276,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7148,6 +7301,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4081703828012368171
 GameObject:
   m_ObjectHideFlags: 0
@@ -7159,12 +7313,12 @@ GameObject:
   - component: {fileID: 2865941191898929909}
   - component: {fileID: 8998197714381845504}
   - component: {fileID: 1609880272330433746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2865941191898929909
 Transform:
@@ -7203,6 +7357,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7227,6 +7382,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4085539159695303959
 GameObject:
   m_ObjectHideFlags: 0
@@ -7238,12 +7394,12 @@ GameObject:
   - component: {fileID: 366801216308976451}
   - component: {fileID: 5910846840386377210}
   - component: {fileID: 7750767441155011852}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &366801216308976451
 Transform:
@@ -7282,6 +7438,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7306,6 +7463,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4110964562134984334
 GameObject:
   m_ObjectHideFlags: 0
@@ -7316,12 +7474,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7580548247773117868}
   - component: {fileID: 8748120329525318061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7580548247773117868
 Transform:
@@ -7359,12 +7517,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 276633719340301490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &276633719340301490
 Transform:
@@ -7394,12 +7552,12 @@ GameObject:
   - component: {fileID: 4810615972283622703}
   - component: {fileID: 4244689491906846641}
   - component: {fileID: 6977658804456904972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4810615972283622703
 Transform:
@@ -7438,6 +7596,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7462,6 +7621,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4155981006206884403
 GameObject:
   m_ObjectHideFlags: 0
@@ -7473,12 +7633,12 @@ GameObject:
   - component: {fileID: 3069848987381734067}
   - component: {fileID: 8650582322909992049}
   - component: {fileID: 5689277626086790015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3069848987381734067
 Transform:
@@ -7517,6 +7677,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7541,6 +7702,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4170144344044054162
 GameObject:
   m_ObjectHideFlags: 0
@@ -7552,12 +7714,12 @@ GameObject:
   - component: {fileID: 835333748496449834}
   - component: {fileID: 1775692695585138402}
   - component: {fileID: 556748006922879067}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &835333748496449834
 Transform:
@@ -7596,6 +7758,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7620,6 +7783,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4171978347176412791
 GameObject:
   m_ObjectHideFlags: 0
@@ -7631,12 +7795,12 @@ GameObject:
   - component: {fileID: 1690186208111792193}
   - component: {fileID: 4780225446007617914}
   - component: {fileID: 4183021331119595818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1690186208111792193
 Transform:
@@ -7675,6 +7839,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7699,6 +7864,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4178561806389234782
 GameObject:
   m_ObjectHideFlags: 0
@@ -7708,12 +7874,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5377213705937531954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5377213705937531954
 Transform:
@@ -7743,12 +7909,12 @@ GameObject:
   - component: {fileID: 8599730373097775891}
   - component: {fileID: 845521569225330306}
   - component: {fileID: 6148197475184449781}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8599730373097775891
 Transform:
@@ -7787,6 +7953,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7811,6 +7978,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4395406063082229969
 GameObject:
   m_ObjectHideFlags: 0
@@ -7821,12 +7989,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1074980031493400629}
   - component: {fileID: 8145053713270967812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1074980031493400629
 Transform:
@@ -7873,12 +8041,12 @@ GameObject:
   - component: {fileID: 5886065725121848736}
   - component: {fileID: 7834195501761394523}
   - component: {fileID: 7916429597186448822}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5886065725121848736
 Transform:
@@ -7917,6 +8085,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7941,6 +8110,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4425132763153687829
 GameObject:
   m_ObjectHideFlags: 0
@@ -7952,12 +8122,12 @@ GameObject:
   - component: {fileID: 9209556033308392026}
   - component: {fileID: 1825769075462653038}
   - component: {fileID: 7329066508458687423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9209556033308392026
 Transform:
@@ -7996,6 +8166,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8020,6 +8191,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4473342219002299675
 GameObject:
   m_ObjectHideFlags: 0
@@ -8031,12 +8203,12 @@ GameObject:
   - component: {fileID: 1612306749067698649}
   - component: {fileID: 648221897166705322}
   - component: {fileID: 3452020528674781822}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1612306749067698649
 Transform:
@@ -8075,6 +8247,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8099,6 +8272,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4537043141809175297
 GameObject:
   m_ObjectHideFlags: 0
@@ -8110,12 +8284,12 @@ GameObject:
   - component: {fileID: 8423446229097231666}
   - component: {fileID: 8095121165675388773}
   - component: {fileID: 293032452320953649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8423446229097231666
 Transform:
@@ -8154,6 +8328,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8178,6 +8353,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4538074937539305676
 GameObject:
   m_ObjectHideFlags: 0
@@ -8188,12 +8364,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3161549401452290965}
   - component: {fileID: 1695392377428796176}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3161549401452290965
 Transform:
@@ -8232,12 +8408,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8288106556589807517}
   - component: {fileID: 5008781140343336903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light-Rev (E)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8288106556589807517
 Transform:
@@ -8289,12 +8465,12 @@ GameObject:
   - component: {fileID: 7079610887599980640}
   - component: {fileID: 8703118678021062627}
   - component: {fileID: 7684827571854326351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7079610887599980640
 Transform:
@@ -8333,6 +8509,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8357,6 +8534,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4613519720374834594
 GameObject:
   m_ObjectHideFlags: 0
@@ -8368,12 +8546,12 @@ GameObject:
   - component: {fileID: 1043295558902972828}
   - component: {fileID: 1975355688196308172}
   - component: {fileID: 7368825091641192026}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1043295558902972828
 Transform:
@@ -8412,6 +8590,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8436,6 +8615,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4637030681536545681
 GameObject:
   m_ObjectHideFlags: 0
@@ -8446,12 +8626,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1393398365746939772}
   - component: {fileID: 8733975285728111889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Lights-Japan (N)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1393398365746939772
 Transform:
@@ -8502,12 +8682,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7806925168700794616}
   - component: {fileID: 4396727424225248972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TL-Japan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 0
 --- !u!4 &7806925168700794616
 Transform:
@@ -8555,12 +8735,12 @@ GameObject:
   - component: {fileID: 2821197759427394266}
   - component: {fileID: 2729839400012235083}
   - component: {fileID: 1719433055357705707}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1862028416202930436
 Transform:
@@ -8599,6 +8779,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8624,6 +8805,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &1719433055357705707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8648,12 +8830,12 @@ GameObject:
   - component: {fileID: 5303994010946898107}
   - component: {fileID: 365083683654380061}
   - component: {fileID: 1693555101853123508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5303994010946898107
 Transform:
@@ -8692,6 +8874,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8716,6 +8899,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4848532487806342697
 GameObject:
   m_ObjectHideFlags: 0
@@ -8727,12 +8911,12 @@ GameObject:
   - component: {fileID: 6058871537507094327}
   - component: {fileID: 261633471830992140}
   - component: {fileID: 3846612787343204113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6058871537507094327
 Transform:
@@ -8771,6 +8955,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8795,6 +8980,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4865961685345041897
 GameObject:
   m_ObjectHideFlags: 0
@@ -8806,12 +8992,12 @@ GameObject:
   - component: {fileID: 7117878557233144673}
   - component: {fileID: 7341135866537978858}
   - component: {fileID: 6526153187058555329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7117878557233144673
 Transform:
@@ -8850,6 +9036,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8874,6 +9061,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4915618403283306110
 GameObject:
   m_ObjectHideFlags: 0
@@ -8885,12 +9073,12 @@ GameObject:
   - component: {fileID: 4915618403283409502}
   - component: {fileID: 4915618403284212350}
   - component: {fileID: 4915618403285309630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4915618403283409502
 Transform:
@@ -8929,6 +9117,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8953,6 +9142,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4925517481909195037
 GameObject:
   m_ObjectHideFlags: 0
@@ -8964,12 +9154,12 @@ GameObject:
   - component: {fileID: 2618184958434882688}
   - component: {fileID: 3854090457001838272}
   - component: {fileID: 8185868413611911846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2618184958434882688
 Transform:
@@ -9008,6 +9198,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9032,6 +9223,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5006967349435577633
 GameObject:
   m_ObjectHideFlags: 0
@@ -9044,12 +9236,12 @@ GameObject:
   - component: {fileID: 1200003289162137057}
   - component: {fileID: 4397319330729520624}
   - component: {fileID: 4964133270558749030}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4149794456003006760
 Transform:
@@ -9088,6 +9280,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9113,6 +9306,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &4964133270558749030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9137,12 +9331,12 @@ GameObject:
   - component: {fileID: 1384444315979855438}
   - component: {fileID: 5951258766348116017}
   - component: {fileID: 3950551016164556590}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1384444315979855438
 Transform:
@@ -9181,6 +9375,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9205,6 +9400,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5053158051327644791
 GameObject:
   m_ObjectHideFlags: 0
@@ -9216,12 +9412,12 @@ GameObject:
   - component: {fileID: 4135500052422726220}
   - component: {fileID: 2550113144011733213}
   - component: {fileID: 4825942348528662416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4135500052422726220
 Transform:
@@ -9260,6 +9456,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9284,6 +9481,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5081394579413331380
 GameObject:
   m_ObjectHideFlags: 0
@@ -9293,12 +9491,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8790352290901804268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8790352290901804268
 Transform:
@@ -9326,12 +9524,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6951982378286806389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrians
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6951982378286806389
 Transform:
@@ -9359,12 +9557,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1644343549035930349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1644343549035930349
 Transform:
@@ -9394,12 +9592,12 @@ GameObject:
   - component: {fileID: 44716666141341158}
   - component: {fileID: 885475774012848914}
   - component: {fileID: 9122866742572897289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &44716666141341158
 Transform:
@@ -9438,6 +9636,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9462,6 +9661,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5238756228131554226
 GameObject:
   m_ObjectHideFlags: 0
@@ -9473,12 +9673,12 @@ GameObject:
   - component: {fileID: 7139540194475689635}
   - component: {fileID: 8933402996917160265}
   - component: {fileID: 9095476807536352363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7139540194475689635
 Transform:
@@ -9517,6 +9717,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9541,6 +9742,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5243633264885285110
 GameObject:
   m_ObjectHideFlags: 0
@@ -9552,12 +9754,12 @@ GameObject:
   - component: {fileID: 3975461865079934963}
   - component: {fileID: 8196012871386439241}
   - component: {fileID: 1802971768956989489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3975461865079934963
 Transform:
@@ -9596,6 +9798,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9620,6 +9823,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5277380625923491869
 GameObject:
   m_ObjectHideFlags: 0
@@ -9629,12 +9833,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7969655115894918141}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7969655115894918141
 Transform:
@@ -9662,12 +9866,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6246867594798235989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrians
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6246867594798235989
 Transform:
@@ -9697,12 +9901,12 @@ GameObject:
   - component: {fileID: 7625477674161222456}
   - component: {fileID: 6255961754760380516}
   - component: {fileID: 5552550453850478208}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7625477674161222456
 Transform:
@@ -9741,6 +9945,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9765,6 +9970,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5314595325290122428
 GameObject:
   m_ObjectHideFlags: 0
@@ -9776,12 +9982,12 @@ GameObject:
   - component: {fileID: 7081299142565041232}
   - component: {fileID: 838317542679933618}
   - component: {fileID: 5718503071240891482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7081299142565041232
 Transform:
@@ -9820,6 +10026,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9844,6 +10051,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5318037888274801675
 GameObject:
   m_ObjectHideFlags: 0
@@ -9855,12 +10063,12 @@ GameObject:
   - component: {fileID: 332345974520131994}
   - component: {fileID: 4487237165744243200}
   - component: {fileID: 6046699562782358627}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &332345974520131994
 Transform:
@@ -9899,6 +10107,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9923,6 +10132,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5353188819765743597
 GameObject:
   m_ObjectHideFlags: 0
@@ -9934,12 +10144,12 @@ GameObject:
   - component: {fileID: 140541835389619077}
   - component: {fileID: 6031404628273808739}
   - component: {fileID: 1345975285260680581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &140541835389619077
 Transform:
@@ -9978,6 +10188,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10002,6 +10213,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5371560018992897052
 GameObject:
   m_ObjectHideFlags: 0
@@ -10013,12 +10225,12 @@ GameObject:
   - component: {fileID: 5956591803353253789}
   - component: {fileID: 1708611432175046998}
   - component: {fileID: 884209795623124078}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5956591803353253789
 Transform:
@@ -10057,6 +10269,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10081,6 +10294,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5371674249724697811
 GameObject:
   m_ObjectHideFlags: 0
@@ -10092,12 +10306,12 @@ GameObject:
   - component: {fileID: 6539618577612028578}
   - component: {fileID: 7543954560740107003}
   - component: {fileID: 3172804574236630516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6539618577612028578
 Transform:
@@ -10136,6 +10350,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10160,6 +10375,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5386828300805107821
 GameObject:
   m_ObjectHideFlags: 0
@@ -10171,12 +10387,12 @@ GameObject:
   - component: {fileID: 2714764338158064069}
   - component: {fileID: 8289979143240614468}
   - component: {fileID: 4239939803005381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2714764338158064069
 Transform:
@@ -10215,6 +10431,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10239,6 +10456,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5440459537081593573
 GameObject:
   m_ObjectHideFlags: 0
@@ -10250,12 +10468,12 @@ GameObject:
   - component: {fileID: 8939732975888973239}
   - component: {fileID: 1858312448174027906}
   - component: {fileID: 1915849431478325699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8939732975888973239
 Transform:
@@ -10294,6 +10512,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10318,6 +10537,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5447267863837060741
 GameObject:
   m_ObjectHideFlags: 0
@@ -10329,12 +10549,12 @@ GameObject:
   - component: {fileID: 5447267863837487781}
   - component: {fileID: 5447267863836193413}
   - component: {fileID: 5447267863835062341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5447267863837487781
 Transform:
@@ -10373,6 +10593,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10397,6 +10618,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5447267863837060743
 GameObject:
   m_ObjectHideFlags: 0
@@ -10408,12 +10630,12 @@ GameObject:
   - component: {fileID: 5447267863837487783}
   - component: {fileID: 5447267863836193415}
   - component: {fileID: 5447267863835062343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5447267863837487783
 Transform:
@@ -10452,6 +10674,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10476,6 +10699,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5447267863837060747
 GameObject:
   m_ObjectHideFlags: 0
@@ -10487,12 +10711,12 @@ GameObject:
   - component: {fileID: 5447267863837487787}
   - component: {fileID: 5447267863836193419}
   - component: {fileID: 5447267863835062347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5447267863837487787
 Transform:
@@ -10531,6 +10755,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10555,6 +10780,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5450946940437980114
 GameObject:
   m_ObjectHideFlags: 0
@@ -10566,12 +10792,12 @@ GameObject:
   - component: {fileID: 5642593063741786466}
   - component: {fileID: 7039524968411594288}
   - component: {fileID: 4385464605431618492}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5642593063741786466
 Transform:
@@ -10610,6 +10836,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10634,6 +10861,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5485473025426959513
 GameObject:
   m_ObjectHideFlags: 0
@@ -10645,12 +10873,12 @@ GameObject:
   - component: {fileID: 1359608373470389100}
   - component: {fileID: 1698875988950263988}
   - component: {fileID: 8190085658065265623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1359608373470389100
 Transform:
@@ -10689,6 +10917,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10713,6 +10942,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5507703208585108152
 GameObject:
   m_ObjectHideFlags: 0
@@ -10724,12 +10954,12 @@ GameObject:
   - component: {fileID: 7270773475709369520}
   - component: {fileID: 3904192133449644794}
   - component: {fileID: 541747806084923372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7270773475709369520
 Transform:
@@ -10768,6 +10998,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10792,6 +11023,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5530544336048809097
 GameObject:
   m_ObjectHideFlags: 0
@@ -10802,12 +11034,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8431593677854718304}
   - component: {fileID: 2920547142771475779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8431593677854718304
 Transform:
@@ -10847,12 +11079,12 @@ GameObject:
   - component: {fileID: 334226895510251700}
   - component: {fileID: 4972515576281780377}
   - component: {fileID: 2643743705364894469}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &334226895510251700
 Transform:
@@ -10891,6 +11123,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10915,6 +11148,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5613536433742462631
 GameObject:
   m_ObjectHideFlags: 0
@@ -10926,12 +11160,12 @@ GameObject:
   - component: {fileID: 3040219441880722155}
   - component: {fileID: 8704243732136908029}
   - component: {fileID: 92071410981998543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3040219441880722155
 Transform:
@@ -10970,6 +11204,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10994,6 +11229,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5626920570128176893
 GameObject:
   m_ObjectHideFlags: 0
@@ -11005,12 +11241,12 @@ GameObject:
   - component: {fileID: 1950916042390398112}
   - component: {fileID: 5383695876319483323}
   - component: {fileID: 8263293948212686991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1950916042390398112
 Transform:
@@ -11049,6 +11285,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11073,6 +11310,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5652550003119324187
 GameObject:
   m_ObjectHideFlags: 0
@@ -11082,12 +11320,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1568744945080696015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1568744945080696015
 Transform:
@@ -11115,12 +11353,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4040311390370879390}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4040311390370879390
 Transform:
@@ -11150,12 +11388,12 @@ GameObject:
   - component: {fileID: 6534534758405423032}
   - component: {fileID: 5343718755367923339}
   - component: {fileID: 2181910998167596159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6534534758405423032
 Transform:
@@ -11194,6 +11432,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11218,6 +11457,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5686255673237811630
 GameObject:
   m_ObjectHideFlags: 0
@@ -11229,12 +11469,12 @@ GameObject:
   - component: {fileID: 6032239272334480674}
   - component: {fileID: 5009234708989456480}
   - component: {fileID: 5862596907026975053}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6032239272334480674
 Transform:
@@ -11273,6 +11513,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11297,6 +11538,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5765476287557437462
 GameObject:
   m_ObjectHideFlags: 0
@@ -11308,12 +11550,12 @@ GameObject:
   - component: {fileID: 2947919743331804349}
   - component: {fileID: 6988661630972343686}
   - component: {fileID: 6791725164014559418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2947919743331804349
 Transform:
@@ -11352,6 +11594,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11376,6 +11619,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5773405833523424728
 GameObject:
   m_ObjectHideFlags: 0
@@ -11385,12 +11629,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 802935386742269816}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &802935386742269816
 Transform:
@@ -11420,12 +11664,12 @@ GameObject:
   - component: {fileID: 594433689904651304}
   - component: {fileID: 3497723038312628742}
   - component: {fileID: 3231176449286662905}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &594433689904651304
 Transform:
@@ -11464,6 +11708,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11488,6 +11733,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5788088134712213452
 GameObject:
   m_ObjectHideFlags: 0
@@ -11498,12 +11744,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4910844510704213557}
   - component: {fileID: 7733026769818485143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4910844510704213557
 Transform:
@@ -11543,12 +11789,12 @@ GameObject:
   - component: {fileID: 4516131963504827937}
   - component: {fileID: 703409574823395850}
   - component: {fileID: 4292641970600813163}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4516131963504827937
 Transform:
@@ -11587,6 +11833,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11611,6 +11858,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5875288553039414475
 GameObject:
   m_ObjectHideFlags: 0
@@ -11622,12 +11870,12 @@ GameObject:
   - component: {fileID: 6968797368231657684}
   - component: {fileID: 5381319065616090273}
   - component: {fileID: 9219231766093297910}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6968797368231657684
 Transform:
@@ -11666,6 +11914,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11690,6 +11939,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5923128663454951001
 GameObject:
   m_ObjectHideFlags: 0
@@ -11700,12 +11950,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6810932753295524573}
   - component: {fileID: 5467681097778148617}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light (E)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6810932753295524573
 Transform:
@@ -11756,12 +12006,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4598211564623285394}
   - component: {fileID: 381747744572139031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4598211564623285394
 Transform:
@@ -11800,12 +12050,12 @@ GameObject:
   m_Component:
   - component: {fileID: 333256666661268229}
   - component: {fileID: 5632843359356192628}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light-Rev (W)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &333256666661268229
 Transform:
@@ -11857,12 +12107,12 @@ GameObject:
   - component: {fileID: 6237740303886336711}
   - component: {fileID: 5357999522351538640}
   - component: {fileID: 1791172338719933876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6237740303886336711
 Transform:
@@ -11901,6 +12151,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11925,6 +12176,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6024632089049217439
 GameObject:
   m_ObjectHideFlags: 0
@@ -11934,12 +12186,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2633402600992794201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrians
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2633402600992794201
 Transform:
@@ -11969,12 +12221,12 @@ GameObject:
   - component: {fileID: 2771420589458965009}
   - component: {fileID: 324398670907540280}
   - component: {fileID: 8805379872447773592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2771420589458965009
 Transform:
@@ -12013,6 +12265,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12037,6 +12290,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6064163321891591709
 GameObject:
   m_ObjectHideFlags: 0
@@ -12048,12 +12302,12 @@ GameObject:
   - component: {fileID: 2495767090213920042}
   - component: {fileID: 8948657010980041544}
   - component: {fileID: 7783760304580535720}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2495767090213920042
 Transform:
@@ -12092,6 +12346,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12116,6 +12371,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6215818738416596663
 GameObject:
   m_ObjectHideFlags: 0
@@ -12127,12 +12383,12 @@ GameObject:
   - component: {fileID: 1997047110876906951}
   - component: {fileID: 8838877893778461754}
   - component: {fileID: 922332438519179935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1997047110876906951
 Transform:
@@ -12171,6 +12427,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12195,6 +12452,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6231876626017175253
 GameObject:
   m_ObjectHideFlags: 0
@@ -12206,12 +12464,12 @@ GameObject:
   - component: {fileID: 8625710078924683266}
   - component: {fileID: 8985246966782963233}
   - component: {fileID: 1723331009181212277}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8625710078924683266
 Transform:
@@ -12250,6 +12508,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12274,6 +12533,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6281034349305169828
 GameObject:
   m_ObjectHideFlags: 0
@@ -12283,12 +12543,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1339649240309256418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1339649240309256418
 Transform:
@@ -12318,12 +12578,12 @@ GameObject:
   - component: {fileID: 5422725200056132572}
   - component: {fileID: 4179125993391433987}
   - component: {fileID: 4373599696925909378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5422725200056132572
 Transform:
@@ -12362,6 +12622,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12386,6 +12647,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6315687637433403865
 GameObject:
   m_ObjectHideFlags: 0
@@ -12397,12 +12659,12 @@ GameObject:
   - component: {fileID: 5939550430066781140}
   - component: {fileID: 3744817375934692025}
   - component: {fileID: 5806249623557878534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5939550430066781140
 Transform:
@@ -12441,6 +12703,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12465,6 +12728,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6535928838711014959
 GameObject:
   m_ObjectHideFlags: 0
@@ -12476,12 +12740,12 @@ GameObject:
   - component: {fileID: 8283545420086932609}
   - component: {fileID: 2903919394457816887}
   - component: {fileID: 6120825123904858036}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8283545420086932609
 Transform:
@@ -12520,6 +12784,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12544,6 +12809,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6641080350501218362
 GameObject:
   m_ObjectHideFlags: 0
@@ -12555,12 +12821,12 @@ GameObject:
   - component: {fileID: 8294638468336952094}
   - component: {fileID: 631210851405918904}
   - component: {fileID: 3425988366719416566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8294638468336952094
 Transform:
@@ -12599,6 +12865,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12623,6 +12890,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6644326252183521976
 GameObject:
   m_ObjectHideFlags: 0
@@ -12634,12 +12902,12 @@ GameObject:
   - component: {fileID: 4513571445587011114}
   - component: {fileID: 1768847048390405429}
   - component: {fileID: 6773407862114324193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4513571445587011114
 Transform:
@@ -12678,6 +12946,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12702,6 +12971,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6686887930150862040
 GameObject:
   m_ObjectHideFlags: 0
@@ -12711,12 +12981,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 795176596664040848}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrians
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &795176596664040848
 Transform:
@@ -12746,12 +13016,12 @@ GameObject:
   - component: {fileID: 2979889752252956988}
   - component: {fileID: 7103953797523177382}
   - component: {fileID: 7193159669365121710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2979889752252956988
 Transform:
@@ -12790,6 +13060,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12814,6 +13085,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6694770278359450036
 GameObject:
   m_ObjectHideFlags: 0
@@ -12825,12 +13097,12 @@ GameObject:
   - component: {fileID: 7299370139120026508}
   - component: {fileID: 8046414370474289230}
   - component: {fileID: 5707231521128726223}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7299370139120026508
 Transform:
@@ -12869,6 +13141,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12893,6 +13166,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6824102260178154168
 GameObject:
   m_ObjectHideFlags: 0
@@ -12904,12 +13178,12 @@ GameObject:
   - component: {fileID: 4498033518873921402}
   - component: {fileID: 8309279796966778178}
   - component: {fileID: 6849184283999779340}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4498033518873921402
 Transform:
@@ -12948,6 +13222,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12972,6 +13247,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6868836824163418597
 GameObject:
   m_ObjectHideFlags: 0
@@ -12981,12 +13257,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 306145059423982946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &306145059423982946
 Transform:
@@ -13014,12 +13290,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3459079994204890756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3459079994204890756
 Transform:
@@ -13049,12 +13325,12 @@ GameObject:
   - component: {fileID: 674710161635448849}
   - component: {fileID: 5474055688298916960}
   - component: {fileID: 1821985039942121799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &674710161635448849
 Transform:
@@ -13093,6 +13369,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13117,6 +13394,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6979583793217860587
 GameObject:
   m_ObjectHideFlags: 0
@@ -13128,12 +13406,12 @@ GameObject:
   - component: {fileID: 3846474916553162279}
   - component: {fileID: 1326928639311036375}
   - component: {fileID: 2110285489892194683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3846474916553162279
 Transform:
@@ -13172,6 +13450,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13196,6 +13475,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7027440027028263116
 GameObject:
   m_ObjectHideFlags: 0
@@ -13208,12 +13488,12 @@ GameObject:
   - component: {fileID: 3331232376154801095}
   - component: {fileID: 6004244279296385854}
   - component: {fileID: 1155645261645144517}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2831346446623848526
 Transform:
@@ -13252,6 +13532,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13277,6 +13558,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &1155645261645144517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13301,12 +13583,12 @@ GameObject:
   - component: {fileID: 8659005768985118470}
   - component: {fileID: 3629802039303179843}
   - component: {fileID: 7331086083430936059}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8659005768985118470
 Transform:
@@ -13345,6 +13627,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13369,6 +13652,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7095222271212478920
 GameObject:
   m_ObjectHideFlags: 0
@@ -13380,12 +13664,12 @@ GameObject:
   - component: {fileID: 8073751529706139183}
   - component: {fileID: 8519992545781877020}
   - component: {fileID: 258345130369793323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8073751529706139183
 Transform:
@@ -13424,6 +13708,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13448,6 +13733,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7106881853735463707
 GameObject:
   m_ObjectHideFlags: 0
@@ -13457,12 +13743,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2482321757683051905}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2482321757683051905
 Transform:
@@ -13492,12 +13778,12 @@ GameObject:
   - component: {fileID: 4164327789139317464}
   - component: {fileID: 6485738397279740095}
   - component: {fileID: 1906504342645821772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4164327789139317464
 Transform:
@@ -13536,6 +13822,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13560,6 +13847,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7184203767944566684
 GameObject:
   m_ObjectHideFlags: 0
@@ -13571,12 +13859,12 @@ GameObject:
   - component: {fileID: 3939373105021824787}
   - component: {fileID: 8052730544743461186}
   - component: {fileID: 4572232385638229817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3939373105021824787
 Transform:
@@ -13615,6 +13903,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13639,6 +13928,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7231168256557195041
 GameObject:
   m_ObjectHideFlags: 0
@@ -13651,12 +13941,12 @@ GameObject:
   - component: {fileID: 7223332462818974048}
   - component: {fileID: 4093716170486872113}
   - component: {fileID: 6616289672714129756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7732428099297801564
 Transform:
@@ -13695,6 +13985,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13720,6 +14011,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6616289672714129756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13743,12 +14035,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1077199640755049123}
   - component: {fileID: 3083716906848567987}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light (W)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1077199640755049123
 Transform:
@@ -13800,12 +14092,12 @@ GameObject:
   - component: {fileID: 5340748547716000284}
   - component: {fileID: 7838403133445870249}
   - component: {fileID: 1398834085237669893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5340748547716000284
 Transform:
@@ -13844,6 +14136,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13868,6 +14161,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7449894494318337088
 GameObject:
   m_ObjectHideFlags: 0
@@ -13879,12 +14173,12 @@ GameObject:
   - component: {fileID: 8817078319235583233}
   - component: {fileID: 9127381645306201316}
   - component: {fileID: 8217424189953844884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8817078319235583233
 Transform:
@@ -13923,6 +14217,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13947,6 +14242,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7458735837570970435
 GameObject:
   m_ObjectHideFlags: 0
@@ -13956,12 +14252,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4513488160937285275}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4513488160937285275
 Transform:
@@ -13990,12 +14286,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2209655770448369024}
   - component: {fileID: 1167977101937861785}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2209655770448369024
 Transform:
@@ -14035,12 +14331,12 @@ GameObject:
   - component: {fileID: 8911211639843386035}
   - component: {fileID: 5743820753470249219}
   - component: {fileID: 3700800724770341471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8911211639843386035
 Transform:
@@ -14079,6 +14375,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14103,6 +14400,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7705059822308117205
 GameObject:
   m_ObjectHideFlags: 0
@@ -14114,12 +14412,12 @@ GameObject:
   - component: {fileID: 7794628687443187822}
   - component: {fileID: 4336568635960770958}
   - component: {fileID: 2423109883559331685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7794628687443187822
 Transform:
@@ -14158,6 +14456,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14182,6 +14481,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7725054839038326512
 GameObject:
   m_ObjectHideFlags: 0
@@ -14193,12 +14493,12 @@ GameObject:
   - component: {fileID: 8005493663213497079}
   - component: {fileID: 2746356446497287284}
   - component: {fileID: 4008592893492215484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8005493663213497079
 Transform:
@@ -14237,6 +14537,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14261,6 +14562,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7766611652439219935
 GameObject:
   m_ObjectHideFlags: 0
@@ -14270,12 +14572,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7761274776912408487}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7761274776912408487
 Transform:
@@ -14303,12 +14605,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2336423740830041980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2336423740830041980
 Transform:
@@ -14336,12 +14638,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1544565177669535708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1544565177669535708
 Transform:
@@ -14369,12 +14671,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5204080241294348656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5204080241294348656
 Transform:
@@ -14402,12 +14704,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2946539606163534418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2946539606163534418
 Transform:
@@ -14437,12 +14739,12 @@ GameObject:
   - component: {fileID: 5628449780463999627}
   - component: {fileID: 7178855653581109052}
   - component: {fileID: 2037586573769943586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5628449780463999627
 Transform:
@@ -14481,6 +14783,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14505,6 +14808,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7952010235645119468
 GameObject:
   m_ObjectHideFlags: 0
@@ -14514,12 +14818,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1517520888839227799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1517520888839227799
 Transform:
@@ -14549,12 +14853,12 @@ GameObject:
   - component: {fileID: 2610347849180769487}
   - component: {fileID: 4966927778287290392}
   - component: {fileID: 8941239012269371920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2610347849180769487
 Transform:
@@ -14593,6 +14897,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14617,6 +14922,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8003121148561200693
 GameObject:
   m_ObjectHideFlags: 0
@@ -14627,12 +14933,12 @@ GameObject:
   m_Component:
   - component: {fileID: 9007292551113096384}
   - component: {fileID: 9020002767055176747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light (S)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9007292551113096384
 Transform:
@@ -14684,12 +14990,12 @@ GameObject:
   - component: {fileID: 4750295183181889196}
   - component: {fileID: 1650402619633726595}
   - component: {fileID: 1943050982013900149}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4750295183181889196
 Transform:
@@ -14728,6 +15034,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14752,6 +15059,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8030203187818085235
 GameObject:
   m_ObjectHideFlags: 0
@@ -14763,12 +15071,12 @@ GameObject:
   - component: {fileID: 9052693060005936650}
   - component: {fileID: 2224591507401072496}
   - component: {fileID: 8588694174503865873}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9052693060005936650
 Transform:
@@ -14807,6 +15115,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14831,6 +15140,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8049980584541279013
 GameObject:
   m_ObjectHideFlags: 0
@@ -14842,12 +15152,12 @@ GameObject:
   - component: {fileID: 1651123713884887558}
   - component: {fileID: 6061072186445958940}
   - component: {fileID: 3598770666889623171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1651123713884887558
 Transform:
@@ -14886,6 +15196,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14910,6 +15221,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8051021406761536715
 GameObject:
   m_ObjectHideFlags: 0
@@ -14921,12 +15233,12 @@ GameObject:
   - component: {fileID: 4063270571333453943}
   - component: {fileID: 19436185827176572}
   - component: {fileID: 4861300653166464041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4063270571333453943
 Transform:
@@ -14965,6 +15277,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14989,6 +15302,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8070694690303298416
 GameObject:
   m_ObjectHideFlags: 0
@@ -15000,12 +15314,12 @@ GameObject:
   - component: {fileID: 6359593672442419941}
   - component: {fileID: 6366355689052900543}
   - component: {fileID: 1605283566762738226}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6359593672442419941
 Transform:
@@ -15044,6 +15358,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15068,6 +15383,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8176481321607465028
 GameObject:
   m_ObjectHideFlags: 0
@@ -15079,12 +15395,12 @@ GameObject:
   - component: {fileID: 3571472356826843380}
   - component: {fileID: 1876412524690361561}
   - component: {fileID: 6892640609153106814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3571472356826843380
 Transform:
@@ -15123,6 +15439,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15147,6 +15464,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8181476354693241082
 GameObject:
   m_ObjectHideFlags: 0
@@ -15156,12 +15474,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5150431241369950903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pedestrians
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5150431241369950903
 Transform:
@@ -15191,12 +15509,12 @@ GameObject:
   - component: {fileID: 1975426049625113039}
   - component: {fileID: 7202159175977244627}
   - component: {fileID: 508094055177381312}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1975426049625113039
 Transform:
@@ -15235,6 +15553,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15259,6 +15578,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8207405157364999631
 GameObject:
   m_ObjectHideFlags: 0
@@ -15270,12 +15590,12 @@ GameObject:
   - component: {fileID: 5551830334229505389}
   - component: {fileID: 7403041770032010826}
   - component: {fileID: 8223481215900713328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5551830334229505389
 Transform:
@@ -15314,6 +15634,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15338,6 +15659,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8216230947324605486
 GameObject:
   m_ObjectHideFlags: 0
@@ -15348,12 +15670,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1169438274924163860}
   - component: {fileID: 8036268671884939660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TrafficLight X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1169438274924163860
 Transform:
@@ -15398,12 +15720,12 @@ GameObject:
   - component: {fileID: 613097450758446297}
   - component: {fileID: 180955132182363347}
   - component: {fileID: 1224621847232911240}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &613097450758446297
 Transform:
@@ -15442,6 +15764,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15466,6 +15789,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8244157473618736365
 GameObject:
   m_ObjectHideFlags: 0
@@ -15476,12 +15800,12 @@ GameObject:
   m_Component:
   - component: {fileID: 9124917193153455795}
   - component: {fileID: 5820642079987624026}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9124917193153455795
 Transform:
@@ -15519,12 +15843,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8750592163086394271}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8750592163086394271
 Transform:
@@ -15552,12 +15876,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1930136515376785044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1930136515376785044
 Transform:
@@ -15587,12 +15911,12 @@ GameObject:
   - component: {fileID: 3518027326937659733}
   - component: {fileID: 7833909788879156201}
   - component: {fileID: 3717275274987532498}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3518027326937659733
 Transform:
@@ -15631,6 +15955,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15655,6 +15980,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8407051054027733878
 GameObject:
   m_ObjectHideFlags: 0
@@ -15666,12 +15992,12 @@ GameObject:
   - component: {fileID: 6167302730785444278}
   - component: {fileID: 5701225910791296983}
   - component: {fileID: 240927431055553614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6167302730785444278
 Transform:
@@ -15710,6 +16036,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15734,6 +16061,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8416910996510716753
 GameObject:
   m_ObjectHideFlags: 0
@@ -15745,12 +16073,12 @@ GameObject:
   - component: {fileID: 2800566393999913592}
   - component: {fileID: 3147054937591963399}
   - component: {fileID: 4928663673552317803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2800566393999913592
 Transform:
@@ -15789,6 +16117,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15813,6 +16142,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8423546583982307105
 GameObject:
   m_ObjectHideFlags: 0
@@ -15822,12 +16152,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 821482748029885257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &821482748029885257
 Transform:
@@ -15857,12 +16187,12 @@ GameObject:
   - component: {fileID: 3068982757877633008}
   - component: {fileID: 4421707880442853850}
   - component: {fileID: 6637088749300669483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3068982757877633008
 Transform:
@@ -15901,6 +16231,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15925,6 +16256,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8475878503885881834
 GameObject:
   m_ObjectHideFlags: 0
@@ -15936,12 +16268,12 @@ GameObject:
   - component: {fileID: 2384175820974954464}
   - component: {fileID: 7030473594874512996}
   - component: {fileID: 3991879175634324799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2384175820974954464
 Transform:
@@ -15980,6 +16312,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16004,6 +16337,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8516568169976262372
 GameObject:
   m_ObjectHideFlags: 0
@@ -16015,12 +16349,12 @@ GameObject:
   - component: {fileID: 8516568169976099524}
   - component: {fileID: 8516568169977393890}
   - component: {fileID: 8516568169978523682}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8516568169976099524
 Transform:
@@ -16059,6 +16393,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16083,6 +16418,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8516568169976262384
 GameObject:
   m_ObjectHideFlags: 0
@@ -16094,12 +16430,12 @@ GameObject:
   - component: {fileID: 8516568169976099536}
   - component: {fileID: 8516568169977393904}
   - component: {fileID: 8516568169978523696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8516568169976099536
 Transform:
@@ -16138,6 +16474,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16162,6 +16499,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8516568169976262398
 GameObject:
   m_ObjectHideFlags: 0
@@ -16173,12 +16511,12 @@ GameObject:
   - component: {fileID: 8516568169976099550}
   - component: {fileID: 8516568169977393918}
   - component: {fileID: 8516568169978523710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8516568169976099550
 Transform:
@@ -16217,6 +16555,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16241,6 +16580,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8636276820125343116
 GameObject:
   m_ObjectHideFlags: 0
@@ -16251,12 +16591,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2916122039170096834}
   - component: {fileID: 8343192180501962006}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2916122039170096834
 Transform:
@@ -16294,12 +16634,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1413213813705800164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1413213813705800164
 Transform:
@@ -16328,12 +16668,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2610480379803630687}
   - component: {fileID: 8323467213016434937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Lights-Japan (W)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2610480379803630687
 Transform:
@@ -16385,12 +16725,12 @@ GameObject:
   - component: {fileID: 1366163151187593892}
   - component: {fileID: 4640732796911334144}
   - component: {fileID: 3080575422188153282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1366163151187593892
 Transform:
@@ -16429,6 +16769,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16453,6 +16794,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8738949142300642383
 GameObject:
   m_ObjectHideFlags: 0
@@ -16464,12 +16806,12 @@ GameObject:
   - component: {fileID: 2709860446663883599}
   - component: {fileID: 8737822432876748084}
   - component: {fileID: 7235647871279830324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2709860446663883599
 Transform:
@@ -16508,6 +16850,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16532,6 +16875,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8745665649610650132
 GameObject:
   m_ObjectHideFlags: 0
@@ -16543,12 +16887,12 @@ GameObject:
   - component: {fileID: 4416740700093469286}
   - component: {fileID: 3808967554693818560}
   - component: {fileID: 4116602523283327325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4416740700093469286
 Transform:
@@ -16587,6 +16931,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16611,6 +16956,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8757137503868806923
 GameObject:
   m_ObjectHideFlags: 0
@@ -16620,12 +16966,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4800795882609114691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4800795882609114691
 Transform:
@@ -16655,12 +17001,12 @@ GameObject:
   - component: {fileID: 5813525149645541602}
   - component: {fileID: 4784879899548966971}
   - component: {fileID: 28562970393291070}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5813525149645541602
 Transform:
@@ -16699,6 +17045,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16723,6 +17070,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8799191749792199913
 GameObject:
   m_ObjectHideFlags: 0
@@ -16734,12 +17082,12 @@ GameObject:
   - component: {fileID: 8470974428641253487}
   - component: {fileID: 4563374271805836885}
   - component: {fileID: 5181378925636578511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P2-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8470974428641253487
 Transform:
@@ -16778,6 +17126,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16802,6 +17151,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8841963810744494050
 GameObject:
   m_ObjectHideFlags: 0
@@ -16812,12 +17162,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6841766963695020597}
   - component: {fileID: 794409004318537824}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Lights-Japan (S)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6841766963695020597
 Transform:
@@ -16869,12 +17219,12 @@ GameObject:
   - component: {fileID: 7137842389526842456}
   - component: {fileID: 4854303548840896978}
   - component: {fileID: 7493961438751349376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7137842389526842456
 Transform:
@@ -16913,6 +17263,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16937,6 +17288,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9057957645140670677
 GameObject:
   m_ObjectHideFlags: 0
@@ -16948,12 +17300,12 @@ GameObject:
   - component: {fileID: 8246271833737003660}
   - component: {fileID: 2009633005274840672}
   - component: {fileID: 6409190335417070620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1-Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8246271833737003660
 Transform:
@@ -16992,6 +17344,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17016,6 +17369,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9068095640866574611
 GameObject:
   m_ObjectHideFlags: 0
@@ -17027,12 +17381,12 @@ GameObject:
   - component: {fileID: 9068095640866213171}
   - component: {fileID: 9068095640867507475}
   - component: {fileID: 9068095640868507603}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9068095640866213171
 Transform:
@@ -17071,6 +17425,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17095,6 +17450,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9086143057155898320
 GameObject:
   m_ObjectHideFlags: 0
@@ -17105,12 +17461,12 @@ GameObject:
   m_Component:
   - component: {fileID: 9084654739209485266}
   - component: {fileID: 4679383429746488381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traffic_Light (N)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9084654739209485266
 Transform:
@@ -17162,12 +17518,12 @@ GameObject:
   - component: {fileID: 6879652603907645231}
   - component: {fileID: 5317223680600672869}
   - component: {fileID: 1941410682796286823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6879652603907645231
 Transform:
@@ -17206,6 +17562,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17230,6 +17587,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9128245975569477936
 GameObject:
   m_ObjectHideFlags: 0
@@ -17240,12 +17598,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4974533348666904625}
   - component: {fileID: 8342134697717124605}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stop
   m_TagString: Stop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4974533348666904625
 Transform:
@@ -17285,12 +17643,12 @@ GameObject:
   - component: {fileID: 677953122814153402}
   - component: {fileID: 99764708609307083}
   - component: {fileID: 8182766783077175376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: P3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &677953122814153402
 Transform:
@@ -17329,6 +17687,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17353,6 +17712,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9204317568826760548
 GameObject:
   m_ObjectHideFlags: 0
@@ -17362,12 +17722,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2067200870133938363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2067200870133938363
 Transform:

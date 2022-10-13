@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4075525336136570}
   - component: {fileID: 33974082947248100}
   - component: {fileID: 64956076036593908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EB-005-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4075525336136570
 Transform:
@@ -65,12 +65,12 @@ GameObject:
   - component: {fileID: 4152454798520970}
   - component: {fileID: 33938870276355136}
   - component: {fileID: 23207786082106190}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EB-005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4152454798520970
 Transform:
@@ -111,6 +111,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -135,6 +136,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3857858973954153187
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,12 +148,12 @@ GameObject:
   - component: {fileID: 7564733174452818936}
   - component: {fileID: 228959752138529677}
   - component: {fileID: 7338408293704854848}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-Corner-06-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7564733174452818936
 Transform:
@@ -200,12 +202,12 @@ GameObject:
   - component: {fileID: 5869992499325217759}
   - component: {fileID: 5836722877531745557}
   - component: {fileID: 5848721170269528603}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EB-005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5869992499325217759
 Transform:
@@ -245,6 +247,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -270,3 +273,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

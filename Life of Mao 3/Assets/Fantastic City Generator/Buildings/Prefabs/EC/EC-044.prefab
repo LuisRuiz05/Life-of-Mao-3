@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 7952989496635077485}
   - component: {fileID: 7952989496636404557}
   - component: {fileID: 1070709316683269392}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EC-044-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7952989496635077485
 Transform:
@@ -50,9 +50,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 972c5598194321449ba8a2c386467b21, type: 3}
 --- !u!1 &7952989496635502415
 GameObject:
@@ -65,12 +65,12 @@ GameObject:
   - component: {fileID: 7952989496635077487}
   - component: {fileID: 7952989496636404559}
   - component: {fileID: 7952989496637501839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EC-044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7952989496635077487
 Transform:
@@ -109,6 +109,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -121,6 +123,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -133,6 +136,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8678486826543133038
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,12 +148,12 @@ GameObject:
   - component: {fileID: 8675250392049743562}
   - component: {fileID: 8647541108515686508}
   - component: {fileID: 8687803772760639228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-Corner-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8675250392049743562
 Transform:
@@ -183,9 +187,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 9e0ee2d7cef1d8442a902509c7228aa7, type: 3}
 --- !u!1 &8678889265170099116
 GameObject:
@@ -198,12 +202,12 @@ GameObject:
   - component: {fileID: 8675589705516075290}
   - component: {fileID: 8647281922854497586}
   - component: {fileID: 8658148766108699848}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EC-044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8675589705516075290
 Transform:
@@ -243,6 +247,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -254,6 +260,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -266,3 +273,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

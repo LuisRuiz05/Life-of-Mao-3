@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4783870812842782}
   - component: {fileID: 33478864269061160}
   - component: {fileID: 64265626529051324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-Corner-01-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4783870812842782
 Transform:
@@ -66,12 +66,12 @@ GameObject:
   - component: {fileID: 33789101236469652}
   - component: {fileID: 23280840007572450}
   - component: {fileID: 428989776929199256}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Palm-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4679910040472104
 Transform:
@@ -110,6 +110,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -134,6 +135,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &428989776929199256
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -158,12 +160,12 @@ GameObject:
   - component: {fileID: 4632446616035874}
   - component: {fileID: 33458163423649206}
   - component: {fileID: 23568544327240290}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EC-002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4632446616035874
 Transform:
@@ -211,6 +213,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -235,6 +238,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1191347362337426
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,12 +251,12 @@ GameObject:
   - component: {fileID: 33213049127179520}
   - component: {fileID: 23498236144091292}
   - component: {fileID: 8460753435204995052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Palm-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4965328759582670
 Transform:
@@ -291,6 +295,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -315,6 +320,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &8460753435204995052
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -339,12 +345,12 @@ GameObject:
   - component: {fileID: 4502523165229008}
   - component: {fileID: 33573346558354272}
   - component: {fileID: 23316436758205104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fern-02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4502523165229008
 Transform:
@@ -383,6 +389,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -407,6 +414,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1296007816954732
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,12 +426,12 @@ GameObject:
   - component: {fileID: 4300862967038730}
   - component: {fileID: 33366974427432704}
   - component: {fileID: 23272507917931184}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fern-02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4300862967038730
 Transform:
@@ -462,6 +470,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -486,6 +495,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1380543188494808
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,12 +507,12 @@ GameObject:
   - component: {fileID: 4188102824040876}
   - component: {fileID: 33917601586012406}
   - component: {fileID: 23605313841199614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EC-002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4188102824040876
 Transform:
@@ -542,6 +552,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -568,6 +579,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1428199926734846
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,12 +591,12 @@ GameObject:
   - component: {fileID: 4721111638280536}
   - component: {fileID: 33439762608054834}
   - component: {fileID: 23953118496945768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fern-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4721111638280536
 Transform:
@@ -623,6 +635,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -647,6 +660,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1666173280330110
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,12 +672,12 @@ GameObject:
   - component: {fileID: 4683353043406344}
   - component: {fileID: 33535985208661522}
   - component: {fileID: 64921545172424198}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EC-002-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4683353043406344
 Transform:
@@ -712,12 +726,12 @@ GameObject:
   - component: {fileID: 4576206108818552}
   - component: {fileID: 33239252598624382}
   - component: {fileID: 23771794804348296}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fern-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4576206108818552
 Transform:
@@ -756,6 +770,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -780,6 +795,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1726841719116486
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,12 +808,12 @@ GameObject:
   - component: {fileID: 33540266745817676}
   - component: {fileID: 23619641341223500}
   - component: {fileID: 5552227893451271398}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Palm-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4839552497686578
 Transform:
@@ -836,6 +852,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -860,6 +877,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &5552227893451271398
 BoxCollider:
   m_ObjectHideFlags: 0

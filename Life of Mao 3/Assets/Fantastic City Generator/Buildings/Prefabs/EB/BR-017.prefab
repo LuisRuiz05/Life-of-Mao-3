@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4062153440003832}
   - component: {fileID: 33943276061849460}
   - component: {fileID: 64028305019004818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-18-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4062153440003832
 Transform:
@@ -65,12 +65,12 @@ GameObject:
   - component: {fileID: 4136447987327610}
   - component: {fileID: 33301354149432260}
   - component: {fileID: 23454384362365214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BR-017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4136447987327610
 Transform:
@@ -109,6 +109,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -135,6 +136,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1893949044201326
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,12 +148,12 @@ GameObject:
   - component: {fileID: 4172498305819626}
   - component: {fileID: 33945823397390470}
   - component: {fileID: 23928470234962186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BR-017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4172498305819626
 Transform:
@@ -198,6 +200,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -224,6 +227,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &143097024305503031
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,12 +239,12 @@ GameObject:
   - component: {fileID: 143097024305334039}
   - component: {fileID: 143097024304564023}
   - component: {fileID: 143097024303564279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-A-01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &143097024305334039
 Transform:
@@ -279,6 +283,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -303,6 +308,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1819269345046071243
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,12 +320,12 @@ GameObject:
   - component: {fileID: 1819269345046240235}
   - component: {fileID: 1819269345042848715}
   - component: {fileID: 1819269345043814667}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-A-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1819269345046240235
 Transform:
@@ -358,6 +364,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -382,6 +389,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2563503319267690265
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,12 +401,12 @@ GameObject:
   - component: {fileID: 2563503319267662649}
   - component: {fileID: 2563503319264762649}
   - component: {fileID: 2563503319265761753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-A-02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2563503319267662649
 Transform:
@@ -437,6 +445,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -461,6 +470,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4099758639841463468
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,12 +482,12 @@ GameObject:
   - component: {fileID: 4099758639841104012}
   - component: {fileID: 4099758639842398380}
   - component: {fileID: 4099758639843398252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-A-01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4099758639841104012
 Transform:
@@ -516,6 +526,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -540,6 +551,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5683145226679770577
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,12 +563,12 @@ GameObject:
   - component: {fileID: 5683145226679730673}
   - component: {fileID: 5683145226676830673}
   - component: {fileID: 5683145226677830417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-A-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5683145226679730673
 Transform:
@@ -595,6 +607,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -619,6 +632,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7962832432916781212
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,12 +644,12 @@ GameObject:
   - component: {fileID: 7962832432916415676}
   - component: {fileID: 7962832432913515676}
   - component: {fileID: 7962832432914515548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-A-01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7962832432916415676
 Transform:
@@ -674,6 +688,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -698,3 +713,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

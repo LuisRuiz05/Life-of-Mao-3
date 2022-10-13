@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 8008056542125301178}
   - component: {fileID: 4375367612243639047}
   - component: {fileID: 2089633275255157388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Park-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8008056542125301178
 Transform:
@@ -66,12 +66,12 @@ GameObject:
   - component: {fileID: 1284176659909483852}
   - component: {fileID: 316954806522326401}
   - component: {fileID: 2284078671836117300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Palm-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4156515499455283832
 Transform:
@@ -110,6 +110,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -134,6 +135,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2284078671836117300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -159,12 +161,12 @@ GameObject:
   - component: {fileID: 1042849303050827158}
   - component: {fileID: 1035004520974404816}
   - component: {fileID: 1146949700685829694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ParkLamp (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1009161403301113692
 Transform:
@@ -203,6 +205,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -227,6 +230,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &1146949700685829694
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -255,12 +259,12 @@ GameObject:
   - component: {fileID: 5699503102395425838}
   - component: {fileID: 8808043716361284639}
   - component: {fileID: 4221995483331426859}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1225278015960843805
 Transform:
@@ -300,6 +304,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -325,6 +330,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &5699503102395425838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -375,12 +381,12 @@ GameObject:
   - component: {fileID: 1233430014705000035}
   - component: {fileID: 1259198630669126581}
   - component: {fileID: 1290434508467564515}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1233430014705000035
 Transform:
@@ -432,12 +438,12 @@ GameObject:
   - component: {fileID: 5090094708308078139}
   - component: {fileID: 8324728964972750346}
   - component: {fileID: 3687497502657720382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1781765370189270024
 Transform:
@@ -477,6 +483,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -502,6 +509,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &5090094708308078139
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -552,12 +560,12 @@ GameObject:
   - component: {fileID: 1775847501774165110}
   - component: {fileID: 1784137451950391712}
   - component: {fileID: 1752919149406135798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Garden-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1775847501774165110
 Transform:
@@ -607,12 +615,12 @@ GameObject:
   - component: {fileID: 2034590353968756287}
   - component: {fileID: 2024847346906402681}
   - component: {fileID: 2138761646749472151}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ParkLamp (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2037283157235592437
 Transform:
@@ -651,6 +659,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -675,6 +684,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &2138761646749472151
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -701,12 +711,12 @@ GameObject:
   - component: {fileID: 2509628496608157293}
   - component: {fileID: 2519235231807383339}
   - component: {fileID: 2540527810259451333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ParkLamp (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2497895578471580839
 Transform:
@@ -745,6 +755,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -769,6 +780,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &2540527810259451333
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -795,12 +807,12 @@ GameObject:
   - component: {fileID: 2541434343007921025}
   - component: {fileID: 2549353891036060359}
   - component: {fileID: 2510409718517858345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ParkLamp (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2539271563331549515
 Transform:
@@ -839,6 +851,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -863,6 +876,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &2510409718517858345
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -889,12 +903,12 @@ GameObject:
   - component: {fileID: 2808441268939687662}
   - component: {fileID: 2797826920689107750}
   - component: {fileID: 2767050018719412530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Palm-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2778523114341187738
 Transform:
@@ -933,6 +947,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -957,6 +972,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2767050018719412530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -982,12 +998,12 @@ GameObject:
   - component: {fileID: 4793495741156789528}
   - component: {fileID: 4800846207058343006}
   - component: {fileID: 4834565536828010160}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ParkLamp (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4826831734838925266
 Transform:
@@ -1026,6 +1042,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1050,6 +1067,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &4834565536828010160
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1075,12 +1093,12 @@ GameObject:
   - component: {fileID: 5510322863168097610}
   - component: {fileID: 5477330634675237226}
   - component: {fileID: 5517548105120437014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Park-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5510322863168097610
 Transform:
@@ -1129,12 +1147,12 @@ GameObject:
   - component: {fileID: 5510633012708641038}
   - component: {fileID: 5480481363024699598}
   - component: {fileID: 5487056561646525258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Park-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5510633012708641038
 Transform:
@@ -1176,6 +1194,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1201,6 +1220,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5756927031115510968
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,12 +1232,12 @@ GameObject:
   - component: {fileID: 5759690167384503138}
   - component: {fileID: 5735661045061941146}
   - component: {fileID: 5693749994706523238}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-60m-02-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5759690167384503138
 Transform:
@@ -1266,12 +1286,12 @@ GameObject:
   - component: {fileID: 5759979482987183478}
   - component: {fileID: 5734262232261954394}
   - component: {fileID: 5743000632748843016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5759979482987183478
 Transform:
@@ -1324,6 +1344,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1349,6 +1370,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5769128634924069652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,12 +1383,12 @@ GameObject:
   - component: {fileID: 5791955038617392750}
   - component: {fileID: 5783970614772707112}
   - component: {fileID: 5905082420811003334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ParkLamp (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5771533839717715108
 Transform:
@@ -1405,6 +1427,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1429,6 +1452,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &5905082420811003334
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1455,12 +1479,12 @@ GameObject:
   - component: {fileID: 5993295973892028503}
   - component: {fileID: 5983520656343351007}
   - component: {fileID: 6031204097344918445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Palm-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6004885320768570929
 Transform:
@@ -1499,6 +1523,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1523,6 +1548,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6031204097344918445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1548,12 +1574,12 @@ GameObject:
   - component: {fileID: 6053765296749585338}
   - component: {fileID: 6063720573913619196}
   - component: {fileID: 6165834923524325394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ParkLamp (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6087451005997234544
 Transform:
@@ -1592,6 +1618,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1616,6 +1643,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &6165834923524325394
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1641,12 +1669,12 @@ GameObject:
   - component: {fileID: 6339655163808315653}
   - component: {fileID: 6339655163811707173}
   - component: {fileID: 6339655163810610149}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6339655163808315653
 Transform:
@@ -1686,6 +1714,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1711,6 +1740,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6339655163808343335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1722,12 +1752,12 @@ GameObject:
   - component: {fileID: 6339655163808315655}
   - component: {fileID: 6339655163811707175}
   - component: {fileID: 4527933226909527593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC-055-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6339655163808315655
 Transform:
@@ -1776,12 +1806,12 @@ GameObject:
   - component: {fileID: 5199480368672521426}
   - component: {fileID: 6961416265908812123}
   - component: {fileID: 7287477185655984313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Park-03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5199480368672521426
 Transform:
@@ -1823,6 +1853,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1848,6 +1879,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7341364428046179477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,12 +1892,12 @@ GameObject:
   - component: {fileID: 1685970565996246529}
   - component: {fileID: 168143000422100498}
   - component: {fileID: 4239651484319511978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Palm-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2175927324414814068
 Transform:
@@ -1904,6 +1936,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1928,6 +1961,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &4239651484319511978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1953,12 +1987,12 @@ GameObject:
   - component: {fileID: 7538600884186284571}
   - component: {fileID: 7546800812276546397}
   - component: {fileID: 7569500765645676979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ParkLamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7559237589501810897
 Transform:
@@ -1997,6 +2031,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2021,6 +2056,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &7569500765645676979
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 1045896494126327821}
   - component: {fileID: 1045896494123427885}
   - component: {fileID: 1045896494124428013}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-60m-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1045896494126327821
 Transform:
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,6 +81,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1317149713667863077
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,12 +93,12 @@ GameObject:
   - component: {fileID: 5399804491851205543}
   - component: {fileID: 1734348408637951255}
   - component: {fileID: 2158997924949571719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-60m-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5399804491851205543
 Transform:

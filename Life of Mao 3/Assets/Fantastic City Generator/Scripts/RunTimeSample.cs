@@ -16,9 +16,8 @@ public class RunTimeSample : MonoBehaviour
 
     void Awake()
     {
-
         generator = cg.GetComponent<CityGenerator>();
-
+        generator.gameObject.isStatic = true;
     }
     public void GenerateCityAtRuntime(int citySize)
     {

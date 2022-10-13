@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 458552583794111889}
   - component: {fileID: 5960840982210506152}
   - component: {fileID: 503942240290273768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BL-01-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &458552583794111889
 Transform:
@@ -65,12 +65,12 @@ GameObject:
   - component: {fileID: 6781603042312318475}
   - component: {fileID: 7616364995134415278}
   - component: {fileID: 5644757276492567908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BBS-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6781603042312318475
 Transform:
@@ -110,6 +110,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -135,3 +136,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

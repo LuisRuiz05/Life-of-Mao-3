@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4506663420651790}
   - component: {fileID: 33950425351529762}
   - component: {fileID: 64994366937877260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EB-006-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4506663420651790
 Transform:
@@ -65,12 +65,12 @@ GameObject:
   - component: {fileID: 4752992674726624}
   - component: {fileID: 33225929171368594}
   - component: {fileID: 23531652892458694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EB-006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4752992674726624
 Transform:
@@ -111,6 +111,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -135,6 +136,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1976996824465765411
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,12 +148,12 @@ GameObject:
   - component: {fileID: 1980329140513901751}
   - component: {fileID: 1953826391208735941}
   - component: {fileID: 1961583615832830097}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EB-006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1980329140513901751
 Transform:
@@ -191,6 +193,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -216,6 +219,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4903196928539742235
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,12 +231,12 @@ GameObject:
   - component: {fileID: 1835548156808222976}
   - component: {fileID: 8263846117824188789}
   - component: {fileID: 1465141689939929016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-Corner-06-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1835548156808222976
 Transform:

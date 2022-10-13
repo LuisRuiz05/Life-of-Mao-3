@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 6478651902391504649}
   - component: {fileID: 7946337664930365612}
   - component: {fileID: 5306339086111061094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-Slope-26-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6478651902391504649
 Transform:
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,6 +81,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7443420832910868050
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,12 +93,12 @@ GameObject:
   - component: {fileID: 1609203767192715972}
   - component: {fileID: 474240547022729992}
   - component: {fileID: 3552185193742375613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base-Slope-26-03-Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1609203767192715972
 Transform:

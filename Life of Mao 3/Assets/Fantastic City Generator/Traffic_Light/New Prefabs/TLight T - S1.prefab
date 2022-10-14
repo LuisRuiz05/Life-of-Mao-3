@@ -13839,9 +13839,10 @@ GameObject:
   m_Component:
   - component: {fileID: 54373124679464136}
   - component: {fileID: 9186514468669757008}
+  - component: {fileID: 961794344770870913}
   m_Layer: 6
   m_Name: TLight T - S1
-  m_TagString: Untagged
+  m_TagString: Spawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13878,6 +13879,19 @@ MonoBehaviour:
   rightHandObjects: {fileID: 7057856163978627544}
   leftHandObjects: {fileID: 5304502642851805611}
   leftHandObjectsJapan: {fileID: 3314598438861750544}
+--- !u!114 &961794344770870913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7133257022968689650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317e4521a3c5bef43b18c4fc2056b945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombie: {fileID: 4346700386411662995, guid: 523276ef9145e014184ca03ca625d4c7, type: 3}
 --- !u!1 &7166904933089146339
 GameObject:
   m_ObjectHideFlags: 0

@@ -15670,9 +15670,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1169438274924163860}
   - component: {fileID: 8036268671884939660}
+  - component: {fileID: -5501266877343074173}
   m_Layer: 6
   m_Name: TrafficLight X
-  m_TagString: Untagged
+  m_TagString: Spawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15709,6 +15710,19 @@ MonoBehaviour:
   rightHandObjects: {fileID: 8145053713270967812}
   leftHandObjects: {fileID: 6442083669653601911}
   leftHandObjectsJapan: {fileID: 4396727424225248972}
+--- !u!114 &-5501266877343074173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216230947324605486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317e4521a3c5bef43b18c4fc2056b945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombie: {fileID: 4346700386411662995, guid: 523276ef9145e014184ca03ca625d4c7, type: 3}
 --- !u!1 &8237459470262149158
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 ///     Saves the settings interface GameObject so it can be used in differente scenes.
@@ -13,6 +14,7 @@ public class SettingsController : MonoBehaviour
     public GameObject menuScreen;
 
     public PauseMenu pauseMenu;
+    public RewardsLoader rewards;
 
     public int selectedCharacter;
     private void Start()
@@ -59,5 +61,13 @@ public class SettingsController : MonoBehaviour
             screenOptions.SetActive(false);
             pauseMenu.pauseUI.SetActive(true);
         }
+    }
+
+    /// <summary>
+    ///     Loads main menu.
+    /// </summary>
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(1);
     }
 }

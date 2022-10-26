@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour
     private bool groundedPlayer;
     private Transform cameraTransform;
 
+    public RewardsLoader rewards;
     public GameObject UI;
     public Item[] itemsToAdd;
     private Inventory myInventory = new Inventory(24);
@@ -99,6 +100,8 @@ public class PlayerController : MonoBehaviour
         UI = GameObject.Find("UI");
 
         playerInput.camera = Camera.main;
+        rewards = GameObject.FindWithTag("Settings").GetComponent<SettingsController>().rewards;
+        rewards.zombiesKilled = 0;
 
         foreach (Item item in itemsToAdd)
         {
@@ -172,7 +175,7 @@ public class PlayerController : MonoBehaviour
         // If the gun is automatic and the player is still pressing the button, it will repeat the action.
         if (isShootingAutomatic && currentPickedItem.isSpameable)
         {
-            Invoke("Shoot", 0.2f);
+            Invoke("Shoot", 0.1f);
         }
     }
 

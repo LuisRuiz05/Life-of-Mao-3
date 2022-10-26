@@ -10,6 +10,7 @@ public class ZombieIA : MonoBehaviour
 {
     private NavMeshAgent nav;
     private Animator animator;
+    public RewardsLoader rewards;
 
     public int health = 100;
     public bool isAlive;
@@ -37,11 +38,12 @@ public class ZombieIA : MonoBehaviour
 
     // Attack
     private float damageTimer;
-    private float damageCooldown = 1.35f;
+    private float damageCooldown = 0.45f;
 
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
+        nav.isStopped = false;
         animator = GetComponent<Animator>();
 
         wanderTimer = wanderMaxTime;
@@ -80,7 +82,7 @@ public class ZombieIA : MonoBehaviour
             }
 
             // Attack
-            if (follow != null && (transform.position - follow.transform.position).magnitude <= 0.9)
+            if (follow != null && (transform.position - follow.transform.position).magnitude <= 1.3)
             {
                 animator.SetBool("Walking", false);
                 animator.SetBool("Running", false);
@@ -90,6 +92,7 @@ public class ZombieIA : MonoBehaviour
                 if (damageTimer >= damageCooldown)
                 {
                     follow.GetComponent<PlayerState>().currentHealth -= 5;
+                    follow.GetComponent<Animator>().Play("Hurt");
                     damageTimer = 0;
                 }
             }
@@ -111,14 +114,17 @@ public class ZombieIA : MonoBehaviour
     public void ReceiveDamage(int damage)
     {
         health -= damage;
-        if (health <= 0)
+        if (health <= 0 && isAlive)
         {
             isAlive = false;
+            nav.isStopped = true;
+            rewards.zombiesKilled++;
             animator.SetBool("Walking", false);
             animator.SetBool("Running", false);
             animator.SetBool("Attacking", false);
             animator.Play("Die");
-            nav.Stop();
+
+            Destroy(gameObject, 1.5f);
         }
     }
 
@@ -150,7 +156,7 @@ public class ZombieIA : MonoBehaviour
         Vector3 origin = transform.position;
         Vector3 dest = obj.transform.position;
         Vector3 direction = dest - origin;
-        if (direction.y < -0.3 || direction.y > height)
+        if (direction.y < -1.0f || direction.y > height)
         {
             return false;
         }
@@ -275,7 +281,7 @@ public class ZombieIA : MonoBehaviour
         }
         return null;
     }
-
+    
     private void OnDrawGizmos()
     {
         if (mesh)

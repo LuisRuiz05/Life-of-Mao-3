@@ -10,8 +10,8 @@ public class BulletController : MonoBehaviour
     [SerializeField]
     private GameObject bulletDecal;
     public GameObject blood;
-    public GameObject flesh;
 
+    private Rigidbody rb;
     private GameObject bloodParent;
 
     private float speed = 75f;
@@ -28,6 +28,7 @@ public class BulletController : MonoBehaviour
     private void Start()
     {
         bloodParent = GameObject.Find("BloodParent");
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -44,6 +45,12 @@ public class BulletController : MonoBehaviour
     /// </summary>
     private void OnCollisionEnter(Collision collision)
     {
+        if (rb.velocity.sqrMagnitude == 0f || rb.IsSleeping())
+        {
+            Debug.Log("It stopped");
+            Destroy(gameObject);
+        }
+
         // Bullet colliding against zombie's body.
         if (collision.collider.CompareTag("Enemy"))
         {
@@ -58,7 +65,8 @@ public class BulletController : MonoBehaviour
             collision.collider.gameObject.GetComponent<ZombieIA>().ReceiveDamage(10);
         }
         // Bullet colliding against zombie's head.
-        else if (collision.collider.CompareTag("Z_Head")){
+        else if (collision.collider.CompareTag("Z_Head"))
+        {
             ContactPoint contact = collision.GetContact(0);
 
             Destroy(collision.collider.gameObject);
@@ -72,10 +80,7 @@ public class BulletController : MonoBehaviour
         }
         else
         {
-            ContactPoint contact = collision.GetContact(0);
-            GameObject decal = GameObject.Instantiate(bulletDecal, contact.point + contact.normal * 0.0001f, Quaternion.LookRotation(contact.normal));
             Destroy(gameObject);
-            Destroy(decal, 6f);
         }
     }
 }

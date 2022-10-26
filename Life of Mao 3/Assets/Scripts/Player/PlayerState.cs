@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /// <summary>
@@ -29,6 +30,8 @@ public class PlayerState : MonoBehaviour
     public Text thirstText;
     public Text hungerText;
     //public Text bulletText;
+
+    public Timer timer;
 
     public Image bleedingImage;
     public Image bleedingPanel;
@@ -62,6 +65,8 @@ public class PlayerState : MonoBehaviour
         currentHunger = 100;
         currentThirst = 100;
 
+        timer = GameObject.Find("UI/Timer").GetComponent<Timer>();
+
         // Get UI componentes
         characterImageDisplay = GameObject.Find("UI/PlayerData/Background/Character/Image").GetComponent<Image>();
         healthBar = GameObject.Find("UI/PlayerData/Background/Bars/Health").GetComponent<Image>();
@@ -88,6 +93,7 @@ public class PlayerState : MonoBehaviour
     {
         GetStaminaDown();
         UpdateBars();
+        Die();
     }
 
     /// <summary>
@@ -134,6 +140,22 @@ public class PlayerState : MonoBehaviour
     {
         currentThirst -= 4f;
         Invoke("GetThirsty", 30f);
+    }
+
+    public void Die()
+    {
+        if(currentHealth <= 0)
+        {
+            currentHealth = 0;
+
+            controller.rewards.missionState = false;
+            controller.rewards.time = timer.maxTime - timer.time;
+
+            SceneManager.LoadScene(3);
+
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     /// <summary>

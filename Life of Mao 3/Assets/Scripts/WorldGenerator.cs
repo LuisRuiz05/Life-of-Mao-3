@@ -16,7 +16,7 @@ public class WorldGenerator : MonoBehaviour
     private int currentZombies = 0;
     private int spawnNum;
 
-    void Awake()
+    /*void Awake()
     {
         generator.GenerateCityAtRuntime(citySize);
         generator.GenerateBuildings();
@@ -40,5 +40,5 @@ public class WorldGenerator : MonoBehaviour
             Debug.Log("Spawning");
             spawners[Random.Range(0, spawnNum)].GetComponent<ZombieSpawner>().SpawnZombie();
         }
-    }
+    }*/
 }

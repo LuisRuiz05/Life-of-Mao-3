@@ -14,6 +14,14 @@ public class SceneLoader : MonoBehaviour
     public Image barFill;
     public Text progressText;
 
+    /// <summary>
+    ///     Loads main menu.
+    /// </summary>
+    public static void MainMenu()
+    {
+        SceneManager.LoadScene(1);
+    }
+
     public void StartGame()
     {
         StartCoroutine(LoadSceneAsync());

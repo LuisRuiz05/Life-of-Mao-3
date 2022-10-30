@@ -17,7 +17,7 @@ public class Item : ScriptableObject
 
     public string itemName;
     public Sprite itemIcon;
-    [Range(1,64)]public int maxStackSize = 15;
+    [Range(1,32)]public int maxStackSize = 15;
     public ItemType type;
     public bool isSpameable;
 }

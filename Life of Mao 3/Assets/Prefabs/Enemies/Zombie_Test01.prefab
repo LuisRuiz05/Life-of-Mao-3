@@ -1414,8 +1414,9 @@ GameObject:
   - component: {fileID: 4346700386411662996}
   - component: {fileID: 4346700386411662999}
   - component: {fileID: 4346700386411662998}
-  - component: {fileID: 4346700386411662993}
+  - component: {fileID: 3011520870535416912}
   - component: {fileID: 4346700386411662992}
+  - component: {fileID: 4889378942476664655}
   m_Layer: 7
   m_Name: Zombie_Test01
   m_TagString: Enemy
@@ -1507,7 +1508,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &4346700386411662993
+--- !u!114 &3011520870535416912
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1516,26 +1517,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 4346700386411662995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19db45c30f45d9d499f0b98b35228799, type: 3}
+  m_Script: {fileID: 11500000, guid: 62e2ca52579a86444912e848be7b0b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rewards: {fileID: 11400000, guid: 317b892792a41e74ea881273a02a584e, type: 2}
   health: 100
   isAlive: 1
-  distance: 30
-  angle: 110
-  height: 1.7
-  meshColor: {r: 0, g: 0.94464993, b: 1, a: 0.39215687}
-  scanFrequency: 30
-  layers:
-    serializedVersion: 2
-    m_Bits: 8
-  occlusionLayers:
-    serializedVersion: 2
-    m_Bits: 119
-  objects: []
-  wanderDistance: 25
-  wanderMaxTime: 6
+  follow: 0
+  player: {fileID: 0}
+  wanderDistance: 15
+  wanderMaxTime: 2
+  growl: {fileID: 8300000, guid: ceb2474913e8b5e40b17213af473d784, type: 3}
+  growl2: {fileID: 8300000, guid: 168c9a5ac7025814ea9c89e5098a3cad, type: 3}
+  hurt: {fileID: 8300000, guid: b771cd0787c16e64e8e8ba11c3c83734, type: 3}
+  die: {fileID: 8300000, guid: e1e7f406c66d0c34f94726e83f3b5cbd, type: 3}
 --- !u!54 &4346700386411662992
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1552,6 +1547,102 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!82 &4889378942476664655
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4346700386411662995}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 16.8
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4346700386420164201
 GameObject:
   m_ObjectHideFlags: 0

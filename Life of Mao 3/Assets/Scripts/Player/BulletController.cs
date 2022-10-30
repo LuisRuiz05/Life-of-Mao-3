@@ -57,12 +57,12 @@ public class BulletController : MonoBehaviour
             ContactPoint contact = collision.GetContact(0);
 
             Destroy(gameObject);
-            if (collision.collider.gameObject.GetComponent<ZombieIA>().isAlive)
+            if (collision.collider.gameObject.GetComponent<ZombieAI>().isAlive)
             {
                 GameObject bloodCopy = GameObject.Instantiate(blood, contact.point + contact.normal * 0.0001f, Quaternion.LookRotation(contact.normal), bloodParent.transform);
                 Destroy(bloodCopy, 6f);
             }
-            collision.collider.gameObject.GetComponent<ZombieIA>().ReceiveDamage(10);
+            collision.collider.gameObject.GetComponent<ZombieAI>().ReceiveDamage(10);
         }
         // Bullet colliding against zombie's head.
         else if (collision.collider.CompareTag("Z_Head"))

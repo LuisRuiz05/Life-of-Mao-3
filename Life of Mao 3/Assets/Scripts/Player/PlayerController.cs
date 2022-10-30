@@ -8,6 +8,7 @@ using UnityEngine.InputSystem.Interactions;
 [RequireComponent(typeof(CharacterController), typeof(PlayerInput))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("General")]
     [SerializeField]
     float playerSpeed = 3.5f;
     [SerializeField]
@@ -24,7 +25,9 @@ public class PlayerController : MonoBehaviour
     private bool isInventoryOpen;
     private int selectedHotbarIndex = 0;
     private PauseMenu pause;
+    public bool isSprinting = false;
 
+    [Header("Animators")]
     [SerializeField]
     private RuntimeAnimatorController gunAnim;
     [SerializeField]
@@ -32,13 +35,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private RuntimeAnimatorController noGunAnim;
 
+    [Header("Guns")]
     [SerializeField]
     public GameObject pistol;
     [SerializeField]
     public GameObject uzi;
     [SerializeField]
     public GameObject rifle;
+    public string gun = ""; //pistol, uzi, rifle
 
+    [Header("Bullet")]
     [SerializeField]
     private GameObject bulletPrefab;
     [SerializeField]
@@ -46,6 +52,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Transform bulletParent;
 
+    [Header("Components and Gravity")]
     private PlayerState state;
     private CharacterController controller;
     private Animator animator;
@@ -53,21 +60,36 @@ public class PlayerController : MonoBehaviour
     private Vector3 playerVelocity;
     private bool groundedPlayer;
     private Transform cameraTransform;
-
     public RewardsLoader rewards;
     public GameObject UI;
+
+    [Header("Inventory")]
     public Item[] itemsToAdd;
-    private Inventory myInventory = new Inventory(24);
+    public Inventory myInventory = new Inventory(24);
     public Item currentPickedItem;
 
+    [Header("Ammo")]
+    public int pistolAmmo = 0;
+    public int pistolAmmoInCharger = 0;
+    public int maxPistolAmmo = 12;
+    [Space(10)]
+    public int uziAmmo = 0;
+    public int uziAmmoInCharger = 0;
+    public int maxUziAmmo = 20;
+    [Space(10)]
+    public int rifleAmmo = 0;
+    public int rifleAmmoInCharger = 0;
+    public int maxRifleAmmo = 30;
+    [Space(2)]
+    private bool isShootingAutomatic;
+
+    [Header("Input")]
     private InputAction moveAction;
     private InputAction jumpAction;
     private InputAction shootAction;
     private InputAction sprintAction;
+    private InputAction reloadAction;
     private InputAction inventoryAction;
-
-    private bool isShootingAutomatic;
-    public bool isSprinting = false;
 
     private void Awake()
     {
@@ -81,6 +103,7 @@ public class PlayerController : MonoBehaviour
         jumpAction = playerInput.actions["Jump"];
         shootAction = playerInput.actions["Shoot"];
         sprintAction = playerInput.actions["Sprint"];
+        reloadAction = playerInput.actions["Reload"];
         inventoryAction = playerInput.actions["Inventory"];
     }
 
@@ -105,8 +128,35 @@ public class PlayerController : MonoBehaviour
 
         foreach (Item item in itemsToAdd)
         {
-            myInventory.AddItem(new ItemStack(item, 1));
+            if(item.type == Item.ItemType.Consumable)
+            {
+                myInventory.AddItem(new ItemStack(item, 2));
+            }
+            else if(item.name == "PistolAmmo")
+            {
+                pistolAmmo += 60;
+                myInventory.AddItem(new ItemStack(item, 60));
+            }
+            else if (item.name == "UziAmmo")
+            {
+                uziAmmo += 60;
+                myInventory.AddItem(new ItemStack(item, 60));
+            }
+            else if (item.name == "RifleAmmo")
+            {
+                rifleAmmo += 60;
+                myInventory.AddItem(new ItemStack(item, 60));
+            }
+            else
+            {
+                myInventory.AddItem(new ItemStack(item, 1));
+            }
         }
+
+        pistolAmmoInCharger = maxPistolAmmo;
+        uziAmmoInCharger = maxUziAmmo;
+        rifleAmmoInCharger = maxRifleAmmo;
+
         pause = GameObject.Find("UI").GetComponent<PauseMenu>();
         InventoryManager.INSTANCE.OpenContainer(new ContainerPlayerHotbar(null, myInventory));
         isInventoryOpen = false;
@@ -149,33 +199,113 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    ///     This function describes the calculation of the shot with a ray launched at the middle of the screen, where the player's reticle may be.
+    ///     This function checks if the player's got a gun and enough ammo. Then calls the bullet calculation function.
     /// </summary>
     private void Shoot()
     {
-        if (CanGameUseMouseInput() && HasPickedAGun())
+        if (CanGameUseMouseInput() && HasPickedAGun()) // Player has a gun and it's not in pause.
         {
-            RaycastHit hit;
-            GameObject bullet = GameObject.Instantiate(bulletPrefab, barrelTransform.position, Quaternion.Euler(90,0,0), bulletParent);
-            BulletController bulletController = bullet.GetComponent<BulletController>();
-            // Calculate if the bullet will collide with any object
-            if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, Mathf.Infinity))
+            if(gun == "pistol" && pistolAmmoInCharger > 0) // Player's got a pistol and it has enough ammo.
             {
-                bulletController.target = hit.point;
-                bulletController.hit = true;
+                CalculateBullet();
+                pistolAmmo--;
+                pistolAmmoInCharger--;
+
+                foreach(var stack in myInventory.GetInventoryStacks())
+                {
+                    if(stack.GetItem() != null && stack.GetItem().name == "PistolAmmo")
+                    {
+                        stack.DecreaseAmount(1);
+                        break;
+                    }
+                }
             }
-            else
+            if (gun == "uzi" && uziAmmoInCharger > 0) // Player's got a uzi and it has enough ammo.
             {
-                // If the bullet will not hit anything in certain distance, it'll send this information to the bullet's handler, so the bullet can be destroyed.
-                bulletController.target = cameraTransform.position + cameraTransform.forward * bulletHitMissDistance;
-                bulletController.hit = false;
+                CalculateBullet();
+                uziAmmo--;
+                uziAmmoInCharger--;
+
+                foreach (var stack in myInventory.GetInventoryStacks())
+                {
+                    if (stack.GetItem() != null && stack.GetItem().name == "UziAmmo")
+                    {
+                        stack.DecreaseAmount(1);
+                        break;
+                    }
+                }
             }
+            if (gun == "rifle" && rifleAmmoInCharger > 0) // Player's got a rifle and it has enough ammo.
+            {
+                CalculateBullet();
+                rifleAmmo--;
+                rifleAmmoInCharger--;
+
+                foreach (var stack in myInventory.GetInventoryStacks())
+                {
+                    if (stack.GetItem() != null && stack.GetItem().name == "RifleAmmo")
+                    {
+                        stack.DecreaseAmount(1);
+                        break;
+                    }
+                }
+            }
+            InventoryManager.INSTANCE.currentOpenContainer.updateSlots();
         }
 
         // If the gun is automatic and the player is still pressing the button, it will repeat the action.
         if (isShootingAutomatic && currentPickedItem.isSpameable)
         {
-            Invoke("Shoot", 0.1f);
+            if(gun == "uzi")
+                Invoke("Shoot", 0.3f);
+            if (gun == "rifle")
+                Invoke("Shoot", 0.15f);
+        }
+    }
+
+    /// <summary>
+    ///     This function describes the calculation of the shot with a ray launched at the middle of the screen, where the player's reticle may be.
+    /// </summary>
+    public void CalculateBullet()
+    {
+        RaycastHit hit;
+        GameObject bullet = GameObject.Instantiate(bulletPrefab, barrelTransform.position, Quaternion.Euler(90, 0, 0), bulletParent);
+        BulletController bulletController = bullet.GetComponent<BulletController>();
+        // Calculate if the bullet will collide with any object
+        if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, Mathf.Infinity))
+        {
+            bulletController.target = hit.point;
+            bulletController.hit = true;
+        }
+        else
+        {
+            // If the bullet will not hit anything in certain distance, it'll send this information to the bullet's handler, so the bullet can be destroyed.
+            bulletController.target = cameraTransform.position + cameraTransform.forward * bulletHitMissDistance;
+            bulletController.hit = false;
+        }
+    }
+
+    public void Reload()
+    {
+        if(gun == "pistol")
+        {
+            int difAmmo = maxPistolAmmo - pistolAmmoInCharger; // How many bullets will be reloaded.
+
+            pistolAmmoInCharger += difAmmo;
+        }
+
+        if (gun == "uzi")
+        {
+            int difAmmo = maxUziAmmo - uziAmmoInCharger; // How many bullets will be reloaded.
+
+            uziAmmoInCharger += difAmmo;
+        }
+
+        if (gun == "rifle")
+        {
+            int difAmmo = maxRifleAmmo - rifleAmmoInCharger; // How many bullets will be reloaded.
+
+            rifleAmmoInCharger += difAmmo;
         }
     }
 
@@ -228,6 +358,7 @@ public class PlayerController : MonoBehaviour
         // Empty slot.
         if (currentPickedItem == null)
         {
+            gun = "none";
             pistol.SetActive(false);
             uzi.SetActive(false);
             rifle.SetActive(false);
@@ -239,6 +370,7 @@ public class PlayerController : MonoBehaviour
         // Pistol
         if (currentPickedItem.type == Item.ItemType.Pistol)
         {
+            gun = "pistol";
             pistol.SetActive(true);
             uzi.SetActive(false);
             rifle.SetActive(false);
@@ -249,6 +381,7 @@ public class PlayerController : MonoBehaviour
         // Uzi
         if (currentPickedItem.type == Item.ItemType.Uzi)
         {
+            gun = "uzi";
             pistol.SetActive(false);
             uzi.SetActive(true);
             rifle.SetActive(false);
@@ -259,6 +392,7 @@ public class PlayerController : MonoBehaviour
         // Rifle
         if (currentPickedItem.type == Item.ItemType.Rifle)
         {
+            gun = "rifle";
             pistol.SetActive(false);
             uzi.SetActive(false);
             rifle.SetActive(true);
@@ -268,6 +402,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Slot contains another type of object.
+        gun = "none";
         pistol.SetActive(false);
         uzi.SetActive(false);
         rifle.SetActive(false);
@@ -324,6 +459,10 @@ public class PlayerController : MonoBehaviour
             animator.Play("Jump");
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
         }
+
+        // Calls reload function.
+        if (reloadAction.triggered && HasPickedAGun())
+            Invoke("Reload", 1.2f);
 
         // Opens and close the inventory
         if (inventoryAction.triggered)

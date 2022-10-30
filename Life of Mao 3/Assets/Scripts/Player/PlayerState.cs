@@ -29,7 +29,7 @@ public class PlayerState : MonoBehaviour
     public Text healtText;
     public Text thirstText;
     public Text hungerText;
-    //public Text bulletText;
+    public Text bulletText;
 
     public Timer timer;
 
@@ -74,6 +74,7 @@ public class PlayerState : MonoBehaviour
         healtText = GameObject.Find("UI/PlayerData/Background/Text/Health").GetComponent<Text>();
         thirstText = GameObject.Find("UI/PlayerData/Water/Text").GetComponent<Text>();
         hungerText = GameObject.Find("UI/PlayerData/Food/Text").GetComponent<Text>();
+        bulletText = GameObject.Find("UI/PlayerData/Ammo/Quantity").GetComponent<Text>();
         bleedingImage = GameObject.Find("UI/Bleeding").GetComponent<Image>();
         bleedingPanel = GameObject.Find("UI/Bleeding/BleedingBg").GetComponent<Image>();
 
@@ -93,6 +94,7 @@ public class PlayerState : MonoBehaviour
     {
         GetStaminaDown();
         UpdateBars();
+        UpdateAmmo();
         Die();
     }
 
@@ -128,6 +130,18 @@ public class PlayerState : MonoBehaviour
         {
             Invoke("RecoverStamina", 2f);
         }
+    }
+
+    public void UpdateAmmo()
+    {
+        if (controller.pistol.activeSelf)
+            bulletText.text = controller.pistolAmmoInCharger + "/" + controller.maxPistolAmmo;
+        else if (controller.uzi.activeSelf)
+            bulletText.text = controller.uziAmmoInCharger + "/" + controller.maxUziAmmo;
+        else if (controller.rifle.activeSelf)
+            bulletText.text = controller.rifleAmmoInCharger + "/" + controller.maxRifleAmmo;
+        else
+            bulletText.text = "-";
     }
 
     public void GetHungry()

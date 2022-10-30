@@ -32,6 +32,7 @@ public class Rewards : MonoBehaviour
         zombiesKilled = rewards.zombiesKilled;
         // Calculate earned money.
         money = (int)time + (zombiesKilled*2);
+        money = rewards.missionState ? money * 2 : money;
 
         // Convert time
         float mins = Mathf.FloorToInt(time / 60);

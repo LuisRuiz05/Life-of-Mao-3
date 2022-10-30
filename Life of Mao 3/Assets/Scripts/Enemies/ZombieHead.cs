@@ -7,10 +7,10 @@ using UnityEngine;
 /// </summary>
 public class ZombieHead : MonoBehaviour
 {
-    public ZombieIA ai;
+    public ZombieAI ai;
 
     void Start()
     {
-        ai = gameObject.GetComponentInParent<ZombieIA>();
+        ai = gameObject.GetComponentInParent<ZombieAI>();
     }
 }

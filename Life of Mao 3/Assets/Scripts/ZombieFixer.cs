@@ -52,10 +52,7 @@ public class ZombieFixer : MonoBehaviour
         {
             zombies[i].SetActive(true);
         }
-    }
 
-    private void Update()
-    {
         // Set Active 70-80
         for (int i = 70; i < 80; i++)
         {

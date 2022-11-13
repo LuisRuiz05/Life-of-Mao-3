@@ -146,14 +146,14 @@ public class PlayerState : MonoBehaviour
 
     public void GetHungry()
     {
-        currentHunger -= 2f;
-        Invoke("GetHungry", 30f);
+        currentHunger -= 1f;
+        Invoke("GetHungry", 1f);
     }
 
     public void GetThirsty()
     {
-        currentThirst -= 4f;
-        Invoke("GetThirsty", 30f);
+        currentThirst -= 1f;
+        Invoke("GetThirsty", 1f);
     }
 
     public void Die()

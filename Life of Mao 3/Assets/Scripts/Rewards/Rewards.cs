@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class Rewards : MonoBehaviour
 {
     public RewardsLoader rewards;
+    public Money moneyScript;
 
     [Header("Data")]
     public bool missionState;
@@ -47,6 +48,7 @@ public class Rewards : MonoBehaviour
         timeText.text = string.Format("{0:00}:{1:00}", mins, secs);
         zombiesText.text = "" + zombiesKilled;
         moneyText.text = "" + money;
+        moneyScript.GetMoney(money);
     }
 
 }

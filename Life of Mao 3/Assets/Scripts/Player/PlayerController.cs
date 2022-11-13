@@ -134,18 +134,18 @@ public class PlayerController : MonoBehaviour
             }
             else if(item.name == "PistolAmmo")
             {
-                pistolAmmo += 60;
-                myInventory.AddItem(new ItemStack(item, 60));
+                pistolAmmo += 12;
+                myInventory.AddItem(new ItemStack(item, 12));
             }
             else if (item.name == "UziAmmo")
             {
-                uziAmmo += 60;
-                myInventory.AddItem(new ItemStack(item, 60));
+                uziAmmo += 20;
+                myInventory.AddItem(new ItemStack(item, 20));
             }
             else if (item.name == "RifleAmmo")
             {
-                rifleAmmo += 60;
-                myInventory.AddItem(new ItemStack(item, 60));
+                rifleAmmo += 30;
+                myInventory.AddItem(new ItemStack(item, 30));
             }
             else
             {
@@ -289,23 +289,50 @@ public class PlayerController : MonoBehaviour
     {
         if(gun == "pistol")
         {
-            int difAmmo = maxPistolAmmo - pistolAmmoInCharger; // How many bullets will be reloaded.
+            if (pistolAmmo - pistolAmmoInCharger > 0) // We still have bullets that are not charged already and we can reload.
+            {
+                // How many bullets need to be reloaded
+                int difAmmo = maxPistolAmmo - pistolAmmoInCharger;
+                if (pistolAmmo - pistolAmmoInCharger < difAmmo) // We don't have enough ammo to reload the full difAmmo.
+                    difAmmo = pistolAmmo - pistolAmmoInCharger;
 
-            pistolAmmoInCharger += difAmmo;
+                if (pistolAmmo < difAmmo) // Case we don't have enough ammo to do a full charger reload.
+                    difAmmo = pistolAmmo;
+
+                pistolAmmoInCharger += difAmmo;
+            }
         }
 
         if (gun == "uzi")
         {
-            int difAmmo = maxUziAmmo - uziAmmoInCharger; // How many bullets will be reloaded.
+            if (uziAmmo - uziAmmoInCharger > 0) // We still have bullets that are not charged already and we can reload.
+            {
+                // How many bullets need to be reloaded
+                int difAmmo = maxUziAmmo - uziAmmoInCharger;
+                if (uziAmmo - uziAmmoInCharger < difAmmo) // We don't have enough ammo to reload the full difAmmo.
+                    difAmmo = uziAmmo - uziAmmoInCharger;
 
-            uziAmmoInCharger += difAmmo;
+                if (uziAmmo < difAmmo) // Case we don't have enough ammo to do a full charger reload.
+                    difAmmo = uziAmmo;
+
+                uziAmmoInCharger += difAmmo;
+            }
         }
 
         if (gun == "rifle")
         {
-            int difAmmo = maxRifleAmmo - rifleAmmoInCharger; // How many bullets will be reloaded.
+            if (rifleAmmo - rifleAmmoInCharger > 0) // We still have bullets that are not charged already and we can reload.
+            {
+                // How many bullets need to be reloaded
+                int difAmmo = maxRifleAmmo - rifleAmmoInCharger;
+                if (rifleAmmo - rifleAmmoInCharger < difAmmo) // We don't have enough ammo to reload the full difAmmo.
+                    difAmmo = rifleAmmo - rifleAmmoInCharger;
+                
+                if (rifleAmmo < difAmmo) // Case we don't have enough ammo to do a full charger reload.
+                    difAmmo = rifleAmmo;
 
-            rifleAmmoInCharger += difAmmo;
+                rifleAmmoInCharger += difAmmo;
+            }
         }
     }
 
@@ -314,13 +341,13 @@ public class PlayerController : MonoBehaviour
         if (!isInventoryOpen)
         {
             if (currentPickedItem.itemName == "Medkit")
-                state.currentHealth += 20;
+                state.currentHealth += 12;
             if (currentPickedItem.itemName == "Pills")
-                state.currentHealth += 10;
+                state.currentHealth += 15;
             if (currentPickedItem.itemName == "Water")
-                state.currentThirst += 10;
+                state.currentThirst += 15;
             if (currentPickedItem.itemName == "Food Can")
-                state.currentHunger += 10;
+                state.currentHunger += 6;
 
             myInventory.GetStackInSlot(selectedHotbarIndex).DecreaseAmount(1);
             InventoryManager.INSTANCE.currentOpenContainer.updateSlots();

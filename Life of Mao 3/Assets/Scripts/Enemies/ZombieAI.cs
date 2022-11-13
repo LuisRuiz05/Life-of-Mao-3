@@ -11,6 +11,7 @@ public class ZombieAI : MonoBehaviour
     private NavMeshAgent nav;
     private Animator animator;
     public RewardsLoader rewards;
+    public LootGenerator loot;
 
     public int health = 100;
     public bool isAlive = true;
@@ -35,21 +36,13 @@ public class ZombieAI : MonoBehaviour
     public AudioClip hurt; //Grunt
     public AudioClip die; //Hyperchase
 
-    //Instantiate loot
-    public GameObject food;
-    public GameObject water;
-    public GameObject medkit;
-    public GameObject pills;
-    public GameObject pistolAmmo;
-    public GameObject uziAmmo;
-    public GameObject riffleAmmo;
-
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
         nav.isStopped = false;
         animator = GetComponent<Animator>();
         audio = GetComponent<AudioSource>();
+        loot = GetComponent<LootGenerator>();
 
         wanderTimer = wanderMaxTime;
 
@@ -109,6 +102,7 @@ public class ZombieAI : MonoBehaviour
             animator.Play("Die");
             audio.PlayOneShot(die);
 
+            loot.GenerateLoot(transform.position);
             Destroy(gameObject, 1.5f);
         }
         else
@@ -176,7 +170,7 @@ public class ZombieAI : MonoBehaviour
 
         if (damageTimer >= damageCooldown)
         {
-            player.GetComponent<PlayerState>().currentHealth -= 5;
+            player.GetComponent<PlayerState>().currentHealth -= 10;
             player.GetComponent<Animator>().Play("Hurt");
             damageTimer = 0;
         }

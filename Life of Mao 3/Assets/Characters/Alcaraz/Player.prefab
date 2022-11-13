@@ -1522,24 +1522,40 @@ MonoBehaviour:
   gravityValue: -9.81
   rotationSpeed: 10
   bulletHitMissDistance: 25
+  isSprinting: 0
   gunAnim: {fileID: 9100000, guid: 41ce2ac8b78809f4aad3b2dc2f20b0ef, type: 2}
   LongGunAnim: {fileID: 9100000, guid: 48bebafc0f061d3498c268d1b5296e09, type: 2}
   noGunAnim: {fileID: 9100000, guid: c6c3f9388f1e9fe40a463081b9d7b7d9, type: 2}
   pistol: {fileID: 7281216872622932364}
   uzi: {fileID: 7211917277664214057}
   rifle: {fileID: 162143005626170548}
+  gun: 
   bulletPrefab: {fileID: 5368625246864252096, guid: 936a69e7fd261534bb965744e56870bb, type: 3}
   barrelTransform: {fileID: 0}
   bulletParent: {fileID: 0}
-  reticlePanel: {fileID: 0}
+  rewards: {fileID: 0}
+  UI: {fileID: 0}
   itemsToAdd:
   - {fileID: 11400000, guid: d9bbaae6a23f1f343bcd9440198e20c8, type: 2}
+  - {fileID: 11400000, guid: 0fc89fa0005bb3d45a6511bffe099df8, type: 2}
+  - {fileID: 11400000, guid: 99203b3d64d7986428b95591cc54691f, type: 2}
   - {fileID: 11400000, guid: d754c5b3a53d84946a781a5e39de73f4, type: 2}
-  - {fileID: 11400000, guid: d754c5b3a53d84946a781a5e39de73f4, type: 2}
-  - {fileID: 11400000, guid: d754c5b3a53d84946a781a5e39de73f4, type: 2}
-  - {fileID: 11400000, guid: d754c5b3a53d84946a781a5e39de73f4, type: 2}
+  - {fileID: 11400000, guid: ef69a5e9e473d5643bd4b44b4335a8bf, type: 2}
+  - {fileID: 11400000, guid: 1ac4da6552b94d141b85aec24c3fda40, type: 2}
+  - {fileID: 11400000, guid: 82ef9c2e98919d544b686ecda46b4809, type: 2}
+  - {fileID: 11400000, guid: 939a5f94af2748448a38fa69f521fb80, type: 2}
+  - {fileID: 11400000, guid: 4a004842f6876134db8382686244d11a, type: 2}
+  - {fileID: 11400000, guid: 305baad616c7b1f40b8c056660e0c4fb, type: 2}
   currentPickedItem: {fileID: 0}
-  isSprinting: 0
+  pistolAmmo: 0
+  pistolAmmoInCharger: 0
+  maxPistolAmmo: 12
+  uziAmmo: 0
+  uziAmmoInCharger: 0
+  maxUziAmmo: 20
+  rifleAmmo: 0
+  rifleAmmoInCharger: 0
+  maxRifleAmmo: 30
 --- !u!114 &-5647147128236026447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1567,6 +1583,10 @@ MonoBehaviour:
   healtText: {fileID: 0}
   thirstText: {fileID: 0}
   hungerText: {fileID: 0}
+  bulletText: {fileID: 0}
+  timer: {fileID: 0}
+  bleedingImage: {fileID: 0}
+  bleedingPanel: {fileID: 0}
   currentHealth: 0
   currentStamina: 0
   currentThirst: 0

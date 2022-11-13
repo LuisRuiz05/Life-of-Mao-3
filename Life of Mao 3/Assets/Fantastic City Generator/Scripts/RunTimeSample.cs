@@ -8,7 +8,7 @@ public class RunTimeSample : MonoBehaviour
     public GameObject cg;
     public GameObject ts;
 
-    private CityGenerator generator;
+    public CityGenerator generator;
     private TrafficSystem trafficSystem;
 
     private bool withDownTownArea = true;
@@ -17,6 +17,7 @@ public class RunTimeSample : MonoBehaviour
     void Awake()
     {
         generator = cg.GetComponent<CityGenerator>();
+        Debug.Log(generator);
         generator.gameObject.isStatic = true;
     }
     public void GenerateCityAtRuntime(int citySize)
@@ -25,7 +26,7 @@ public class RunTimeSample : MonoBehaviour
 
         generator = cg.GetComponent<CityGenerator>();
 
-        generator.GenerateCity(citySize); // (city size:  1 , 2, 3 or 4) 
+        //generator.GenerateCity(citySize); // (city size:  1 , 2, 3 or 4) 
 
 
     }
@@ -43,6 +44,7 @@ public class RunTimeSample : MonoBehaviour
     public void GenerateBuildings()
     {
         float downTownSize = 100;
+        Debug.Log(generator);
         generator.GenerateAllBuildings(withDownTownArea, downTownSize); // (skyscrappers: true or false)
 
     }

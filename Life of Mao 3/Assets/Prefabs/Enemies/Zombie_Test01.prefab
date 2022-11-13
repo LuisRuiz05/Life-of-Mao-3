@@ -1415,6 +1415,7 @@ GameObject:
   - component: {fileID: 4346700386411662999}
   - component: {fileID: 4346700386411662998}
   - component: {fileID: 3011520870535416912}
+  - component: {fileID: -5392860884221899430}
   - component: {fileID: 4346700386411662992}
   - component: {fileID: 4889378942476664655}
   m_Layer: 7
@@ -1531,6 +1532,25 @@ MonoBehaviour:
   growl2: {fileID: 8300000, guid: 168c9a5ac7025814ea9c89e5098a3cad, type: 3}
   hurt: {fileID: 8300000, guid: b771cd0787c16e64e8e8ba11c3c83734, type: 3}
   die: {fileID: 8300000, guid: e1e7f406c66d0c34f94726e83f3b5cbd, type: 3}
+--- !u!114 &-5392860884221899430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4346700386411662995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052f2dcd909f90f40916fdb139a2e178, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: {fileID: 6164857704153882487, guid: 617c2c5c3ee0b8c419580d7f27cbc64b, type: 3}
+  water: {fileID: 3674525889148569280, guid: ff078d17ba1a94c4ca096f2a1165c61a, type: 3}
+  medkit: {fileID: 5906194072384712641, guid: 6b7c32ec0f8037d46a1147ffa20a2cf5, type: 3}
+  pills: {fileID: 671003846276897782, guid: 008e1ce967da430439d57b51f7c133ab, type: 3}
+  pistolAmmo: {fileID: 4439960980095770769, guid: 13251d6fd6715644ab396c8f26b9fbce, type: 3}
+  uziAmmo: {fileID: 4439960980095770769, guid: 210df19d750075c439876d6735a0f08f, type: 3}
+  riffleAmmo: {fileID: 4439960980095770769, guid: 85782c44c24d825418ff064ac899661c, type: 3}
 --- !u!54 &4346700386411662992
 Rigidbody:
   m_ObjectHideFlags: 0

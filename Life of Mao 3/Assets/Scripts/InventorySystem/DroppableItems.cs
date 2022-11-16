@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+///     This class will handle the loot drop instantiated.
+///     Whenever it is picked by the player, it will dissapear and the items will be added to the player's inventory.
+/// </summary>
 public class DroppableItems : MonoBehaviour
 {
     public Item item;

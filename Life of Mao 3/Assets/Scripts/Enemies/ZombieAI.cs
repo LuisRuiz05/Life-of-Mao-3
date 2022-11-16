@@ -12,8 +12,10 @@ public class ZombieAI : MonoBehaviour
     private Animator animator;
     public RewardsLoader rewards;
     public LootGenerator loot;
+    private Rigidbody rb;
 
     public int health = 100;
+    public bool isZombieEnabled = true;
     public bool isAlive = true;
     public bool follow = false;
 
@@ -39,7 +41,7 @@ public class ZombieAI : MonoBehaviour
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
-        nav.isStopped = false;
+        rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         audio = GetComponent<AudioSource>();
         loot = GetComponent<LootGenerator>();
@@ -51,35 +53,41 @@ public class ZombieAI : MonoBehaviour
 
     void Update()
     {
-        if (isAlive)
+        if (isZombieEnabled)
         {
-            Growl();
-            FindPlayer();
-            // Follow player if it's detected.
-            if (follow)
+            if (isAlive)
             {
-                FollowPlayer();
-            }
-            // Id the player is not detected, wander randomly all over the map.
-            else
-            {
-                DoWander();
-            }
+                Growl();
+                FindPlayer();
+                // Follow player if it's detected.
+                if (follow)
+                {
+                    FollowPlayer();
+                }
+                // Id the player is not detected, wander randomly all over the map.
+                else
+                {
+                    DoWander();
+                }
 
-            // Attack
-            if (follow && (transform.position - player.transform.position).magnitude <= 1.3)
-            {
-                Attack();
+                // Attack
+                if (follow && (transform.position - player.transform.position).magnitude <= 1.3)
+                {
+                    Attack();
+                }
             }
         }
     }
 
+    /// <summary>
+    ///     Every 5 seconds will decide if the zombie will do a growl sound.
+    /// </summary>
     public void Growl()
     {
         audioCooldown += Time.deltaTime;
         if(audioCooldown >= 5.0f && !audio.isPlaying)
         {
-            audio.PlayOneShot(Random.Range(0, 2) == 0 ? growl : growl2);
+            audio.PlayOneShot(Random.Range(0, 3) == 0 ? growl : growl2);
             audioCooldown = 0.0f;
         }
     }
@@ -106,7 +114,10 @@ public class ZombieAI : MonoBehaviour
             Destroy(gameObject, 1.5f);
         }
         else
-            audio.PlayOneShot(hurt);
+        {
+            if(!audio.isPlaying)
+                audio.PlayOneShot(hurt);
+        }
     }
 
     /// <summary>
@@ -136,6 +147,9 @@ public class ZombieAI : MonoBehaviour
         return navHit.position;
     }
 
+    /// <summary>
+    ///     Sets the zombie into a wander mode when the player's not detected.
+    /// </summary>
     void DoWander()
     {
         // Wander
@@ -152,6 +166,9 @@ public class ZombieAI : MonoBehaviour
         }
     }
 
+    /// <summary>
+    ///     Will follow the player.
+    /// </summary>
     void FollowPlayer()
     {
         nav.speed = 2.75f;
@@ -161,6 +178,9 @@ public class ZombieAI : MonoBehaviour
         animator.SetBool("Attacking", false);
     }
 
+    /// <summary>
+    ///     Whenever te zombie is close to the player, it will attack him.
+    /// </summary>
     void Attack()
     {
         animator.SetBool("Walking", false);
@@ -176,4 +196,8 @@ public class ZombieAI : MonoBehaviour
         }
     }
 
+    void DisableZombie()
+    {
+
+    }
 }

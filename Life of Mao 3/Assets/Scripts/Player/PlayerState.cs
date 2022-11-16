@@ -132,6 +132,9 @@ public class PlayerState : MonoBehaviour
         }
     }
 
+    /// <summary>
+    ///     Updates the ammo counter in order to the remaining bullets.
+    /// </summary>
     public void UpdateAmmo()
     {
         if (controller.pistol.activeSelf)
@@ -144,18 +147,27 @@ public class PlayerState : MonoBehaviour
             bulletText.text = "-";
     }
 
+    /// <summary>
+    ///     Updates the hunger statistic.
+    /// </summary>
     public void GetHungry()
     {
         currentHunger -= 1f;
         Invoke("GetHungry", 1f);
     }
 
+    /// <summary>
+    ///     Updates the thirst statistic.
+    /// </summary>
     public void GetThirsty()
     {
         currentThirst -= 1f;
         Invoke("GetThirsty", 1f);
     }
 
+    /// <summary>
+    ///     Ends the game when the player gets health to 0 or below.
+    /// </summary>
     public void Die()
     {
         if(currentHealth <= 0)

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+///     This class handles the loot that will be droppped by the zombies.
+/// </summary>
 public class LootGenerator : MonoBehaviour
 {
     public Transform lootParent;
@@ -20,6 +23,10 @@ public class LootGenerator : MonoBehaviour
         lootParent = GameObject.Find("Loot").GetComponent<Transform>();
     }
 
+    /// <summary>
+    ///     This class will decide randomly what kind of loot will be instantiated.
+    /// </summary>
+    /// <param name="position"> Receives the position where the zombie died, so we can spawn the llot drop right there. </param>
     public void GenerateLoot(Vector3 position)
     {
         GameObject inst = null;

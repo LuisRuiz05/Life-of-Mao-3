@@ -9,13 +9,13 @@ using UnityEngine.InputSystem.Interactions;
 public class PlayerController : MonoBehaviour
 {
     [Header("General")]
-    [SerializeField]
-    float playerSpeed = 3.5f;
-    [SerializeField]
-    float playerSprintSpeed = 4.5f;
-    [SerializeField]
-    private float jumpHeight = 1.0f;
-    [SerializeField]
+    //[SerializeField]
+    float playerSpeed = 4f;
+    //[SerializeField]
+    float playerSprintSpeed = 5f;
+    //[SerializeField]
+    private float jumpHeight = 1.5f;
+    //[SerializeField]
     private float gravityValue = -9.81f;
     [SerializeField]
     private float rotationSpeed = 10f;
@@ -63,6 +63,16 @@ public class PlayerController : MonoBehaviour
     public RewardsLoader rewards;
     public GameObject UI;
 
+    [Header("Audio")]
+    public AudioSource audioSrc;
+    public AudioClip reload;
+    public AudioClip emptyAmmo;
+    public AudioClip pistolShot;
+    public AudioClip uziShot;
+    public AudioClip rifleShot;
+    public AudioClip feminineDamage;
+    public AudioClip masculineDamage;
+
     [Header("Inventory")]
     public Item[] itemsToAdd;
     public Inventory myInventory = new Inventory(24);
@@ -98,6 +108,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         playerInput = GetComponent<PlayerInput>();
         cameraTransform = Camera.main.transform;
+        audioSrc = gameObject.AddComponent<AudioSource>();
 
         moveAction = playerInput.actions["Move"];
         jumpAction = playerInput.actions["Jump"];
@@ -210,6 +221,7 @@ public class PlayerController : MonoBehaviour
                 CalculateBullet();
                 pistolAmmo--;
                 pistolAmmoInCharger--;
+                audioSrc.PlayOneShot(pistolShot);
 
                 foreach(var stack in myInventory.GetInventoryStacks())
                 {
@@ -225,6 +237,7 @@ public class PlayerController : MonoBehaviour
                 CalculateBullet();
                 uziAmmo--;
                 uziAmmoInCharger--;
+                audioSrc.PlayOneShot(uziShot);
 
                 foreach (var stack in myInventory.GetInventoryStacks())
                 {
@@ -240,6 +253,7 @@ public class PlayerController : MonoBehaviour
                 CalculateBullet();
                 rifleAmmo--;
                 rifleAmmoInCharger--;
+                audioSrc.PlayOneShot(rifleShot);
 
                 foreach (var stack in myInventory.GetInventoryStacks())
                 {
@@ -250,6 +264,10 @@ public class PlayerController : MonoBehaviour
                     }
                 }
             }
+
+            if ((gun == "pistol" && pistolAmmoInCharger <= 0) || (gun == "uzi" && uziAmmoInCharger <= 0) || (gun == "rifle" && rifleAmmoInCharger <= 0))
+                audioSrc.PlayOneShot(emptyAmmo);
+
             InventoryManager.INSTANCE.currentOpenContainer.updateSlots();
         }
 
@@ -341,13 +359,13 @@ public class PlayerController : MonoBehaviour
         if (!isInventoryOpen)
         {
             if (currentPickedItem.itemName == "Medkit")
-                state.currentHealth += 12;
-            if (currentPickedItem.itemName == "Pills")
                 state.currentHealth += 15;
-            if (currentPickedItem.itemName == "Water")
+            if (currentPickedItem.itemName == "Pills")
+                state.currentHealth += 8;
+            if (currentPickedItem.itemName == "Water Bottle")
                 state.currentThirst += 15;
             if (currentPickedItem.itemName == "Food Can")
-                state.currentHunger += 6;
+                state.currentHunger += 15;
 
             myInventory.GetStackInSlot(selectedHotbarIndex).DecreaseAmount(1);
             InventoryManager.INSTANCE.currentOpenContainer.updateSlots();
@@ -489,7 +507,31 @@ public class PlayerController : MonoBehaviour
 
         // Calls reload function.
         if (reloadAction.triggered && HasPickedAGun())
+        {
             Invoke("Reload", 1.2f);
+            if (gun == "pistol")
+            {
+                if (pistolAmmoInCharger != maxPistolAmmo && pistolAmmo - pistolAmmoInCharger > 0)
+                {
+                    audioSrc.PlayOneShot(reload);
+                }
+            }
+            if (gun == "uzi")
+            {
+                if (uziAmmoInCharger != maxUziAmmo && uziAmmo - uziAmmoInCharger > 0)
+                {
+                    audioSrc.PlayOneShot(reload);
+                }
+            }
+            if (gun == "rifle")
+            {
+                if (rifleAmmoInCharger != maxRifleAmmo && rifleAmmo - rifleAmmoInCharger> 0)
+                {
+                    audioSrc.PlayOneShot(reload);
+                }
+            }
+
+        }
 
         // Opens and close the inventory
         if (inventoryAction.triggered)

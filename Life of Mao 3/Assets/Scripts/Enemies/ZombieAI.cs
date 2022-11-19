@@ -190,7 +190,17 @@ public class ZombieAI : MonoBehaviour
 
         if (damageTimer >= damageCooldown)
         {
-            player.GetComponent<PlayerState>().currentHealth -= 10;
+            PlayerState state = player.GetComponent<PlayerState>();
+            state.currentHealth -= 10;
+            if(state.character.characterGender == Character.gender.feminine)
+            {
+                state.controller.audioSrc.PlayOneShot(state.controller.feminineDamage);
+            }
+            else if (state.character.characterGender == Character.gender.masculine)
+            {
+                state.controller.audioSrc.PlayOneShot(state.controller.masculineDamage);
+            }
+
             player.GetComponent<Animator>().Play("Hurt");
             damageTimer = 0;
         }

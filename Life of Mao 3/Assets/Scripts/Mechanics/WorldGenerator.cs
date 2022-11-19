@@ -13,8 +13,6 @@ public class WorldGenerator : MonoBehaviour
     public GameObject[] spawners;
 
     public int maxZombies = 100;
-    private int currentZombies = 0;
-    private int spawnNum;
 
     void Awake()
     {
@@ -31,13 +29,5 @@ public class WorldGenerator : MonoBehaviour
         }
 
         surface.BuildNavMesh();
-        /*spawners = GameObject.FindGameObjectsWithTag("Spawner");
-        spawnNum = spawners.Length;
-
-        for(int i = 0; i < maxZombies; i++)
-        {
-            Debug.Log("Spawning");
-            spawners[Random.Range(0, spawnNum)].GetComponent<ZombieSpawner>().SpawnZombie();
-        }*/
     }
 }

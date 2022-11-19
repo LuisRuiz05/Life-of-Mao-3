@@ -13,6 +13,8 @@ public class SceneLoader : MonoBehaviour
     public GameObject loadingScreen;
     public Image barFill;
     public Text progressText;
+    public Image characterImg;
+    public Sprite[] posters;
 
     /// <summary>
     ///     Loads main menu.
@@ -32,6 +34,9 @@ public class SceneLoader : MonoBehaviour
     /// </summary>
     IEnumerator LoadSceneAsync()
     {
+        int characterIndex = GameObject.FindGameObjectWithTag("Settings").GetComponent<SettingsController>().selectedCharacter;
+        characterImg.sprite = posters[characterIndex];
+        
         loadingScreen.SetActive(true);
         AsyncOperation operation = SceneManager.LoadSceneAsync(2);
 

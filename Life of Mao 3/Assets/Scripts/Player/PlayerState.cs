@@ -30,6 +30,7 @@ public class PlayerState : MonoBehaviour
     public Text thirstText;
     public Text hungerText;
     public Text bulletText;
+    public Text totalBulletText;
 
     public Timer timer;
 
@@ -75,6 +76,7 @@ public class PlayerState : MonoBehaviour
         thirstText = GameObject.Find("UI/PlayerData/Water/Text").GetComponent<Text>();
         hungerText = GameObject.Find("UI/PlayerData/Food/Text").GetComponent<Text>();
         bulletText = GameObject.Find("UI/PlayerData/Ammo/Quantity").GetComponent<Text>();
+        totalBulletText = GameObject.Find("UI/PlayerData/Ammo/Total").GetComponent<Text>();
         bleedingImage = GameObject.Find("UI/Bleeding").GetComponent<Image>();
         bleedingPanel = GameObject.Find("UI/Bleeding/BleedingBg").GetComponent<Image>();
 
@@ -85,8 +87,8 @@ public class PlayerState : MonoBehaviour
         hungerText.text = currentHunger + "/100";
 
         // Initializing hunger and thirst
-        Invoke("GetHungry", 45f);
-        Invoke("GetThirsty", 45f);
+        Invoke("GetHungry", 1f);
+        Invoke("GetThirsty", 1f);
 
     }
 
@@ -121,7 +123,7 @@ public class PlayerState : MonoBehaviour
         // Sprint
         if (controller.isSprinting && !isTired)
         {
-            currentStamina -= 2.5f * Time.deltaTime;
+            currentStamina -= 1.5f * Time.deltaTime;
             needToRecover = true;
         }
 
@@ -138,13 +140,25 @@ public class PlayerState : MonoBehaviour
     public void UpdateAmmo()
     {
         if (controller.pistol.activeSelf)
+        {
             bulletText.text = controller.pistolAmmoInCharger + "/" + controller.maxPistolAmmo;
+            totalBulletText.text = controller.pistolAmmo.ToString();
+        }
         else if (controller.uzi.activeSelf)
+        {
             bulletText.text = controller.uziAmmoInCharger + "/" + controller.maxUziAmmo;
+            totalBulletText.text = controller.uziAmmo.ToString();
+        }
         else if (controller.rifle.activeSelf)
+        {
             bulletText.text = controller.rifleAmmoInCharger + "/" + controller.maxRifleAmmo;
+            totalBulletText.text = controller.rifleAmmo.ToString();
+        }
         else
+        {
             bulletText.text = "-";
+            totalBulletText.text = "";
+        }
     }
 
     /// <summary>
@@ -153,6 +167,12 @@ public class PlayerState : MonoBehaviour
     public void GetHungry()
     {
         currentHunger -= 1f;
+        // Set hunger in 0, as it can't be negative and start dying.
+        if (currentHunger <= 0)
+        {
+            currentHunger = 0;
+            currentHealth -= 1f;
+        }
         Invoke("GetHungry", 1f);
     }
 
@@ -162,6 +182,12 @@ public class PlayerState : MonoBehaviour
     public void GetThirsty()
     {
         currentThirst -= 1f;
+        // Set thist in 0, as it can't be negative and start dying.
+        if(currentThirst <= 0)
+        {
+            currentThirst = 0;
+            currentHealth -= 1f;
+        }
         Invoke("GetThirsty", 1f);
     }
 
@@ -207,7 +233,7 @@ public class PlayerState : MonoBehaviour
         }
 
         // Recover.
-        currentStamina += 4f * Time.deltaTime;
+        currentStamina += 5.5f * Time.deltaTime;
     }
 
     /// <summary>

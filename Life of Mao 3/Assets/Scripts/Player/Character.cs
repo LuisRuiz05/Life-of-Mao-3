@@ -12,6 +12,12 @@ public class Character : ScriptableObject
     public string name;
     public Sprite icon;
     public int index;
+    public enum gender
+    {
+        masculine,
+        feminine
+    }
+    public gender characterGender;
 
     // Statistics
     public int strength;

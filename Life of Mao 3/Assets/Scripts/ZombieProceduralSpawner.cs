@@ -16,8 +16,7 @@ public class ZombieProceduralSpawner : MonoBehaviour
     public Transform spawnersParent;
     public Transform[] spawnPoints;
 
-    public int maxZombiesInArea = 25;
-    public ZombieReserve reserveScript;
+    private int maxZombiesInArea = 15;
     public LayerMask layer;
 
     private void Start()
@@ -61,14 +60,14 @@ public class ZombieProceduralSpawner : MonoBehaviour
             }
         }
 
-        Debug.Log("In Area: " + zombiesInArea.Count);
-        Debug.Log("Missing: " + (maxZombiesInArea - zombiesInArea.Count));
+        //Debug.Log("In Area: " + zombiesInArea.Count);
+        //Debug.Log("Missing: " + (maxZombiesInArea - zombiesInArea.Count));
         Fill();
     }
 
     void Fill()
     {
-        if(zombiesInArea.Count < maxZombiesInArea)
+        if(zombiesInArea.Count < maxZombiesInArea && spawnersInArea.Count > 0)
         {
             Transform pickedSpawn = spawnersInArea[Random.Range(0, spawnersInArea.Count)].transform;
             Instantiate(zombiePrefab, pickedSpawn);

@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     //[SerializeField]
     float playerSprintSpeed = 5f;
     //[SerializeField]
-    private float jumpHeight = 1.5f;
+    private float jumpHeight = 0.5f;
     //[SerializeField]
     private float gravityValue = -9.81f;
     [SerializeField]
@@ -77,6 +77,7 @@ public class PlayerController : MonoBehaviour
     public Item[] itemsToAdd;
     public Inventory myInventory = new Inventory(24);
     public Item currentPickedItem;
+    public Tooltip tooltip;
 
     [Header("Ammo")]
     public int pistolAmmo = 0;
@@ -132,6 +133,7 @@ public class PlayerController : MonoBehaviour
     {
         bulletParent = GameObject.Find("BulletParent").transform;
         UI = GameObject.Find("UI");
+        tooltip = GameObject.Find("InventoryManager/Tooltip").GetComponent<Tooltip>();
 
         playerInput.camera = Camera.main;
         rewards = GameObject.FindWithTag("Settings").GetComponent<SettingsController>().rewards;
@@ -145,18 +147,18 @@ public class PlayerController : MonoBehaviour
             }
             else if(item.name == "PistolAmmo")
             {
-                pistolAmmo += 12;
-                myInventory.AddItem(new ItemStack(item, 12));
+                pistolAmmo += 18;
+                myInventory.AddItem(new ItemStack(item, 18));
             }
             else if (item.name == "UziAmmo")
             {
-                uziAmmo += 20;
-                myInventory.AddItem(new ItemStack(item, 20));
+                uziAmmo += 30;
+                myInventory.AddItem(new ItemStack(item, 30));
             }
             else if (item.name == "RifleAmmo")
             {
-                rifleAmmo += 30;
-                myInventory.AddItem(new ItemStack(item, 30));
+                rifleAmmo += 45;
+                myInventory.AddItem(new ItemStack(item, 45));
             }
             else
             {
@@ -361,7 +363,7 @@ public class PlayerController : MonoBehaviour
             if (currentPickedItem.itemName == "Medkit")
                 state.currentHealth += 15;
             if (currentPickedItem.itemName == "Pills")
-                state.currentHealth += 8;
+                state.currentHealth += 6;
             if (currentPickedItem.itemName == "Water Bottle")
                 state.currentThirst += 15;
             if (currentPickedItem.itemName == "Food Can")
@@ -536,6 +538,7 @@ public class PlayerController : MonoBehaviour
         // Opens and close the inventory
         if (inventoryAction.triggered)
         {
+            // Open inventory.
             if (!isInventoryOpen)
             {
                 InventoryManager.INSTANCE.OpenContainer(new ContainerPlayerInventory(null, myInventory));
@@ -549,6 +552,7 @@ public class PlayerController : MonoBehaviour
                 pause.cinemachineNormal.XYAxis.action.Disable();
                 pause.cinemachineAim.XYAxis.action.Disable();
             }
+            // Close inventory.
             else
             {
                 InventoryManager.INSTANCE.OpenContainer(new ContainerPlayerHotbar(null, myInventory));
@@ -557,6 +561,7 @@ public class PlayerController : MonoBehaviour
                 Time.timeScale = 1f;
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
+                tooltip.SetToolTip(string.Empty);
                 UI.SetActive(true);
 
                 pause.cinemachineNormal.XYAxis.action.Enable();

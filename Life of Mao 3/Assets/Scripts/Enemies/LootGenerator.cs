@@ -107,11 +107,9 @@ public class LootGenerator : MonoBehaviour
             if (internalRandom >= 0 && internalRandom < 4)
                 quantity = 2;
             if (internalRandom >= 4 && internalRandom < 8)
-                quantity = 3;
-            if (internalRandom == 8)
                 quantity = 1;
-            if (internalRandom == 9)
-                quantity = 4;
+            if (internalRandom == 8 || internalRandom == 9)
+                quantity = 3;
         }
         // 5% Medkit
         if (randomChoice >= 95 && randomChoice < 100)

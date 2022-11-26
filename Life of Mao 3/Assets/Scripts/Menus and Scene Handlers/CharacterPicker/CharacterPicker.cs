@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-///     This class makes the 
+///     This class handles the character picker section.
 /// </summary>
 public class CharacterPicker : MonoBehaviour
 {

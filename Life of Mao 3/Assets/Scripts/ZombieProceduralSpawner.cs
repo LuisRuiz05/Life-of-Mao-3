@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+///     This class is in charge of spawning zombies while the game is running.
+/// </summary>
 public class ZombieProceduralSpawner : MonoBehaviour
 {
-    // This script may be attached to player. (To confirm)
     public GameObject zombiePrefab;
     
     [Header("Lists")]
@@ -37,9 +39,11 @@ public class ZombieProceduralSpawner : MonoBehaviour
     private void Update()
     {
         Scan();
-        //Fill();
     }
 
+    /// <summary>
+    ///     This function will scan the player's area in order to save the availabe spawners and zombies in area.
+    /// </summary>
     private void Scan()
     {
         int count = Physics.OverlapSphereNonAlloc(transform.position, 30, colliders, layer);
@@ -65,6 +69,9 @@ public class ZombieProceduralSpawner : MonoBehaviour
         Fill();
     }
 
+    /// <summary>
+    ///     If there's a zombie missing in the area, it will be spawned in one of the available spawners.
+    /// </summary>
     void Fill()
     {
         if(zombiesInArea.Count < maxZombiesInArea && spawnersInArea.Count > 0)

@@ -141,17 +141,62 @@ public class PlayerState : MonoBehaviour
     {
         if (controller.pistol.activeSelf)
         {
+            // Ammo in charger.
+            if (controller.pistolAmmoInCharger == 0)
+                bulletText.color = Color.red;
+            else if (controller.pistolAmmoInCharger > 0 && controller.pistolAmmoInCharger <= controller.maxPistolAmmo / 2)
+                bulletText.color = Color.yellow;
+            else
+                bulletText.color = Color.white;
+            
             bulletText.text = controller.pistolAmmoInCharger + "/" + controller.maxPistolAmmo;
+
+            // Total ammo.
+            if (controller.pistolAmmo == 0)
+                totalBulletText.color = Color.red;
+            else
+                totalBulletText.color = Color.white;
+
             totalBulletText.text = controller.pistolAmmo.ToString();
         }
         else if (controller.uzi.activeSelf)
         {
+            // Ammo in charger.
+            if (controller.uziAmmoInCharger == 0)
+                bulletText.color = Color.red;
+            else if (controller.uziAmmoInCharger > 0 && controller.uziAmmoInCharger <= controller.maxUziAmmo / 2)
+                bulletText.color = Color.yellow;
+            else
+                bulletText.color = Color.white;
+
             bulletText.text = controller.uziAmmoInCharger + "/" + controller.maxUziAmmo;
+
+            // Total ammo.
+            if (controller.uziAmmo == 0)
+                totalBulletText.color = Color.red;
+            else
+                totalBulletText.color = Color.white;
+
             totalBulletText.text = controller.uziAmmo.ToString();
         }
         else if (controller.rifle.activeSelf)
         {
+            // Ammo in charger.
+            if (controller.rifleAmmoInCharger == 0)
+                bulletText.color = Color.red;
+            else if (controller.rifleAmmoInCharger > 0 && controller.rifleAmmoInCharger <= controller.maxRifleAmmo / 2)
+                bulletText.color = Color.yellow;
+            else
+                bulletText.color = Color.white;
+
             bulletText.text = controller.rifleAmmoInCharger + "/" + controller.maxRifleAmmo;
+
+            // Total ammo.
+            if (controller.rifleAmmo == 0)
+                totalBulletText.color = Color.red;
+            else
+                totalBulletText.color = Color.white;
+
             totalBulletText.text = controller.rifleAmmo.ToString();
         }
         else
@@ -173,7 +218,7 @@ public class PlayerState : MonoBehaviour
             currentHunger = 0;
             currentHealth -= 1f;
         }
-        Invoke("GetHungry", 1f);
+        Invoke("GetHungry", 1.75f);
     }
 
     /// <summary>
@@ -188,7 +233,7 @@ public class PlayerState : MonoBehaviour
             currentThirst = 0;
             currentHealth -= 1f;
         }
-        Invoke("GetThirsty", 1f);
+        Invoke("GetThirsty", 1.75f);
     }
 
     /// <summary>
@@ -253,7 +298,23 @@ public class PlayerState : MonoBehaviour
         staminaBar.fillAmount = currentStamina / maxStamina;
         healthBar.fillAmount = currentHealth / maxHealth;
         healtText.text = currentHealth + "/" + maxHealth;
+
+        // Update hunger and text color.
+        if (currentHunger <= 25)
+            hungerText.color = Color.red;
+        else if (currentHunger > 25 && currentHunger <= 60)
+            hungerText.color = Color.yellow;
+        else
+            hungerText.color = Color.white;
         hungerText.text = currentHunger + "/" + 100;
+
+        // Update thirst and text color.
+        if (currentThirst <= 25)
+            thirstText.color = Color.red;
+        else if (currentThirst > 25 && currentThirst <= 60)
+            thirstText.color = Color.yellow;
+        else
+            thirstText.color = Color.white;
         thirstText.text = currentThirst + "/" + 100;
 
         // Update damage screen.

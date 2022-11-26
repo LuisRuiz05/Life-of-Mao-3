@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Unity.AI.Navigation;
 
+/// <summary>
+///     This class will build the map's buildings and generate a Nav Mesh Surface while the scene is being loaded.
+/// </summary>
 public class WorldGenerator : MonoBehaviour
 {
     [Range(1,5)]
@@ -10,9 +13,6 @@ public class WorldGenerator : MonoBehaviour
     public RunTimeSample generator;
     public GameObject city;
     public NavMeshSurface surface;
-    public GameObject[] spawners;
-
-    public int maxZombies = 100;
 
     void Awake()
     {

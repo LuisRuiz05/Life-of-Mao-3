@@ -11,10 +11,22 @@ using System.Threading.Tasks;
 public class SceneLoader : MonoBehaviour
 {
     public GameObject loadingScreen;
+    public GameObject howToPlayScreen;
     public Image barFill;
     public Text progressText;
     public Image characterImg;
+    public Text loadingScreenTip;
+    
     public Sprite[] posters;
+    public List<string> tips;
+
+    private void Start()
+    {
+        tips.Add("Keep your guns loaded.");
+        tips.Add("Always look your back, there can always be a zombie behind you.");
+        tips.Add("Aim to the head, you'll save lots of ammo.");
+        tips.Add("Always keep an eye on your stats, you could be starving without even realizing it.");
+    }
 
     /// <summary>
     ///     Loads main menu.
@@ -22,6 +34,21 @@ public class SceneLoader : MonoBehaviour
     public static void MainMenu()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public static void Quit()
+    {
+        Application.Quit();
+    }
+
+    public void HowToPlay()
+    {
+        howToPlayScreen.SetActive(true);
+    }
+
+    public void BackToMenuFromInstructions()
+    {
+        howToPlayScreen.SetActive(false);
     }
 
     public void StartGame()
@@ -38,6 +65,9 @@ public class SceneLoader : MonoBehaviour
         characterImg.sprite = posters[characterIndex];
         
         loadingScreen.SetActive(true);
+        int pickedTip = Random.Range(0, tips.Count);
+        loadingScreenTip.text = tips[pickedTip];
+
         AsyncOperation operation = SceneManager.LoadSceneAsync(2);
 
         while (!operation.isDone)

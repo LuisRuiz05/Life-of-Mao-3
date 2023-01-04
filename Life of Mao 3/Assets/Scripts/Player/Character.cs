@@ -18,10 +18,14 @@ public class Character : ScriptableObject
         feminine
     }
     public gender characterGender;
+    public int price;
 
     // Statistics
     public int strength;
     public int speed;
     public int stamina;
     public int health;
+
+    // Available
+    public bool available = false;
 }

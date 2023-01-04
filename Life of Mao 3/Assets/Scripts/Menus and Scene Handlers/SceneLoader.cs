@@ -12,6 +12,7 @@ public class SceneLoader : MonoBehaviour
 {
     public GameObject loadingScreen;
     public GameObject howToPlayScreen;
+    public GameObject creditsScreen;
     public Image barFill;
     public Text progressText;
     public Image characterImg;
@@ -46,9 +47,21 @@ public class SceneLoader : MonoBehaviour
         howToPlayScreen.SetActive(true);
     }
 
+    public void Credits()
+    {
+        creditsScreen.SetActive(true);
+        StartCoroutine(BackToMenuFromCredits());
+    }
+
     public void BackToMenuFromInstructions()
     {
         howToPlayScreen.SetActive(false);
+    }
+
+    public IEnumerator BackToMenuFromCredits()
+    {
+        yield return new WaitForSeconds(40f);
+        creditsScreen.SetActive(false);
     }
 
     public void StartGame()
